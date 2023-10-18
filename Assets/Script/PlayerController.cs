@@ -94,6 +94,7 @@ public class PlayerController : MonoBehaviour
     void OnFire()
     {
         animator.SetTrigger("swordAttack");
+        animator.SetBool("isAttack", true);
     }
 
     public void SwordAttack()
@@ -105,21 +106,25 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("UP");
             swordAttack.AttackUp();
+            animator.SetBool("isAttack", false);
         }
         else if (InputY < 0)
         {
             Debug.Log("Down");
             swordAttack.AttackDown();
+            animator.SetBool("isAttack", false);
         }
         else if (InputX < 0)
         {
             Debug.Log("Left");
             swordAttack.AttackLeft();
+            animator.SetBool("isAttack", false);
         }
         else if (InputX > 0)
         {
             Debug.Log("Right");
             swordAttack.AttackRight();
+            animator.SetBool("isAttack", false);
         }
     }
 
