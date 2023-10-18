@@ -47,6 +47,7 @@ public class PlayerController : MonoBehaviour
                 animator.SetBool("isMoving", success);
                 animator.SetFloat("MoveX", movementInput.x);
                 animator.SetFloat("MoveY", movementInput.y);
+                moveSpeed = 1f;
             }
             else
             {
@@ -69,6 +70,8 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     private bool TryMove(Vector2 direction)
     {
+        if (UnityEngine.Input.GetKey(KeyCode.LeftShift))
+            moveSpeed = 2f;
         int count = rb.Cast(
             direction,
             movementFilter,
