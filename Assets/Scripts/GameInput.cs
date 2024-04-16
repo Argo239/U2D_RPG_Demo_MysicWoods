@@ -10,6 +10,8 @@ public class GameInput : MonoBehaviour {
 
     public static GameInput Instance {  get; private set; }
 
+    public event EventHandler OnSpeedUpAction;
+
     private PlayerInputActions playerInputActions;
 
     private void Awake() {
@@ -19,10 +21,12 @@ public class GameInput : MonoBehaviour {
 
         playerInputActions.Player.Enable();
 
+        playerInputActions.Player.SpeedUp.performed += SpeedUp_performed;
+
     }
 
-    private void Player_OnPlayerSpeedUp(object sender, EventArgs e) {
-
+    private void SpeedUp_performed(InputAction.CallbackContext obj) {
+        OnSpeedUpAction?.Invoke(this, EventArgs.Empty);
     }
 
     public Vector2 GetMovementVectorNormalized() {
@@ -32,10 +36,4 @@ public class GameInput : MonoBehaviour {
 
         return inputVector;
     }
-
-    //public bool IsSpeedUpActive() {
-        //return playerInputActions.Player.SpeedUp.IsPerforming();
-    //}
-
-
 }

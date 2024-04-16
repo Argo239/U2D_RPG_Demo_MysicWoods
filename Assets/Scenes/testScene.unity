@@ -3801,6 +3801,28 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2088222417825438996, guid: aec2c281ecfbc08469b47d71f34e4671,
+        type: 3}
+      propertyPath: runFront
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c7fca4782c5aa94c9578bcd1dc5d863,
+        type: 2}
+    - target: {fileID: 2088222417825438996, guid: aec2c281ecfbc08469b47d71f34e4671,
+        type: 3}
+      propertyPath: idelFront
+      value: 
+      objectReference: {fileID: 11400000, guid: 18641b2edc9c83b499bd34077c92d91d,
+        type: 2}
+    - target: {fileID: 2088222417825438996, guid: aec2c281ecfbc08469b47d71f34e4671,
+        type: 3}
+      propertyPath: consoleMessage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088222417825438996, guid: aec2c281ecfbc08469b47d71f34e4671,
+        type: 3}
+      propertyPath: skeletonAnimation
+      value: 
+      objectReference: {fileID: 917703629}
     - target: {fileID: 8521375447280519008, guid: aec2c281ecfbc08469b47d71f34e4671,
         type: 3}
       propertyPath: gameInput
@@ -3811,10 +3833,20 @@ PrefabInstance:
       propertyPath: consoleLog
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8521375447280519008, guid: aec2c281ecfbc08469b47d71f34e4671,
+        type: 3}
+      propertyPath: consoleMessage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8521375447280519010, guid: aec2c281ecfbc08469b47d71f34e4671,
         type: 3}
       propertyPath: m_RootOrder
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8521375447280519010, guid: aec2c281ecfbc08469b47d71f34e4671,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8521375447280519010, guid: aec2c281ecfbc08469b47d71f34e4671,
         type: 3}
@@ -3875,6 +3907,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PF
+      objectReference: {fileID: 0}
+    - target: {fileID: 8521375447280519023, guid: aec2c281ecfbc08469b47d71f34e4671,
+        type: 3}
+      propertyPath: loop
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8521375447280519023, guid: aec2c281ecfbc08469b47d71f34e4671,
         type: 3}
@@ -4059,6 +4096,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 578065547}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &917703629 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8521375447280519023, guid: aec2c281ecfbc08469b47d71f34e4671,
+    type: 3}
+  m_PrefabInstance: {fileID: 309355730}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1319026059
 PrefabInstance:
   m_ObjectHideFlags: 0

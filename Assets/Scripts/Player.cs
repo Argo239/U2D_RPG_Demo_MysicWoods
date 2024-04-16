@@ -9,12 +9,11 @@ public class Player : MonoBehaviour {
 
     public static Player Instance { get; private set; }
 
-
+    private Vector3 moveDir;
     private bool isWalking;
+    private bool isSpeedingUp = false;
     private float initialVelocity;
     private const string PLAYERLAYER = "Player";
-
-    private PlayerInputActions playerInputActions;
 
     public event EventHandler OnCollisionEnter2D;
 
@@ -22,7 +21,7 @@ public class Player : MonoBehaviour {
     [SerializeField] private bool consoleMessage = false;
 
     [Space]
-    [SerializeField] private float MoveSpeed = 1f;
+    [SerializeField] private float moveSpeed = 1f;
     [SerializeField] private GameInput gameInput;
 
     [SerializeField] private float testingPlayerRadius = .25f;
@@ -30,12 +29,24 @@ public class Player : MonoBehaviour {
 
 
     private void Awake() {
+        if (Instance != null) {
+            Debug.LogError("There is more than one Player instance");
+        }
         Instance = this;
-        playerInputActions = new PlayerInputActions();
     }
 
     private void Start() {
-        initialVelocity = MoveSpeed;
+        initialVelocity = moveSpeed;
+        gameInput.OnSpeedUpAction += GameInput_OnSpeedUpAction;
+    }
+
+    private void GameInput_OnSpeedUpAction(object sender, EventArgs e) {
+        isSpeedingUp = !isSpeedingUp;
+        if (isSpeedingUp) {
+            moveSpeed *= 2f;
+        } else {
+            moveSpeed = initialVelocity;
+        }
     }
 
     private void Update() {
@@ -44,16 +55,9 @@ public class Player : MonoBehaviour {
 
     private void HandleMovement() {
         Vector2 inputVector = gameInput.GetMovementVectorNormalized();
-        Vector3 moveDir = new Vector2(inputVector.x, inputVector.y);
+        moveDir = new Vector2(inputVector.x, inputVector.y);
 
-        //if (gameInput.GetMoveSpeedUpKeyDown()) {
-        //    MoveSpeed = initialVelocity;
-        //} else {
-        //    MoveSpeed *= 2;
-        //}
-
-
-        float moveDistance = MoveSpeed * Time.deltaTime;
+        float moveDistance = moveSpeed * Time.deltaTime;
         float playerRadius = transform.localScale.x * testingPlayerRadius;
         float playerHeight = transform.localScale.y * testingPlayerHeight;
 
@@ -82,5 +86,13 @@ public class Player : MonoBehaviour {
             transform.position += moveDir * moveDistance;
             isWalking = moveDir != Vector3.zero;
         }
+    }
+
+    public bool IsWalking() {
+        return isWalking;
+    }
+
+    public Vector3 GetMoveDir() {
+        return moveDir;
     }
 }

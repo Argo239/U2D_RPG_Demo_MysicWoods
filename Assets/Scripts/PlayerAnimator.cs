@@ -1,6 +1,7 @@
 using Spine.Unity;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Networking.PlayerConnection;
 using UnityEngine;
 using UnityEngine.Diagnostics;
 
@@ -10,18 +11,11 @@ public class PlayerAnimator : MonoBehaviour {
 
     [Space]
     [SerializeField] private Player player;
-    [SerializeField] private float timer = 5;
-    [SerializeField] private float runWalkDuration = 3f;
-
+    [SerializeField] private string currentAnimation;
 
     Animator animator;
     Spine.AnimationState spineAnimationState;
     Spine.Skeleton skeleton;
-
-
-    [Header("SpineEvent")]
-    [SpineEvent(dataField: "skeletonAnimation", fallbackToTextField: true)]
-    public string eventName;
 
     [Header("SpineAnimation")]
     [SerializeField] SkeletonAnimation skeletonAnimation;
@@ -43,12 +37,26 @@ public class PlayerAnimator : MonoBehaviour {
     }
 
     private void Update() {
-        //Utils.LogMessage(consoleMessage, Utils.CountdownTimer(timer));
+        Utils.LogMessage(consoleMessage, player.GetMoveDir());
+        SetCharacterState(player.GetMoveDir());
     }
 
     private void SetAnimation(AnimationReferenceAsset animation, bool loop, float timeScale) {
+        if (animation.name.Equals(currentAnimation)) return;
         spineAnimationState.SetAnimation(0, animation, loop).TimeScale = timeScale;
+        currentAnimation = animation.name;
     }
 
+    private void SetCharacterState(Vector3 moveDir) {
+        if(moveDir == Vector3.zero) {
+            SetAnimation(idelFront, true, 1f);
+        }else if(moveDir == Vector3.left) {
+            SetAnimation(runFront, true, 1f);
+            transform.localScale = new Vector3(2f, 2f);
+        }else if(moveDir == Vector3.right) {
+            SetAnimation(runFront, true, 1f);
+            transform.localScale = new Vector3(-2f, 2f);
+        }
+    }
 
 }
