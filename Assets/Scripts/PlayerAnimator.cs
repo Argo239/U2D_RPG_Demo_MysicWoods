@@ -4,24 +4,34 @@ using System.Collections.Generic;
 using UnityEditor.Networking.PlayerConnection;
 using UnityEngine;
 using UnityEngine.Diagnostics;
+using UnityEngine.EventSystems;
 
 public class PlayerAnimator : MonoBehaviour {
 
+    private enum MoveDirection {
+        None,
+        Up,
+        Down, 
+        Left, 
+        Right
+    }
+
+
     [SerializeField] private bool consoleMessage = false;
 
+
     [Space]
-    [SerializeField] private Player player;
-    [SerializeField] private string currentAnimation;
 
     Animator animator;
     Spine.AnimationState spineAnimationState;
     Spine.Skeleton skeleton;
 
+    [SerializeField] private Player player;
+    //µ±Ç°¶¯»­
+    [SerializeField] private string currentAnimation;
+
     [Header("SpineAnimation")]
     [SerializeField] SkeletonAnimation skeletonAnimation;
-    [SerializeField] AnimationReferenceAsset idelFront;
-    [SerializeField] AnimationReferenceAsset runFront;
-
 
     private void Awake() {
         animator = GetComponent<Animator>();
@@ -37,26 +47,61 @@ public class PlayerAnimator : MonoBehaviour {
     }
 
     private void Update() {
-        Utils.LogMessage(consoleMessage, player.GetMoveDir());
-        SetCharacterState(player.GetMoveDir());
+
     }
 
+    private void SetCharacterState(string state, Vector3 moveDir) {
+        MoveDirection direction = GetMoveDirection(moveDir);
+        switch (state) {
+            default:
+                break;
+            case "idel":
+                //switch (moveDir) {
+                //    default :
+                //        break;
+                //    case 
+                //}
+
+                break;
+            case "walk":
+                break;
+            case "run":
+                break;
+        }
+    }
+
+    /// <summary>
+    /// Set Animation state
+    /// </summary>
+    /// <param name="animation">Animtion name</param>
+    /// <param name="loop"></param>
+    /// <param name="timeScale"></param>
     private void SetAnimation(AnimationReferenceAsset animation, bool loop, float timeScale) {
         if (animation.name.Equals(currentAnimation)) return;
         spineAnimationState.SetAnimation(0, animation, loop).TimeScale = timeScale;
         currentAnimation = animation.name;
     }
 
-    private void SetCharacterState(Vector3 moveDir) {
-        if(moveDir == Vector3.zero) {
-            SetAnimation(idelFront, true, 1f);
-        }else if(moveDir == Vector3.left) {
-            SetAnimation(runFront, true, 1f);
-            transform.localScale = new Vector3(2f, 2f);
-        }else if(moveDir == Vector3.right) {
-            SetAnimation(runFront, true, 1f);
-            transform.localScale = new Vector3(-2f, 2f);
-        }
+    /// <summary>
+    /// Get Move Direction
+    /// </summary>
+    /// <param name="moveDir"></param>
+    /// <returns></returns>
+    private MoveDirection GetMoveDirection(Vector3 moveDir) {
+        if (moveDir == Vector3.zero) return MoveDirection.None;
+        else if (Mathf.Abs(moveDir.x) > Mathf.Abs(moveDir.y)) return moveDir.x > 0 ? MoveDirection.Right : MoveDirection.Left;
+        else return moveDir.y > 0 ? MoveDirection.Up : MoveDirection.Down;
     }
 
+    private void SetAnimationStateName(string animation, string moveDir) {
+        if(string.IsNullOrEmpty(animation) || string.IsNullOrEmpty(moveDir)) return;
+
+
+
+        //SetAnimation(, true, 1f);
+    }
+
+    //SetAnimation(walkFront, true, 1f);
+
 }
+

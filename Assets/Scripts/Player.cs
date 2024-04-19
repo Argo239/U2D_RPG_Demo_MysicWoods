@@ -15,9 +15,6 @@ public class Player : MonoBehaviour {
     private float initialVelocity;
     private const string PLAYERLAYER = "Player";
 
-    public event EventHandler OnCollisionEnter2D;
-
-
     [SerializeField] private bool consoleMessage = false;
 
     [Space]
