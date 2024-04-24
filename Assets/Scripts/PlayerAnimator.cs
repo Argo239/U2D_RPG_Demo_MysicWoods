@@ -1,14 +1,7 @@
 using Spine;
 using Spine.Unity;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.Networking.PlayerConnection;
-using UnityEditor.PackageManager.UI;
-using UnityEditorInternal;
 using UnityEngine;
-using UnityEngine.Diagnostics;
-using UnityEngine.EventSystems;
+using UnityEngine.Serialization;
 
 public class PlayerAnimator : MonoBehaviour {
         
@@ -19,32 +12,25 @@ public class PlayerAnimator : MonoBehaviour {
         Left,
         Right
     }
-    private enum State {
-        Idle,
-        Walk,
-        Run,
-        Attack
-    }
 
     [SerializeField] private bool consoleMessage = false;
 
     [Space]
+    [Header("SkeletonDataAsset")]
     [SerializeField] private SkeletonDataAsset frontAsset;
     [SerializeField] private SkeletonDataAsset backAsset;
     [SerializeField] private SkeletonDataAsset sideAsset;
     [SerializeField] private SkeletonAnimation skeletonAnimation;
 
     [Space]
+    private Player player; 
     private Spine.AnimationState spineAnimationState;
-    private Spine.Skeleton skeleton;
+    private Skeleton skeleton;
     private TrackEntry up, down, left, right;
-
-    [SerializeField] private Player player;
-    [SerializeField] private string currentAnimation; //µ±«∞∂Øª≠
-    [SerializeField] private State state;
-
-
-
+    private Player.PlayerState currentPlayerState;//ÂΩìÂâçÂä®Áîª
+    private Player.PlayerState modelState;
+    
+    
     private void Awake() {
         skeletonAnimation = GetComponent<SkeletonAnimation>();
         spineAnimationState = skeletonAnimation.AnimationState;
@@ -52,45 +38,38 @@ public class PlayerAnimator : MonoBehaviour {
     }
 
     private void Update() {
-        var currentModelState = state;
-
-        if()
-
-
-
-
-        SetCharacterState();
-        SetAnimtionState(state, player.GetMoveDir());
-        BlendAnimations(player.GetMoveDir());
-
-        Utils.LogMessage(consoleMessage, $"{player.GetMoveDir()} _ {state} _ {skeletonAnimation.AnimationName} _ {currentAnimation}");
-    }
-
-    private void SetCharacterState() {
-        if(player.GetMoveDir() == Vector3.zero) {
-            state = State.Idle;
-        } else {
-            state = State.Walk;
+        if(skeletonAnimation is null) return;
+        if(player is null) return;
+        
+        if (currentPlayerState != modelState)
+        {
+            SetAnimationState(modelState, player.GetMoveDir());
+            BlendAnimations(player.GetMoveDir());
+            currentPlayerState = modelState;
         }
+
+        Utils.LogMessage(consoleMessage,
+            $"---MoveDir: {player.GetMoveDir()} ---CurrentState: {modelState} ---CurrentAnimationName: {skeletonAnimation.AnimationName}");
     }
 
-    private void SetAnimtionState(State state, Vector3 moveDir) {
+    private void SetAnimationState(Player.PlayerState animationState, Vector3 moveDir) {
         MoveDirection direction = GetMoveDirection(moveDir);
         Spine.Animation nextAnimation;
 
-        switch (state) {
+        switch (animationState) {
             default:
-                nextAnimation = SetAnimationStateIdle(direction); break;    
-            case State.Idle:
+                nextAnimation = SetAnimationStateIdle(direction);
+                break;    
+            case Player.PlayerState.Idle:
                 nextAnimation = SetAnimationStateIdle(direction);
                 break;
-            case State.Walk:
+            case Player.PlayerState.Walk:
                 nextAnimation = SetAnimationStateWalk(direction);
                 break;
-            case State.Run:
+            case Player.PlayerState.Run:
                 nextAnimation = SetAnimationStateRun(direction);
                 break;
-            case State.Attack:
+            case Player.PlayerState.Attack:
                 nextAnimation = SetAnimationStateIdle(direction);
                 break;
         }
@@ -101,14 +80,14 @@ public class PlayerAnimator : MonoBehaviour {
     /// <summary>
     /// Set Animation state
     /// </summary>
-    /// <param name="animation">Animtion name</param>
+    /// <param name="animation">Animation name</param>
     /// <param name="loop"></param>
     /// <param name="timeScale"></param>
-    private TrackEntry SetAnimation(int trackIntex, AnimationReferenceAsset animation, bool loop, float timeScale) {
-        if (animation == null || animation.name.Equals(currentAnimation)) return null;
+    private TrackEntry SetAnimation(int trackIndex, AnimationReferenceAsset animation, bool loop, float timeScale) {
+        if (animation == null || animation.name.Equals(currentPlayerState)) return null;
         if (animation == null) return null;
-        currentAnimation = animation.name;
-        TrackEntry entry = spineAnimationState.SetAnimation(trackIntex, animation, loop);
+        // currentAnimation = animation.name;
+        TrackEntry entry = spineAnimationState.SetAnimation(trackIndex, animation, loop);
         entry.TimeScale = timeScale;
         return entry;
     }
@@ -141,17 +120,17 @@ public class PlayerAnimator : MonoBehaviour {
         switch (direction) {
             default: return null;
             case MoveDirection.Up:
-                SetBackDirction();
+                SetBackDirection();
                 return AnimationReferenceAssetBack.instance.idle;
             case MoveDirection.Down:
-                SetFrontDirction();
+                SetFrontDirection();
                 return AnimationReferenceAssetFront.instance.idle;
             case MoveDirection.Left:
-                SetSideDirction();
+                SetSideDirection();
                 Flip(true);
                 return AnimationReferenceAssetSide.instance.idle;
             case MoveDirection.Right:
-                SetSideDirction();
+                SetSideDirection();
                 Flip(false); 
                 return AnimationReferenceAssetSide.instance.idle;
         }
@@ -161,17 +140,17 @@ public class PlayerAnimator : MonoBehaviour {
         switch (direction) {
             default: return null;
             case MoveDirection.Up:
-                SetBackDirction();
+                SetBackDirection();
                 return AnimationReferenceAssetBack.instance.walk;
             case MoveDirection.Down:
-                SetFrontDirction(); 
+                SetFrontDirection(); 
                 return AnimationReferenceAssetFront.instance.walk;
             case MoveDirection.Left:
-                SetSideDirction();
+                SetSideDirection();
                 Flip(true); 
                 return AnimationReferenceAssetSide.instance.walk;
             case MoveDirection.Right:
-                SetSideDirction();
+                SetSideDirection();
                 Flip(false);
                 return AnimationReferenceAssetSide.instance.walk;
         }
@@ -181,17 +160,17 @@ public class PlayerAnimator : MonoBehaviour {
         switch (direction) {
             default: return null;   
             case MoveDirection.Up:
-                SetBackDirction();
+                SetBackDirection();
                 return AnimationReferenceAssetBack.instance.run;
             case MoveDirection.Down:
-                SetFrontDirction();
+                SetFrontDirection();
                 return AnimationReferenceAssetFront.instance.run;
             case MoveDirection.Left:
-                SetSideDirction();
+                SetSideDirection();
                 Flip(true);
                 return AnimationReferenceAssetSide.instance.run;
             case MoveDirection.Right:
-                SetSideDirction();
+                SetSideDirection();
                 Flip(false);
                 return AnimationReferenceAssetSide.instance.run;
         }
@@ -206,22 +185,22 @@ public class PlayerAnimator : MonoBehaviour {
         skeletonAnimation.Initialize(skeletonAnimation);
         spineAnimationState = skeletonAnimation.AnimationState;
         skeleton = skeletonAnimation.Skeleton;
-        currentAnimation = "";
+        currentPlayerState = ;
     }
 
-    public void SetFrontDirction() {
+    private void SetFrontDirection() {
         ChangeSkeletonData(frontAsset);
     }
 
-    public void SetBackDirction() {
+    private void SetBackDirection() {
         ChangeSkeletonData(backAsset);
     }
 
-    public void SetSideDirction() {
+    private void SetSideDirection() {
         ChangeSkeletonData(sideAsset);
     }
 
-    public void Flip(bool flip) {
+    private void Flip(bool flip) {
         skeleton.ScaleX = flip ? -1f : 1f;
     }
 }

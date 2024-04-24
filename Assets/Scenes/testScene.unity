@@ -265,8 +265,13 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 1671814737440658562, guid: aec2c281ecfbc08469b47d71f34e4671,
         type: 3}
+      propertyPath: loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1671814737440658562, guid: aec2c281ecfbc08469b47d71f34e4671,
+        type: 3}
       propertyPath: _animationName
-      value: 
+      value: basket_idle_front
       objectReference: {fileID: 0}
     - target: {fileID: 1671814737440658562, guid: aec2c281ecfbc08469b47d71f34e4671,
         type: 3}
@@ -319,6 +324,11 @@ PrefabInstance:
     - target: {fileID: 2088222417825438996, guid: aec2c281ecfbc08469b47d71f34e4671,
         type: 3}
       propertyPath: consoleMessage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8521375447280519008, guid: aec2c281ecfbc08469b47d71f34e4671,
+        type: 3}
+      propertyPath: state
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8521375447280519008, guid: aec2c281ecfbc08469b47d71f34e4671,

@@ -8,12 +8,14 @@ using UnityEngine;
 public class Player : MonoBehaviour {
 
     public static Player Instance { get; private set; }
+    
+    private const string PLAYERLAYER = "Player";
 
     private Vector3 moveDir;
     private bool isWalking;
     private bool isSpeedingUp = false;
     private float initialVelocity;
-    private const string PLAYERLAYER = "Player";
+    public PlayerState state;
 
     [SerializeField] private bool consoleMessage = false;
 
@@ -32,20 +34,13 @@ public class Player : MonoBehaviour {
         Instance = this;
     }
 
-    private void Start() {
+    private void Start()
+    {
+        state = PlayerState.Idle;
         initialVelocity = moveSpeed;
         gameInput.OnSpeedUpAction += GameInput_OnSpeedUpAction;
     }
-
-    private void GameInput_OnSpeedUpAction(object sender, EventArgs e) {
-        isSpeedingUp = !isSpeedingUp;
-        if (isSpeedingUp) {
-            moveSpeed *= 2f;
-        } else {
-            moveSpeed = initialVelocity;
-        }
-    }
-
+    
     private void Update() {
         HandleMovement();
     }
@@ -74,7 +69,7 @@ public class Player : MonoBehaviour {
                 if (canMove) {
                     moveDir = moveDirY;
                 }else {
-                    Utils.LogMessage(consoleMessage, "Cannot move in ant direction canMove: " + canMove);
+                    Utils.LogMessage(consoleMessage, $"Cannot move in ant direction canMove: {canMove}");
                 }
             }
         }
@@ -86,11 +81,30 @@ public class Player : MonoBehaviour {
 
     }
 
+    private void GameInput_OnSpeedUpAction(object sender, EventArgs e) {
+        isSpeedingUp = !isSpeedingUp;
+        if (isSpeedingUp) {
+            moveSpeed *= 2f;
+            state = PlayerState.Run;
+        } else {
+            moveSpeed = initialVelocity;
+            state = PlayerState.Walk;
+        }
+    }
+    
     public bool IsWalking() {
         return isWalking;
     }
 
     public Vector3 GetMoveDir() {
         return moveDir;
+    }
+    
+    public enum PlayerState
+    {
+        Attack,
+        Idle,
+        Run,
+        Walk
     }
 }
