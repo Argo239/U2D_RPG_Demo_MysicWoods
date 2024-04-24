@@ -81,8 +81,9 @@ public class Player : MonoBehaviour {
         if (canMove) {
             Utils.LogMessage(consoleMessage, "Can move" + " " + moveDir);
             transform.position += moveDir * moveDistance;
-            isWalking = moveDir != Vector3.zero;
         }
+        isWalking = moveDir != Vector3.zero;
+
     }
 
     public bool IsWalking() {

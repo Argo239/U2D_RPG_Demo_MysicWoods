@@ -7,5 +7,7 @@ public class AnimationReferenceAssetFront : SetAnimationReferenceAsset {
 
     public static AnimationReferenceAssetFront instance {  get; private set; }
 
-
+    private void Awake() {
+        instance = this;
+    }
 }

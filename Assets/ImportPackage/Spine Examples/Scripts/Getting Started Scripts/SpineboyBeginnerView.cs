@@ -82,6 +82,8 @@ namespace Spine.Unity.Examples {
 			}
 
 			previousViewState = currentModelState;
+
+			Debug.Log(skeletonAnimation.AnimationName);
 		}
 
 		void PlayNewStableAnimation () {

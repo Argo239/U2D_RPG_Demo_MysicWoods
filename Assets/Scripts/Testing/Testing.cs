@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Testing : MonoBehaviour {
 
-    //public static Testing Instance { get; private set; }
+    //public static Testing instance { get; private set; }
 
     [SerializeField] public AnimationReferenceAsset idleAnimation;
 

@@ -7,7 +7,11 @@ public class SetAnimationReferenceAsset : MonoBehaviour {
 
     public static SetAnimationReferenceAsset Instance { get; private set; }
 
-    [SerializeField] public AnimationReferenceAsset idleAnimation;
+    private void Awake() {
+        Instance = this;
+    }
+
+    [SerializeField] public AnimationReferenceAsset idle, walk, run, attack;
 
 }
 
