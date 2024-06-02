@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using static Argo_Utils.Utils;
 
 public class Player : MonoBehaviour {
 
@@ -41,7 +42,7 @@ public class Player : MonoBehaviour {
         _initialVelocity = moveSpeed;
 
         gameInput.OnPlayerMoving += GameInput_OnPlayerMoving;
-        gameInput.OnSpeedUpAction += GameInput_OnSpeedUpAction;
+        gameInput.OnPlayerRunning += GameInputOnPlayerRunning;
         gameInput.OnPlayerAttack += GameInput_OnPlayerAttack;
     }
 
@@ -69,7 +70,7 @@ public class Player : MonoBehaviour {
         _isWalking = _moveDir != Vector3.zero;
     }
 
-    private void GameInput_OnSpeedUpAction(object sender, EventArgs e) {
+    private void GameInputOnPlayerRunning(object sender, EventArgs e) {
         _isSpeedingUp = !_isSpeedingUp;
         moveSpeed = _isSpeedingUp ? _initialVelocity * 2f : _initialVelocity;
     }

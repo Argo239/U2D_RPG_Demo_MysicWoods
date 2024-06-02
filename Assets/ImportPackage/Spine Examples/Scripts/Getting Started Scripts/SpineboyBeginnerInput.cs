@@ -52,6 +52,8 @@ namespace Spine.Unity.Examples {
 			float currentHorizontal = Input.GetAxisRaw(horizontalAxis);
 			model.TryMove(currentHorizontal);
 
+			Debug.Log(currentHorizontal);
+
 			if (Input.GetButton(attackButton))
 				model.TryShoot();
 

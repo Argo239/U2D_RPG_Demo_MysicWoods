@@ -1,39 +1,57 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Threading;
 using UnityEngine;
-using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
+using UnityEngine.Video;
 
 public class GameInput : MonoBehaviour {
-
     public static GameInput Instance {  get; private set; }
 
-    public event EventHandler OnSpeedUpAction;
+    #region Event
+    
+    public event EventHandler OnPlayerIdling;
+    public event EventHandler OnPlayerMoving;
+    public event EventHandler OnPlayerRunning;
+    public event EventHandler OnPlayerAttack;
+    public event EventHandler OnPlayerCancelRun;
+    
+    #endregion
 
-    private PlayerInputActions playerInputActions;
+    private PlayerInputActions _playerInputActions;
 
     private void Awake() {
         Instance = this;
+        _playerInputActions = new PlayerInputActions();
+        _playerInputActions.Player.Enable();
 
-        playerInputActions = new PlayerInputActions();
-
-        playerInputActions.Player.Enable();
-
-        playerInputActions.Player.SpeedUp.performed += SpeedUp_performed;
-
+        _playerInputActions.Player.Move.performed += Move_performed;
+        _playerInputActions.Player.Run.performed += Run_performed;
+        _playerInputActions.Player.Attack.performed += Attack_performed;
+        _playerInputActions.Player.Move.canceled += Move_canceled;
+        _playerInputActions.Player.Run.canceled += Run_canceled;
     }
 
-    private void SpeedUp_performed(InputAction.CallbackContext obj) {
-        OnSpeedUpAction?.Invoke(this, EventArgs.Empty);
+    private void Move_performed(InputAction.CallbackContext obj) {
+        OnPlayerMoving?.Invoke(this, EventArgs.Empty);  
     }
 
+    private void Run_performed(InputAction.CallbackContext obj) {
+        OnPlayerRunning?.Invoke(this, EventArgs.Empty);
+    }
+
+    private void Attack_performed(InputAction.CallbackContext obj) {
+        OnPlayerAttack?.Invoke(this, EventArgs.Empty);
+    }
+    
+    private void Move_canceled(InputAction.CallbackContext obj) {
+        OnPlayerIdling?.Invoke(this, EventArgs.Empty);
+    }
+    
+    private void Run_canceled(InputAction.CallbackContext obj) { 
+        OnPlayerCancelRun?.Invoke(this, EventArgs.Empty);   
+    }
+    
     public Vector2 GetMovementVectorNormalized() {
-        Vector2 inputVector = playerInputActions.Player.Move.ReadValue<Vector2>();
-
-        inputVector = inputVector.normalized;
-
-        return inputVector;
+        Vector2 inputVector = _playerInputActions.Player.Move.ReadValue<Vector2>();
+        return inputVector.normalized;
     }
 }

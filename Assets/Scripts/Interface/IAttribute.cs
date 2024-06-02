@@ -1,11 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+namespace Interface {
+    public interface IAttribute { 
 
-public interface IAttribute { 
+        string Name { get; }
+        float Hp { get; }
+        float MoveSpeed { get; }
 
-    string Name { get; }
-    float HP { get; }
-    float MoveSpeed { get; }
-
+    }
 }
