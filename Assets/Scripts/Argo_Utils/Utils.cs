@@ -15,5 +15,6 @@ namespace Argo_Utils
         public static void LogMessage(bool consoleMessage, object message){
             if (consoleMessage) Debug.Log(message); 
         }
+
     }
 }

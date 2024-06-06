@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using Interface;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using static Argo_Utils.Utils;
 
 public class PlayerController : MonoBehaviour {
@@ -13,66 +14,61 @@ public class PlayerController : MonoBehaviour {
     [SerializeField] private bool consoleLogOn;
 
     [Header("Base attribute")]
-    [SerializeField] public GameInput gameInput;
+    [SerializeField] private GameInput gameInput;
     
     #endregion
     
     #region Player attribute
     
-    public enum State { Idling, Moving, Attacking, }
+    public enum State { Idling, Moving, Attacking }
     private Dictionary<State, IAction> _playerActions;
 
-    private new Rigidbody2D _rigidbody2D;
+    private Rigidbody2D _rigidbody2D;
     
     private State _currentState;
-    
+    private bool _isPlayerRunning;
     #endregion
     
     
     private void Awake() {
         _rigidbody2D = GetComponent<Rigidbody2D>();
+
         if(Instance != null) LogMessage(consoleLogOn, "There is more than one Player instance");
-        if(gameInput == null || _rigidbody2D == null) return;
+        if(_rigidbody2D == null) return;
         
         Instance = this;
         _currentState = State.Idling;
+        _isPlayerRunning = false;
 
         _playerActions = new Dictionary<State, IAction> {
             { State.Moving, gameObject.AddComponent<PlayerMove>() },
             { State.Attacking, gameObject.AddComponent<PlayerAttack>() }
         };
         
-        gameInput.OnPlayerIdling += GameInput_OnPlayerIdling;
+        gameInput.OnPlayerCancelMove += GameInput_OnPlayerIdling;
         gameInput.OnPlayerMoving += GameInput_OnPlayerMoving;
-        gameInput.OnPlayerRunning += GameInput_OnPlayerRunning;
-        gameInput.OnPlayerAttack += GameInput_OnPlayerAttack;
+        gameInput.OnPlayerAttacking += GameInput_OnPlayerAttack;
     }
 
-    private void OnDisable() {
-        gameInput.OnPlayerIdling -= GameInput_OnPlayerIdling;
+    private void OnDestroy() {
+        gameInput.OnPlayerCancelMove -= GameInput_OnPlayerIdling;
         gameInput.OnPlayerMoving -= GameInput_OnPlayerMoving;
-        gameInput.OnPlayerRunning -= GameInput_OnPlayerRunning;
-        gameInput.OnPlayerAttack -= GameInput_OnPlayerAttack;
+        gameInput.OnPlayerAttacking -= GameInput_OnPlayerAttack; 
     }
 
     private void Update() {
         if (_playerActions.ContainsKey(_currentState)) {
             _playerActions[_currentState].Execute(); 
         }
+        LogMessage(consoleLogOn, _currentState);
     }
     
-    private void GameInput_OnPlayerIdling(object sender, EventArgs e) {
-        SetState(State.Idling);
-    }
-    
+    private void GameInput_OnPlayerIdling(object sender, EventArgs e) => SetState(State.Idling);
+
     private void GameInput_OnPlayerMoving(object sender, EventArgs e) {
         if(_currentState != State.Attacking) SetState(State.Moving);
     }
-    
-    private void GameInput_OnPlayerRunning(object sender, EventArgs e) {
-        if(_currentState != State.Attacking) SetState(State.Moving);
-    }
-    
+
     private void GameInput_OnPlayerAttack(object sender, EventArgs e) {
         SetState(State.Attacking);
         PlayerMove.Instance.Stop();
@@ -85,7 +81,7 @@ public class PlayerController : MonoBehaviour {
         _currentState = newState;
     }
 
-    
-    public void SetStateIdle() { SetState(State.Idling); }
-    public State GetCurrentState() { return _currentState; }
+    public void SetStateIdle() => SetState(State.Idling);
+    public State GetCurrentState() => _currentState;
+    public GameInput GetGameInput() => gameInput;
 }

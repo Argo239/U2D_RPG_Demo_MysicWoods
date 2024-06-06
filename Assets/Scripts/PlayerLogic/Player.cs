@@ -43,7 +43,7 @@ public class Player : MonoBehaviour {
 
         gameInput.OnPlayerMoving += GameInput_OnPlayerMoving;
         gameInput.OnPlayerRunning += GameInputOnPlayerRunning;
-        gameInput.OnPlayerAttack += GameInput_OnPlayerAttack;
+        gameInput.OnPlayerAttacking += GameInput_OnPlayerAttack;
     }
 
     private void GameInput_OnPlayerAttack(object sender, EventArgs e) {
