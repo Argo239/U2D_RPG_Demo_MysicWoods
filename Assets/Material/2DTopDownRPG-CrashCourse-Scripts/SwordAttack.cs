@@ -39,7 +39,7 @@
 
 //            if (enemy != null)
 //            {
-//                enemy.Health -= damage;
+//                enemy.HP -= damage;
 //            }
 //        }
 //    }

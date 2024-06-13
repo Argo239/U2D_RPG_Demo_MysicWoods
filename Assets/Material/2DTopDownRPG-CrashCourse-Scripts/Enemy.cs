@@ -6,7 +6,7 @@
 //{
 //    Animator animator;
 
-//    public float Health
+//    public float HP
 //    {
 //        set
 //        {

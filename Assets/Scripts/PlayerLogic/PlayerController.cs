@@ -26,7 +26,6 @@ public class PlayerController : MonoBehaviour {
     private Rigidbody2D _rigidbody2D;
     
     private State _currentState;
-    private bool _isPlayerRunning;
     #endregion
     
     
@@ -38,13 +37,13 @@ public class PlayerController : MonoBehaviour {
         
         Instance = this;
         _currentState = State.Idling;
-        _isPlayerRunning = false;
-
         _playerActions = new Dictionary<State, IAction> {
             { State.Moving, gameObject.AddComponent<PlayerMove>() },
             { State.Attacking, gameObject.AddComponent<PlayerAttack>() }
         };
-        
+    }
+
+    private void Start() {
         gameInput.OnPlayerCancelMove += GameInput_OnPlayerIdling;
         gameInput.OnPlayerMoving += GameInput_OnPlayerMoving;
         gameInput.OnPlayerAttacking += GameInput_OnPlayerAttack;
@@ -60,7 +59,6 @@ public class PlayerController : MonoBehaviour {
         if (_playerActions.ContainsKey(_currentState)) {
             _playerActions[_currentState].Execute(); 
         }
-        LogMessage(consoleLogOn, _currentState);
     }
     
     private void GameInput_OnPlayerIdling(object sender, EventArgs e) => SetState(State.Idling);

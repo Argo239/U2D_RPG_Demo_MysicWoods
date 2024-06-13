@@ -3999,12 +3999,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9db98c60740638449864eb028fbe7ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &658311989 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8521375447280519010, guid: aec2c281ecfbc08469b47d71f34e4671,
-    type: 3}
-  m_PrefabInstance: {fileID: 1283866051}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &764491030
 GameObject:
   m_ObjectHideFlags: 0
@@ -4055,8 +4049,8 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 658311989}
+  m_LookAt: {fileID: 1261776053}
+  m_Follow: {fileID: 1261776053}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 4
@@ -4141,6 +4135,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &1261776053 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6008263728137162065, guid: 61ac6e91fc733d94baa92deb9eb85be4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1469236283}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1283866051
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4561,6 +4561,11 @@ PrefabInstance:
       propertyPath: gameInput
       value: 
       objectReference: {fileID: 1741455886}
+    - target: {fileID: 5595088339787999779, guid: 61ac6e91fc733d94baa92deb9eb85be4,
+        type: 3}
+      propertyPath: consoleLogOn
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5929348957818314865, guid: 61ac6e91fc733d94baa92deb9eb85be4,
         type: 3}
       propertyPath: m_Name

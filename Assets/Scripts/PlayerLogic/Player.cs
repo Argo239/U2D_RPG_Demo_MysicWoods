@@ -36,8 +36,7 @@ public class Player : MonoBehaviour {
         Instance = this;
     }
 
-    private void Start()
-    {
+    private void Start() {
         state = PlayerState.Idle;
         _initialVelocity = moveSpeed;
 

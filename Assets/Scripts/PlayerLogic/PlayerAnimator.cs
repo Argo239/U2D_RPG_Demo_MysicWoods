@@ -67,9 +67,6 @@ public class PlayerAnimator : MonoBehaviour {
         _animator = GetComponent<Animator>();
         _skeletonMecanim = GetComponent<SkeletonMecanim>();
 
-        _gameInput = playerController.GetGameInput();
-        if (_gameInput is null) Debug.LogError("GameInput is null");
-
         _skeletonDataAssets = new Dictionary<string, SkeletonDataAsset> {
             { frontSkeletonDataAsset.name, frontSkeletonDataAsset },
             { backSkeletonDataAsset.name, backSkeletonDataAsset },
@@ -78,6 +75,11 @@ public class PlayerAnimator : MonoBehaviour {
 
         _stateMachine = new PlayerStateMachine();
         _stateMachine.ChangeState(new IdleState(), this);
+    }
+
+    private void Start() {
+        _gameInput = playerController.GetGameInput();
+        if (_gameInput is null) Debug.LogError("GameInput is null");
 
         _gameInput.OnPlayerMoving += GameInput_OnPlayerMoving;
         _gameInput.OnPlayerRunning += GameInput_OnPlayerRunning;
