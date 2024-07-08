@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\U2D_RPG_Demo.ApiServer.props" />
+</Project>

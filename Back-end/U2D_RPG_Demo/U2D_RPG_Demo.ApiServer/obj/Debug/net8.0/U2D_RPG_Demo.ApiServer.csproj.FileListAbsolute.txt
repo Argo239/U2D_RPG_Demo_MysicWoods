@@ -1,0 +1,463 @@
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\U2D_RPG_Demo.ApiServer.csproj.AssemblyReference.cache
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\U2D_RPG_Demo.ApiServer.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\U2D_RPG_Demo.ApiServer.AssemblyInfoInputs.cache
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\U2D_RPG_Demo.ApiServer.AssemblyInfo.cs
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\U2D_RPG_Demo.ApiServer.csproj.CoreCompileInputs.cache
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\U2D_RPG_Demo.ApiServer.MvcApplicationPartsAssemblyInfo.cs
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\U2D_RPG_Demo.ApiServer.MvcApplicationPartsAssemblyInfo.cache
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\appsettings.Development.json
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\appsettings.json
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\U2D_RPG_Demo.ApiServer.exe
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\U2D_RPG_Demo.ApiServer.deps.json
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\U2D_RPG_Demo.ApiServer.runtimeconfig.json
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\U2D_RPG_Demo.ApiServer.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\U2D_RPG_Demo.ApiServer.pdb
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Google.Protobuf.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Grpc.Core.Api.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Grpc.Net.Client.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Grpc.Net.Common.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.AmbientMetadata.Application.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.Compliance.Abstractions.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.AutoActivation.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.DiagnosticAdapter.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.ExceptionSummarization.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.Features.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.Http.Diagnostics.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.Http.Resilience.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.Resilience.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.ServiceDiscovery.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.ServiceDiscovery.Abstractions.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.Telemetry.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.Telemetry.Abstractions.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\OpenTelemetry.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\OpenTelemetry.Api.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\OpenTelemetry.Api.ProviderBuilderExtensions.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\OpenTelemetry.Exporter.OpenTelemetryProtocol.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\OpenTelemetry.Extensions.Hosting.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\OpenTelemetry.Instrumentation.AspNetCore.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\OpenTelemetry.Instrumentation.Http.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\OpenTelemetry.Instrumentation.Runtime.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Polly.Core.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Polly.Extensions.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Polly.RateLimiting.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\U2D_RPG_Demo.ServiceDefaults.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\U2D_RPG_Demo.ServiceDefaults.pdb
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\staticwebassets.build.json
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\staticwebassets.development.json
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\staticwebassets\msbuild.U2D_RPG_Demo.ApiServer.Microsoft.AspNetCore.StaticWebAssets.props
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\staticwebassets\msbuild.build.U2D_RPG_Demo.ApiServer.props
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.U2D_RPG_Demo.ApiServer.props
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.U2D_RPG_Demo.ApiServer.props
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\staticwebassets.pack.json
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\scopedcss\bundle\U2D_RPG_Demo.ApiServer.styles.css
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\U2D_RPG_.DCD9A19C.Up2Date
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\U2D_RPG_Demo.ApiServer.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\refint\U2D_RPG_Demo.ApiServer.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\U2D_RPG_Demo.ApiServer.pdb
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\U2D_RPG_Demo.ApiServer.genruntimeconfig.cache
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\ref\U2D_RPG_Demo.ApiServer.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Humanizer.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.CodeDom.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Azure.Core.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Azure.Identity.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.Memory.Data.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\appsettings.json
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\appsettings.Development.json
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\U2D_RPG_Demo.ApiServer.exe
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\U2D_RPG_Demo.ApiServer.deps.json
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\U2D_RPG_Demo.ApiServer.runtimeconfig.json
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\U2D_RPG_Demo.ApiServer.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\U2D_RPG_Demo.ApiServer.pdb
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Azure.Core.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Azure.Identity.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Google.Protobuf.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Grpc.Core.Api.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Grpc.Net.Client.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Grpc.Net.Common.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Humanizer.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.AmbientMetadata.Application.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.Compliance.Abstractions.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.AutoActivation.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.DiagnosticAdapter.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.ExceptionSummarization.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.Features.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.Http.Diagnostics.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.Http.Resilience.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.Resilience.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.ServiceDiscovery.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.ServiceDiscovery.Abstractions.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.Telemetry.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Extensions.Telemetry.Abstractions.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\OpenTelemetry.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\OpenTelemetry.Api.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\OpenTelemetry.Api.ProviderBuilderExtensions.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\OpenTelemetry.Exporter.OpenTelemetryProtocol.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\OpenTelemetry.Extensions.Hosting.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\OpenTelemetry.Instrumentation.AspNetCore.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\OpenTelemetry.Instrumentation.Http.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\OpenTelemetry.Instrumentation.Runtime.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Polly.Core.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Polly.Extensions.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Polly.RateLimiting.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.CodeDom.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.Memory.Data.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\U2D_RPG_Demo.ServiceDefaults.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\U2D_RPG_Demo.ServiceDefaults.pdb
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\U2D_RPG_Demo.ApiServer.csproj.AssemblyReference.cache
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\U2D_RPG_Demo.ApiServer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\U2D_RPG_Demo.ApiServer.AssemblyInfoInputs.cache
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\U2D_RPG_Demo.ApiServer.AssemblyInfo.cs
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\U2D_RPG_Demo.ApiServer.csproj.CoreCompileInputs.cache
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\U2D_RPG_Demo.ApiServer.MvcApplicationPartsAssemblyInfo.cs
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\U2D_RPG_Demo.ApiServer.MvcApplicationPartsAssemblyInfo.cache
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\U2D_RPG_Demo.ApiServer.sourcelink.json
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\staticwebassets.build.json
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\staticwebassets.development.json
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\staticwebassets\msbuild.U2D_RPG_Demo.ApiServer.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\staticwebassets\msbuild.build.U2D_RPG_Demo.ApiServer.props
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.U2D_RPG_Demo.ApiServer.props
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.U2D_RPG_Demo.ApiServer.props
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\scopedcss\bundle\U2D_RPG_Demo.ApiServer.styles.css
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\U2D_RPG_.DCD9A19C.Up2Date
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\U2D_RPG_Demo.ApiServer.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\refint\U2D_RPG_Demo.ApiServer.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\U2D_RPG_Demo.ApiServer.pdb
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\U2D_RPG_Demo.ApiServer.genruntimeconfig.cache
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\obj\Debug\net8.0\ref\U2D_RPG_Demo.ApiServer.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Build.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\NuGet.Common.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\NuGet.Configuration.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\NuGet.Frameworks.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\NuGet.LibraryModel.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\NuGet.Packaging.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\NuGet.ProjectModel.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\NuGet.Protocol.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\NuGet.Versioning.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\af\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ar\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\az\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\bg\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\cs\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\da\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\de\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\el\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\es\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\fa\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\fr\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\he\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\hr\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\hu\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\hy\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\id\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\is\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\it\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ja\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ku\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\lv\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\mt\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\nb\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\nl\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\pl\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\pt\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ro\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ru\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\sk\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\sl\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\sr\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\sv\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\tr\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\uk\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\vi\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ApiServer\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll

@@ -1,0 +1,25 @@
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ServiceDefaults\bin\Debug\net8.0\U2D_RPG_Demo.ServiceDefaults.deps.json
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ServiceDefaults\bin\Debug\net8.0\U2D_RPG_Demo.ServiceDefaults.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ServiceDefaults\bin\Debug\net8.0\U2D_RPG_Demo.ServiceDefaults.pdb
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ServiceDefaults\obj\Debug\net8.0\U2D_RPG_Demo.ServiceDefaults.csproj.AssemblyReference.cache
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ServiceDefaults\obj\Debug\net8.0\U2D_RPG_Demo.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ServiceDefaults\obj\Debug\net8.0\U2D_RPG_Demo.ServiceDefaults.AssemblyInfoInputs.cache
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ServiceDefaults\obj\Debug\net8.0\U2D_RPG_Demo.ServiceDefaults.AssemblyInfo.cs
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ServiceDefaults\obj\Debug\net8.0\U2D_RPG_Demo.ServiceDefaults.csproj.CoreCompileInputs.cache
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ServiceDefaults\obj\Debug\net8.0\U2D_RPG_Demo.ServiceDefaults.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ServiceDefaults\obj\Debug\net8.0\refint\U2D_RPG_Demo.ServiceDefaults.dll
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ServiceDefaults\obj\Debug\net8.0\U2D_RPG_Demo.ServiceDefaults.pdb
+E:\CSharp\U2D_RPG_Demo\U2D_RPG_Demo.ServiceDefaults\obj\Debug\net8.0\ref\U2D_RPG_Demo.ServiceDefaults.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ServiceDefaults\bin\Debug\net8.0\U2D_RPG_Demo.ServiceDefaults.deps.json
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ServiceDefaults\bin\Debug\net8.0\U2D_RPG_Demo.ServiceDefaults.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ServiceDefaults\bin\Debug\net8.0\U2D_RPG_Demo.ServiceDefaults.pdb
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ServiceDefaults\obj\Debug\net8.0\U2D_RPG_Demo.ServiceDefaults.csproj.AssemblyReference.cache
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ServiceDefaults\obj\Debug\net8.0\U2D_RPG_Demo.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ServiceDefaults\obj\Debug\net8.0\U2D_RPG_Demo.ServiceDefaults.AssemblyInfoInputs.cache
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ServiceDefaults\obj\Debug\net8.0\U2D_RPG_Demo.ServiceDefaults.AssemblyInfo.cs
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ServiceDefaults\obj\Debug\net8.0\U2D_RPG_Demo.ServiceDefaults.csproj.CoreCompileInputs.cache
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ServiceDefaults\obj\Debug\net8.0\U2D_RPG_Demo.ServiceDefaults.sourcelink.json
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ServiceDefaults\obj\Debug\net8.0\U2D_RPG_Demo.ServiceDefaults.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ServiceDefaults\obj\Debug\net8.0\refint\U2D_RPG_Demo.ServiceDefaults.dll
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ServiceDefaults\obj\Debug\net8.0\U2D_RPG_Demo.ServiceDefaults.pdb
+E:\Unity Project\U2D_RPG_Demo_MysicWoods\Back-end\U2D_RPG_Demo\U2D_RPG_Demo.ServiceDefaults\obj\Debug\net8.0\ref\U2D_RPG_Demo.ServiceDefaults.dll
