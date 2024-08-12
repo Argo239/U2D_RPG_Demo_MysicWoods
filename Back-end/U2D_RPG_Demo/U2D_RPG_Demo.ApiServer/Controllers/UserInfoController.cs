@@ -12,11 +12,9 @@ namespace U2D_RPG_Demo.ApiServer.Controllers {
     public class UserInfoController : ControllerBase {
         private readonly DataContext _dataContext;
         private readonly IUserInfoRepository _userInfoRepo;
-        private readonly IPlayerAttributeRepository _playerAttributesRepo;
 
-        public UserInfoController(DataContext dataContext, IUserInfoRepository userInfoRepo, IPlayerAttributeRepository playerAttributeRepo) {
+        public UserInfoController(DataContext dataContext, IUserInfoRepository userInfoRepo) {
             _userInfoRepo = userInfoRepo;
-            _playerAttributesRepo = playerAttributeRepo;
             _dataContext = dataContext;
         }
 
@@ -65,7 +63,6 @@ namespace U2D_RPG_Demo.ApiServer.Controllers {
             var userInfoModel = await _userInfoRepo.HardDeleteUserInfoAsync(id, cancellation);
             if (userInfoModel == null)   
                 return NotFound();
-            var playerAttributes = await _playerAttributesRepo.HardDeletePlayaerAttributesAsync(id, cancellation);
             return NoContent();
         }
     }

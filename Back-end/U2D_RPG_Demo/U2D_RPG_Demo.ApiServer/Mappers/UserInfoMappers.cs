@@ -20,12 +20,12 @@ namespace U2D_RPG_Demo.ApiServer.Mappers
             };
         }
 
-        public static UserInfo ToUserInfoFromCreateDTO(this CreateUserInfoRequestDTO userInfoDto) {
+        public static UserInfo ToUserInfoFromCreateDTO(this CreateUserInfoRequestDTO userInfoDTO) {
             return new UserInfo {
-                Email = userInfoDto.Email,
-                Phone = userInfoDto.Phone,
-                Password = userInfoDto.Password,
-                Name = userInfoDto.Name,
+                Email = userInfoDTO.Email,
+                Phone = userInfoDTO.Phone,
+                Password = userInfoDTO.Password,
+                Name = userInfoDTO.Name,
                 CreateTime = DateTime.UtcNow,
                 LastUpdateTime = DateTime.UtcNow
             };

@@ -1,10 +1,5 @@
-﻿using U2D_RPG_Demo.ApiServer.Models;
-
-namespace U2D_RPG_Demo.ApiServer.Dtos.PlayerAttribute
-{
-    public class PlayerAttributeDTO
-    {
-        public int Paid { get; set; }
+﻿namespace U2D_RPG_Demo.ApiServer.DTOs.PlayerAttribute {
+    public class CreatePlayerAttributeRequestDTO {
 
         public int Uid { get; set; }
 

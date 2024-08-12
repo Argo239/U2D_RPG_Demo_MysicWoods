@@ -1,23 +1,34 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using U2D_RPG_Demo.ApiServer.Dtos.UserInfo;
+using U2D_RPG_Demo.ApiServer.DTOs.PlayerAttribute;
+using U2D_RPG_Demo.ApiServer.Interfaces;
 using U2D_RPG_Demo.ApiServer.Mappers;
 using U2D_RPG_Demo.ApiServer.Models;
+using U2D_RPG_Demo.ApiServer.Repository;
 
 namespace U2D_RPG_Demo.ApiServer.Controllers {
     [ApiController]
     [Route("Api/[controller]")]
     public class PlayerAttributeController : ControllerBase {
         private readonly DataContext _dataContext;
+        private readonly IPlayerAttributeRepository _playerAttributeRepo;
 
-        public PlayerAttributeController(DataContext dataContext) {
+        public PlayerAttributeController(DataContext dataContext, IPlayerAttributeRepository playerAttributeRepo) {
             _dataContext = dataContext;
+            _playerAttributeRepo = playerAttributeRepo;
         }
 
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetAttributeById([FromRoute]int id, CancellationToken cancellation) {
-            var result = await _dataContext.PlayerAttributes.FindAsync(id, cancellation);
-            if (result == null) 
-                return NotFound();
-            return Ok(result.ToPlayerAttributeDto());  
-        } 
+        [HttpGet("getById/{uid}")]
+        public async Task<IActionResult> GetAttributeById([FromRoute]int uid, CancellationToken cancellation) {
+            var playerAttributeModel = await _playerAttributeRepo.GetAttributeByIdAsync(uid, cancellation);  
+            return playerAttributeModel == null ? NotFound() : Ok(playerAttributeModel);
+        }
+
+        [HttpPost("create/{uid}")]
+        public async Task<IActionResult> CreateAttribute([FromRoute] int uid, [FromBody] CreatePlayerAttributeRequestDTO createDTO, CancellationToken cancellation) {
+            var playerAttributeModel = createDTO.ToCreatePlayerAttibuteDTO(uid);
+            await _playerAttributeRepo.CreateAttributeAsync(playerAttributeModel, cancellation);
+            return CreatedAtAction(nameof(GetAttributeById), new { id = playerAttributeModel.Paid }, playerAttributeModel.ToPlayerAttributeDTO());
+        }
     }
 }
