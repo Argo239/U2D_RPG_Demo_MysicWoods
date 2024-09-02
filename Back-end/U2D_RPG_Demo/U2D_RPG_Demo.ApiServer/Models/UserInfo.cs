@@ -5,7 +5,7 @@ namespace U2D_RPG_Demo.ApiServer.Models;
 
 public partial class UserInfo
 {
-    public int Uid { get; set; }
+    public int UID { get; set; }
 
     public string Email { get; set; } = null!;
 
@@ -23,5 +23,5 @@ public partial class UserInfo
 
     public DateTime LastUpdateTime { get; set; }
 
-    public virtual ICollection<PlayerAttribute> PlayerAttributes { get; set; } = new List<PlayerAttribute>();
+    public virtual ICollection<PlayerAttributes> PlayerAttributes { get; set; } = new List<PlayerAttributes>();
 }

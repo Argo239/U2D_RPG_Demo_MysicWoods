@@ -25,28 +25,28 @@ namespace U2D_RPG_Demo.ApiServer.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("U2D_RPG_Demo.ApiServer.Models.PlayerAttribute", b =>
+            modelBuilder.Entity("U2D_RPG_Demo.ApiServer.Models.PlayerAttributes", b =>
                 {
-                    b.Property<int>("Paid")
+                    b.Property<int>("PAID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasColumnName("PAID");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Paid"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PAID"));
 
-                    b.Property<double?>("Atk")
+                    b.Property<double?>("ATK")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("float")
                         .HasDefaultValue(5.0)
                         .HasColumnName("ATK");
 
-                    b.Property<double?>("Def")
+                    b.Property<double?>("DEF")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("float")
                         .HasDefaultValue(2.0)
                         .HasColumnName("DEF");
 
-                    b.Property<double?>("Dr")
+                    b.Property<double?>("DR")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("float")
                         .HasDefaultValue(0.10000000000000001)
@@ -86,38 +86,38 @@ namespace U2D_RPG_Demo.ApiServer.Migrations
                         .HasDefaultValue(100.0)
                         .HasColumnName("MP");
 
-                    b.Property<double?>("Spd")
+                    b.Property<double?>("SPD")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("float")
                         .HasDefaultValue(5.0)
                         .HasColumnName("SPD");
 
-                    b.Property<double?>("SpdMult")
+                    b.Property<double?>("SPDMult")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("float")
                         .HasDefaultValue(0.0)
                         .HasColumnName("SPD_MULT");
 
-                    b.Property<int>("Uid")
+                    b.Property<int>("UID")
                         .HasColumnType("int")
                         .HasColumnName("UID");
 
-                    b.HasKey("Paid")
+                    b.HasKey("PAID")
                         .HasName("PK__PlayerAt__5986FD6D38FACDC1");
 
-                    b.HasIndex("Uid");
+                    b.HasIndex("UID");
 
                     b.ToTable("PlayerAttributes");
                 });
 
             modelBuilder.Entity("U2D_RPG_Demo.ApiServer.Models.UserInfo", b =>
                 {
-                    b.Property<int>("Uid")
+                    b.Property<int>("UID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasColumnName("UID");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Uid"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UID"));
 
                     b.Property<DateTime>("CreateTime")
                         .ValueGeneratedOnAdd()
@@ -159,17 +159,17 @@ namespace U2D_RPG_Demo.ApiServer.Migrations
                         .HasMaxLength(15)
                         .HasColumnType("nvarchar(15)");
 
-                    b.HasKey("Uid")
+                    b.HasKey("UID")
                         .HasName("PK__UserInfo__C5B196020D417FD6");
 
                     b.ToTable("UserInfo", (string)null);
                 });
 
-            modelBuilder.Entity("U2D_RPG_Demo.ApiServer.Models.PlayerAttribute", b =>
+            modelBuilder.Entity("U2D_RPG_Demo.ApiServer.Models.PlayerAttributes", b =>
                 {
                     b.HasOne("U2D_RPG_Demo.ApiServer.Models.UserInfo", "UidNavigation")
                         .WithMany("PlayerAttributes")
-                        .HasForeignKey("Uid")
+                        .HasForeignKey("UID")
                         .IsRequired()
                         .HasConstraintName("FK__PlayerAttri__UID__09A971A2");
 

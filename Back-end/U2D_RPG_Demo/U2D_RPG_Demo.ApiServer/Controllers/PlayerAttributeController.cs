@@ -20,15 +20,23 @@ namespace U2D_RPG_Demo.ApiServer.Controllers {
 
         [HttpGet("getById/{uid}")]
         public async Task<IActionResult> GetAttributeById([FromRoute]int uid, CancellationToken cancellation) {
-            var playerAttributeModel = await _playerAttributeRepo.GetAttributeByIdAsync(uid, cancellation);  
+            var playerAttributeModel = await _playerAttributeRepo.GetAttributesByIdAsync(uid, cancellation);  
             return playerAttributeModel == null ? NotFound() : Ok(playerAttributeModel);
         }
 
         [HttpPost("create/{uid}")]
         public async Task<IActionResult> CreateAttribute([FromRoute] int uid, [FromBody] CreatePlayerAttributeRequestDTO createDTO, CancellationToken cancellation) {
-            var playerAttributeModel = createDTO.ToCreatePlayerAttibuteDTO(uid);
-            await _playerAttributeRepo.CreateAttributeAsync(playerAttributeModel, cancellation);
-            return CreatedAtAction(nameof(GetAttributeById), new { id = playerAttributeModel.Paid }, playerAttributeModel.ToPlayerAttributeDTO());
+            var playerAttributeModel = createDTO.ToCreatePlayerAttributeDTO(uid);
+            await _playerAttributeRepo.CreateAttributesAsync(playerAttributeModel, cancellation);
+            return CreatedAtAction(nameof(GetAttributeById), new { id = playerAttributeModel.PAID }, playerAttributeModel.ToPlayerAttributeDTO());
+        }
+
+        [HttpPut("update/{uid}")]
+        public async Task<IActionResult> UpdateAttribute([FromRoute] int uid, [FromBody] UpdatePlayerAttributeRequestDTO updateDTO, CancellationToken cancellation) {
+            var playerAttributeModel = await _playerAttributeRepo.UpdateAttributesAsync(uid, updateDTO, cancellation);
+            if(playerAttributeModel == null)
+                return NotFound();
+            return Ok(playerAttributeModel.ToPlayerAttributeDTO());    
         }
     }
 }

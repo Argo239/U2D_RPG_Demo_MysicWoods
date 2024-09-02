@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("U2D_RPG_Demo.ApiServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb13455e08b5c8e9d044473b1482cfb89bb828e0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+546feef136c7b61ded4a450247cd2d80f74f2669")]
 [assembly: System.Reflection.AssemblyProductAttribute("U2D_RPG_Demo.ApiServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("U2D_RPG_Demo.ApiServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

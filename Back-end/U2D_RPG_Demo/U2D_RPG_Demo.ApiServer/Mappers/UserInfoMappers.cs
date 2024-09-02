@@ -8,7 +8,7 @@ namespace U2D_RPG_Demo.ApiServer.Mappers
 
         public static UserInfoDTO ToUserInfoDTO(this UserInfo userInfoModel) {
             return new UserInfoDTO {
-                Uid = userInfoModel.Uid,
+                UID = userInfoModel.UID,
                 Email = userInfoModel.Email,
                 Phone = userInfoModel.Phone,
                 Password = userInfoModel.Password,

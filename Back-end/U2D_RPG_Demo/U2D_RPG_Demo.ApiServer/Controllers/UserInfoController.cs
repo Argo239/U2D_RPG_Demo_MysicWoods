@@ -36,7 +36,7 @@ namespace U2D_RPG_Demo.ApiServer.Controllers {
         public async Task<IActionResult> Create([FromBody] CreateUserInfoRequestDTO createDTO, CancellationToken cancellation) {
             var userInfoModel = createDTO.ToUserInfoFromCreateDTO();
             await _userInfoRepo.CreateUserAsync(userInfoModel, cancellation);
-            return CreatedAtAction(nameof(GetById), new { id = userInfoModel.Uid }, userInfoModel.ToUserInfoDTO());
+            return CreatedAtAction(nameof(GetById), new { id = userInfoModel.UID }, userInfoModel.ToUserInfoDTO());
         }
 
         [HttpPut]

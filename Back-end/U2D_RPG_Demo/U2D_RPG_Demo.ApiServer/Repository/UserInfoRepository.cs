@@ -29,7 +29,7 @@ namespace U2D_RPG_Demo.ApiServer.Repository {
         public async Task<UserInfo?> GetByIdAsync(int id, CancellationToken cancellation) {
             var userInfoModel = await _dataContext.UserInfo
                 .Where(u => u.HasDelete == 0)
-                .FirstOrDefaultAsync(u => u.Uid == id);
+                .FirstOrDefaultAsync(u => u.UID == id);
 
             return userInfoModel == null ? null : userInfoModel;
         }
@@ -37,7 +37,7 @@ namespace U2D_RPG_Demo.ApiServer.Repository {
         public async Task<UserInfo?> HardDeleteUserInfoAsync(int id, CancellationToken cancellation) {
             var userInfoModel = await _dataContext.UserInfo
                 .Where(u => u.HasDelete == 0)
-                .FirstOrDefaultAsync (u => u.Uid == id);    
+                .FirstOrDefaultAsync (u => u.UID == id);    
             
             if (userInfoModel == null) 
                 return null;
@@ -52,7 +52,7 @@ namespace U2D_RPG_Demo.ApiServer.Repository {
         public async Task<UserInfo?> SoftDeleteUserInfoAsync(int id, SoftDeleteUserInfoRequestDTO softDeleteDTO, CancellationToken cancellation) {
             var userInfoModel = await _dataContext.UserInfo
                 .Where(u => u.HasDelete == 0)
-                .FirstOrDefaultAsync(u => u.Uid == id);
+                .FirstOrDefaultAsync(u => u.UID == id);
 
             if (userInfoModel == null) 
                 return null;
@@ -69,8 +69,8 @@ namespace U2D_RPG_Demo.ApiServer.Repository {
 
         public async Task<UserInfo?> UpdateUserInfoAsync(int id, UpdataUserInfoRequestDTO updateDTO, CancellationToken cancellation) {
             var userInfoModel = await _dataContext.UserInfo
-                .Where(u => u.Uid == id)
-                .FirstOrDefaultAsync(u => u.Uid == id);
+                .Where(u => u.UID == id)
+                .FirstOrDefaultAsync(u => u.UID == id);
 
             if (userInfoModel == null)
                 return null;
@@ -87,21 +87,3 @@ namespace U2D_RPG_Demo.ApiServer.Repository {
     }
 }
 
-
-//public async Task<IActionResult> HardDelete([FromRoute] int id, CancellationToken cancellation) {
-//    var userInfoModel = await _userInfoRepo.HardDeleteUserInfoAsync(id, cancellation);
-
-//    if (userInfoModel == null)
-//        return NotFound();
-
-//    var playerAttributeModel = await _dataContext.PlayerAttributes
-//        .Where(pa => pa.Uid == id)
-//        .ToListAsync(cancellation);
-
-//    _dataContext.PlayerAttributes.RemoveRange(playerAttributeModel);
-//    _dataContext.UserInfo.Remove(userInfoModel);
-
-//    await _dataContext.SaveChangesAsync(cancellation);
-
-//    return NoContent();
-//}

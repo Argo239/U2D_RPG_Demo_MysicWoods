@@ -3,7 +3,7 @@
 namespace U2D_RPG_Demo.ApiServer.Dtos.UserInfo
 {
     public class UserInfoDTO {
-        public int Uid { get; set; }
+        public int UID { get; set; }
 
         public string Email { get; set; } = null!;
 

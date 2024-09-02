@@ -1,33 +1,31 @@
-﻿using U2D_RPG_Demo.ApiServer.Models;
-
-namespace U2D_RPG_Demo.ApiServer.Dtos.PlayerAttribute
+﻿namespace U2D_RPG_Demo.ApiServer.Dtos.PlayerAttribute
 {
     public class PlayerAttributeDTO
     {
-        public int Paid { get; set; }
+        public int PAID { get; set; }
 
-        public int Uid { get; set; }
+        public int UID { get; set; }
 
         public int? Level { get; set; }
 
         public int? Experience { get; set; }
 
-        public double? Hp { get; set; }
+        public int? Hp { get; set; }
 
-        public double? MaxHp { get; set; }
+        public int? MaxHp { get; set; }
 
-        public double? Mp { get; set; }
+        public int? Mp { get; set; }
 
-        public double? MaxMp { get; set; }
+        public int? MaxMp { get; set; }
 
-        public double? Atk { get; set; }
+        public int? ATK { get; set; }
 
-        public double? Def { get; set; }
+        public int? DEF { get; set; }
 
-        public double? Dr { get; set; }
+        public double? DR { get; set; }
 
-        public double? Spd { get; set; }
+        public int? SPD { get; set; }
 
-        public double? SpdMult { get; set; }
+        public double? SPDMult { get; set; }
     }
 }

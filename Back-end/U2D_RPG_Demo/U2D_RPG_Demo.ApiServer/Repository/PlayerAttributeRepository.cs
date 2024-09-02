@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.SqlServer.Query.Internal;
+using U2D_RPG_Demo.ApiServer.DTOs.PlayerAttribute;
 using U2D_RPG_Demo.ApiServer.Interfaces;
 using U2D_RPG_Demo.ApiServer.Mappers;
 using U2D_RPG_Demo.ApiServer.Models;
@@ -13,33 +14,56 @@ namespace U2D_RPG_Demo.ApiServer.Repository {
             _dataContext = dataContext;
         }
 
-        public async Task<PlayerAttribute?> GetAttributeByIdAsync(int uid, CancellationToken cancellation) {
-            var playerAttributeModel = await _dataContext.PlayerAttributes.FindAsync(uid, cancellation);
-
-
-            var ddd = await _dataContext.PlayerAttributes.Where(pa => pa.Uid == id)
-
-            return playerAttributeModel == null ? null : playerAttributeModel;
+        public async Task<PlayerAttributes?> GetAttributesByIdAsync(int uid, CancellationToken cancellation) {
+            return await _dataContext.PlayerAttributes
+                .Where(pa => pa.UID == uid)
+                .FirstOrDefaultAsync(cancellation);
         }
 
-        public async Task<List<PlayerAttribute>?> HardDeleteAttributesAsync(int id, CancellationToken cancellation) {
+        public async Task<PlayerAttributes?> HardDeleteAttributesAsync(int uid, CancellationToken cancellation) {
             var playerAttributeModel = await _dataContext.PlayerAttributes
-                .Where(pa => pa.Uid == id)
-                .ToListAsync(cancellation);
+                .Where(pa => pa.UID == uid)
+                .FirstOrDefaultAsync(cancellation);
 
             if (playerAttributeModel == null)
                 return null;
 
-            _dataContext.PlayerAttributes.RemoveRange(playerAttributeModel);
+            _dataContext.PlayerAttributes.Remove(playerAttributeModel);
 
             await _dataContext.SaveChangesAsync(cancellation);
 
             return playerAttributeModel;
         }
 
-        public async Task<PlayerAttribute?> CreateAttributeAsync(PlayerAttribute playerAttributeModel ,CancellationToken cancellation) {
+        public async Task<PlayerAttributes?> CreateAttributesAsync(PlayerAttributes playerAttributeModel, CancellationToken cancellation) {
             await _dataContext.PlayerAttributes.AddAsync(playerAttributeModel, cancellation);
             await _dataContext.SaveChangesAsync(cancellation);
+            return playerAttributeModel;
+        }
+
+        public async Task<PlayerAttributes?> UpdateAttributesAsync(int uid, UpdatePlayerAttributeRequestDTO updateDTO, CancellationToken cancellation) {
+            var playerAttributeModel = await _dataContext.PlayerAttributes
+                .Where(pa => pa.UID == uid)
+                .FirstOrDefaultAsync(cancellation);
+
+            if (playerAttributeModel == null)
+                return null;
+
+            {
+                playerAttributeModel.Level = updateDTO.Level;   
+                playerAttributeModel.Experience = updateDTO.Experience; 
+                playerAttributeModel.Hp = updateDTO.Hp;
+                playerAttributeModel.MaxMp = updateDTO.MaxMp;
+                playerAttributeModel.Mp = updateDTO.Mp;
+                playerAttributeModel.MaxMp = updateDTO.MaxMp;
+                playerAttributeModel.ATK = updateDTO.ATK;
+                playerAttributeModel.DEF = updateDTO.DEF;
+                playerAttributeModel.DR = updateDTO.DR;
+                playerAttributeModel.SPD = updateDTO.SPD;
+                playerAttributeModel.SPDMult = updateDTO.SPDMult;   
+
+            }
+
             return playerAttributeModel;
         }
     }
