@@ -9,46 +9,55 @@ public class GameInput : MonoBehaviour {
     #region Event
 
     public event EventHandler OnPlayerMoving;
-    public event EventHandler OnPlayerRunning;
-    public event EventHandler OnPlayerAttacking;
-    public event EventHandler OnPlayerCancelMove;
-    public event EventHandler OnPlayerCancelRun;
+    public event EventHandler OnPlayerMoveCanceled;
 
     #endregion
 
     private PlayerInputActions _playerInputActions;
 
     private void Awake() {
-        if (Instance != null) Destroy(Instance);
+        if (Instance != null && Instance != this) {
+            Destroy(gameObject); 
+            return;
+        }
         Instance = this;
+        DontDestroyOnLoad(gameObject);
         _playerInputActions = new PlayerInputActions();
-        _playerInputActions.Player.Enable();
 
         _playerInputActions.Player.Move.performed += Move_performed;
-        _playerInputActions.Player.Run.performed += Run_performed;
-        _playerInputActions.Player.Attack.performed += Attack_performed;
         _playerInputActions.Player.Move.canceled += Move_canceled;
-        _playerInputActions.Player.Run.canceled += Run_canceled;
+
+        _playerInputActions.Player.Enable();
+
+
+        //手机设置画面默认向左横屏
+        Screen.orientation = ScreenOrientation.LandscapeRight;
+    }
+
+    private void Start() {
+        InitializeUISetUp();
     }
 
     private void OnDestroy() {
         _playerInputActions.Player.Move.performed -= Move_performed;
-        _playerInputActions.Player.Run.performed -= Run_performed;
-        _playerInputActions.Player.Attack.performed -= Attack_performed;
         _playerInputActions.Player.Move.canceled -= Move_canceled;
-        _playerInputActions.Player.Run.canceled -= Run_canceled;
+
+        _playerInputActions.Player.Disable();
     }
 
     private void Move_performed(InputAction.CallbackContext obj) => OnPlayerMoving?.Invoke(this, EventArgs.Empty);
-    private void Run_performed(InputAction.CallbackContext obj) => OnPlayerRunning?.Invoke(this, EventArgs.Empty);
-    private void Attack_performed(InputAction.CallbackContext obj) => OnPlayerAttacking?.Invoke(this, EventArgs.Empty);
-    private void Move_canceled(InputAction.CallbackContext obj) => OnPlayerCancelMove?.Invoke(this, EventArgs.Empty);
-    private void Run_canceled(InputAction.CallbackContext obj) => OnPlayerCancelRun?.Invoke(this, EventArgs.Empty);
+    private void Move_canceled(InputAction.CallbackContext obj) => OnPlayerMoveCanceled?.Invoke(this, EventArgs.Empty);
 
     public Vector2 GetMovementVectorNormalized() {
         Vector2 inputVector = _playerInputActions.Player.Move.ReadValue<Vector2>();
         return inputVector.normalized;
     }
 
-    public bool CheckRunnningState() => _playerInputActions.Player.Run.ReadValue<float>() > 0;
+    public void InitializeUISetUp() {
+        Screen.orientation = ScreenOrientation.AutoRotation;
+        Screen.autorotateToLandscapeLeft = true;
+        Screen.autorotateToLandscapeRight = true;
+        Screen.autorotateToPortrait = false;
+        Screen.autorotateToPortraitUpsideDown = false;
+    }
 }

@@ -8,16 +8,18 @@ namespace Assets.Scripts.Attributes.AttributesComponent {
         public PlayerAttributes PlayerAttributes { get; private set; }
 
         private void Awake() {
-            Instance = this;
+            if(Instance != null & Instance != this) 
+                Destroy(this.gameObject);
+            Instance = this; 
         }
 
         private void Start() {
             PlayerAttributes = new PlayerAttributes(
-                new HPAttribute(100, 100),
-                new MPAttribute(100, 100),
-                new ATKAttribute(5),
-                new DEFAttribute(2, 0.1f),
-                new SPDAttribute(5, 2),
+                new HealthAttribute(100, 100),
+                new ManaAttribute(100, 100),
+                new AttackAttribute(5),
+                new DefenseAttribute(2, 0.1f),
+                new SpeedAttribute(3),
                 1,
                 0
             );

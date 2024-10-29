@@ -1,7 +1,11 @@
-﻿namespace Interface {
+﻿using Unity.Burst.Intrinsics;
+using UnityEngine;
+using UnityEngine.EventSystems;
+
+namespace Interface {
     public interface IPlayerState {
-        void Enter(PlayerAnimator playerAnimator);
-        void Exit(PlayerAnimator playerAnimator);
-        void Update(PlayerAnimator playerAnimator);
+        void Enter(MoveDirection Direction, Vector2 currentLookDirection);
+        void Exit(MoveDirection Direction, Vector2 currentLookDirection);
+        void Update(MoveDirection Direction, Vector2 currentLookDirection);
     }
 }

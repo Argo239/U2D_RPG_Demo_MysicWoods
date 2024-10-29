@@ -20,6 +20,15 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IUserInfoRepository, UserInfoRepository>();
 builder.Services.AddScoped<IPlayerAttributeRepository, PlayerAttributeRepository>();
 
+builder.Services.AddCors(options =>{
+    options.AddPolicy("AllowSpecificOrigin",
+        policy => {
+            policy.WithOrigins("http://localhost:5173")
+                .AllowAnyHeader()
+                .AllowAnyMethod();
+        });
+});
+
 var app = builder.Build();
 
 app.MapDefaultEndpoints();
@@ -30,6 +39,8 @@ if (app.Environment.IsDevelopment()) {
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("AllowSpecificOrigin");
 
 app.UseAuthorization();
 
