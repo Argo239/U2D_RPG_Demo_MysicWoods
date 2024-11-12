@@ -1,7 +1,8 @@
 using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.Video;
+
+using static Argo_Utils.Utils;
 
 public class GameInput : MonoBehaviour {
     public static GameInput Instance { get; private set; }
@@ -21,6 +22,7 @@ public class GameInput : MonoBehaviour {
             return;
         }
         Instance = this;
+
         DontDestroyOnLoad(gameObject);
         _playerInputActions = new PlayerInputActions();
 
@@ -28,7 +30,6 @@ public class GameInput : MonoBehaviour {
         _playerInputActions.Player.Move.canceled += Move_canceled;
 
         _playerInputActions.Player.Enable();
-
 
         //手机设置画面默认向左横屏
         Screen.orientation = ScreenOrientation.LandscapeRight;

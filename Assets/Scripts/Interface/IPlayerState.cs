@@ -1,5 +1,4 @@
-﻿using Unity.Burst.Intrinsics;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.EventSystems;
 
 namespace Interface {

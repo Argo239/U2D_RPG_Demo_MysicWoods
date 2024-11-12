@@ -1,6 +1,4 @@
-using Argo_Utils;
 using Interface;
-using NUnit.Framework.Constraints;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -20,7 +18,6 @@ public class MoveState : IPlayerState {
     }
 
     public void Update(MoveDirection Direction, Vector2 currentLookDirection) {
-        Utils.LogMessage(PlayerController.Instance.consoleLogOn, "Move State Updating");
         playerAnimator.TryToSetAnimation(PlayerAnimator.IsMoving, true, Direction, currentLookDirection);
     }
 }

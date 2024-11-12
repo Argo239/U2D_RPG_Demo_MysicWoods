@@ -1,8 +1,5 @@
-using System;
-using System.Collections.Generic;
-using Interface;
 using PlayerLogic;
-using Unity.VisualScripting;
+using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using static Argo_Utils.Utils;
@@ -22,12 +19,14 @@ public class PlayerController : MonoBehaviour {
     #endregion
 
     #region Player attribute
-    public enum State { Idling, Moving }
+    public enum State { Idling, Moving, Dead }
 
     private Rigidbody2D rb;
     private Camera mainCamera;
     private PlayerAnimator playerAnimator;
     private AnimatorStateMachine playerStateMachine;
+
+    private State currentState;
     private Vector2 currentLookDirection;
     private MoveDirection enumDirection;
     #endregion
@@ -58,36 +57,28 @@ public class PlayerController : MonoBehaviour {
     private void Update() {
         Movement();
         UpdateCurrentDirection();
-        playerLookPosition();
+        PlayerLookDirection();
         playerStateMachine.Update(enumDirection, currentLookDirection);
+
+        LogMessage(consoleLogOn, $"{currentState.ToString()}");
     }
 
-    private void GameInput_OnPlayerMoving(object sender, EventArgs e) {
-        LogMessage(consoleLogOn, "Moving");
-        playerStateMachine.ChangeState(new MoveState(playerAnimator), enumDirection, currentLookDirection);
-    }
-
-    private void GameInput_OnPlayerMoveCanceled(object sender, EventArgs e) {
-        LogMessage(consoleLogOn, "Idling");
-        playerStateMachine.ChangeState(new IdleState(playerAnimator), enumDirection, currentLookDirection);
-    }
+    private void GameInput_OnPlayerMoving(object sender, EventArgs e) => playerStateMachine.ChangeState(new MoveState(playerAnimator), enumDirection, currentLookDirection);
+    private void GameInput_OnPlayerMoveCanceled(object sender, EventArgs e) => playerStateMachine.ChangeState(new IdleState(playerAnimator), enumDirection, currentLookDirection);
 
     private void Movement() {
-        //float speed = 5f;
-
         Vector2 inputVector = gameInput.GetMovementVectorNormalized();
         Vector2 targetVelocity = new Vector2(inputVector.x, inputVector.y) * speed;
         rb.linearVelocity = Vector2.Lerp(rb.linearVelocity, targetVelocity, smoothingFactor * Time.deltaTime);
     }
 
-    private Vector2 playerLookPosition() {
+    private Vector2 PlayerLookDirection() {
         Vector2 mousePosition = Input.mousePosition;
         Vector2 worldMousePosition = mainCamera.ScreenToWorldPoint(mousePosition);
         Vector2 playerPosition = PlayerCurrentPosition();
         Vector2 targetDirection = (worldMousePosition - playerPosition).normalized;
 
         currentLookDirection = Vector2.Lerp(currentLookDirection, targetDirection, smoothingFactor * Time.deltaTime);
-
         return currentLookDirection;
     }
 
@@ -102,13 +93,13 @@ public class PlayerController : MonoBehaviour {
             currentLookDirection.y > 0 ? MoveDirection.Up : MoveDirection.Down;
     }
 
-    public void UpdateCurrentDirection() {
-        enumDirection = GetMoveDirection();
-    }
+    public void UpdateCurrentDirection() { enumDirection = GetMoveDirection(); }
 
-    public Vector2 PlayerCurrentPosition() {
-        return transform.position;
-    }
+    public Vector2 PlayerCurrentPosition() { return transform.position; }
+
+    public State GetState() { return currentState; }  
+
+    public void SetCurrentState(State newState) { currentState = newState; }
 }
 
 

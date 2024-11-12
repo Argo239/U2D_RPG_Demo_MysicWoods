@@ -1,13 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Data.Common;
-using Interface;
 using PlayerLogic;
 using Spine;
 using Spine.Unity;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using static Argo_Utils.Utils;
 
 public class PlayerAnimator : MonoBehaviour {
     public static PlayerAnimator Instance { get; private set; }
@@ -85,6 +81,11 @@ public class PlayerAnimator : MonoBehaviour {
         skeleton.ScaleX = direction == MoveDirection.Left ? -1f : 1f;
     }
 
+    public void PlayAnimation(string animationName) {
+        if (_playerController == null) return;
+        animator.Play(animationName);
+    }
+
     //public void TryToSetAnimation(int animatorId, bool value) {
     //    MoveDirection direction = GetMoveDirection(playerFaceDir);
     //    string skeletonDataAssetKey = GetSkeletonDataAssetKey(direction);
@@ -117,7 +118,7 @@ public class PlayerAnimator : MonoBehaviour {
     /// <returns></returns>
     private string GetSkeletonDataAssetKey(MoveDirection direction) {
         return direction switch {
-            MoveDirection.Up => backSkeletonDataAsset.name,
+            MoveDirection.Up => backSkeletonDataAsset.name, 
             MoveDirection.Down => frontSkeletonDataAsset.name,
             MoveDirection.Left => sideSkeletonDataAsset.name,
             MoveDirection.Right => sideSkeletonDataAsset.name,

@@ -1,4 +1,3 @@
-using Argo_Utils;
 using Interface;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -20,7 +19,6 @@ public class IdleState : IPlayerState {
     }
 
     public void Update(MoveDirection Direction, Vector2 currentLookDirection) {
-        Utils.LogMessage(PlayerController.Instance.consoleLogOn, "Idle State Updating");
         playerAnimator.TryToSetAnimation(PlayerAnimator.IsMoving, false, Direction, currentLookDirection);
     }
 }
