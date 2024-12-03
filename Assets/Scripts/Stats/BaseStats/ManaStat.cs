@@ -1,30 +1,33 @@
-﻿using NUnit.Framework.Constraints;
+﻿using Assets.Scripts.Stats.StatsOperation;
+using NUnit.Framework.Constraints;
 using UnityEngine;
 
 namespace Assets.Scripts.Stats.BaseStats {
     public class ManaStat {
-        public StatValue Mana { get; protected set; }
-        public StatValue CurrentMana {  get; protected set; }
+        public StatValue mana { get; protected set; }
+        public StatValue currentMana { get; protected set; }
+        public IStatValueFactory StatValueFactory;
 
-        public ManaStat(float mana, float currentMana) {
-            Mana = new StatValue("ManaStat", mana);
-            CurrentMana = new StatValue("CurrentMana", currentMana);
+        public ManaStat(float mana, float currentMana, StatsMediator statsMediator) {
+            StatValueFactory = new StatValueFactory(statsMediator);
+            this.mana = StatValueFactory.Create(nameof(this.mana), mana);
+            this.currentMana = StatValueFactory.Create(nameof(this.currentMana), currentMana);
         }
 
         public void UseMana(float amount) {
-            CurrentMana.CurrentValue = Mathf.Clamp(CurrentMana.CurrentValue - amount, 0, Mana.CurrentValue);
+            currentMana.CurrentValue = Mathf.Clamp(currentMana.CurrentValue - amount, 0, mana.CurrentValue);
         }
 
         public void ReplyMana(float amount) {
-            CurrentMana.CurrentValue = Mathf.Clamp(CurrentMana.CurrentValue + amount, 0, Mana.CurrentValue);
+            currentMana.CurrentValue = Mathf.Clamp(currentMana.CurrentValue + amount, 0, mana.CurrentValue);
         }
 
         public void RestoreFullMana(float amount) {
-            CurrentMana.CurrentValue = Mana.CurrentValue;
+            currentMana.CurrentValue = mana.CurrentValue;
         }
 
         public void UseAllMana() {
-            CurrentMana.CurrentValue = 0;
+            currentMana.CurrentValue = 0;
         }
     }
 }

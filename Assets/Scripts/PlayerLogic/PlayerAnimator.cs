@@ -86,31 +86,6 @@ public class PlayerAnimator : MonoBehaviour {
         animator.Play(animationName);
     }
 
-    //public void TryToSetAnimation(int animatorId, bool value) {
-    //    MoveDirection direction = GetMoveDirection(playerFaceDir);
-    //    string skeletonDataAssetKey = GetSkeletonDataAssetKey(direction);
-
-    //    if (string.IsNullOrEmpty(skeletonDataAssetKey)) return;
-
-    //    SetSkeletonDataAsset(skeletonDataAssetKey);
-    //    InitializedSkeletonDataAsset();
-    //    SetAnimatorDirection();
-
-    //    animator.SetBool(animatorId, value);
-    //    Flip(direction == MoveDirection.Left);
-    //}
-
-    /// <summary>
-    ///     <para>Get the Move Direction</para>
-    /// </summary>
-    /// <param name="moveDir"></param>
-    /// <returns></returns>
-    //private MoveDirection GetMoveDirection(Vector2 moveDir) {
-    //    if (moveDir == Vector2.zero) return MoveDirection.Down;
-    //    return Mathf.Abs(moveDir.x) > Mathf.Abs(moveDir.y) ? moveDir.x > 0 ? MoveDirection.Right : MoveDirection.Left :
-    //        moveDir.y > 0 ? MoveDirection.Up : MoveDirection.Down;
-    //}
-
     /// <summary>
     /// <para> Key to get skeleton data asset </para>
     /// </summary>

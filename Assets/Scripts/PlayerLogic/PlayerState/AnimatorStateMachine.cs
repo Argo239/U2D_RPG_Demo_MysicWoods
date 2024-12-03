@@ -30,16 +30,3 @@ namespace PlayerLogic {
         }
     }
 }
-//public class IdleState : IPlayerState {
-//    public void Enter(PlayerAnimator playerAnimator) => playerAnimator.TryToSetAnimation(IsMoving, false);
-//    public void Update(PlayerAnimator playerAnimator) => playerAnimator.TryToSetAnimation(IsMoving, false);
-//    public void Exit(PlayerAnimator playerAnimator) { }
-//}
-
-//public class MovingState : IPlayerState {
-//    public void Enter(PlayerAnimator playerAnimator) => playerAnimator.TryToSetAnimation(IsMoving, true);
-//    public void Update(PlayerAnimator playerAnimator) => playerAnimator.TryToSetAnimation(IsMoving, true);
-//    public void Exit(PlayerAnimator playerAnimator) => playerAnimator.SetAnimatorBool(IsMoving, false);
-//}
-
-//}

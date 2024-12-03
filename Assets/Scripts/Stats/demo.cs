@@ -14,14 +14,14 @@
 //        }
 //    }
 
-//    public void AddModifier(StatModifier modifier) {
-//        listModifiers.Add(modifier);
-//        modifiersCache.Remove(modifier.StatType);
+//    public void AddModifier(StatModifier statModifier) {
+//        listModifiers.Add(statModifier);
+//        modifiersCache.Remove(statModifier.StatType);
 //    }
 
-//    public void RemoveModifier(StatModifier modifier) {
-//        listModifiers.Remove(modifier);
-//        modifiersCache.Remove(modifier.StatType);
+//    public void RemoveModifier(StatModifier statModifier) {
+//        listModifiers.Remove(statModifier);
+//        modifiersCache.Remove(statModifier.StatType);
 //    }
 //}
 
@@ -66,29 +66,29 @@
 //    StatsModifier mediator = new StatsModifier();
 
 //    // 创建玩家属性
-//    PlayerStats playerStats = new PlayerStats(20, 15, 100, 1, 0);
-//    Debug.Log($"Player Initial Stats: {playerStats}");
+//    PlayerStats playerStat = new PlayerStats(20, 15, 100, 1, 0);
+//    Debug.Log($"Player Initial PlayerStatsData: {playerStat}");
 
 //    // 创建敌人属性
 //    EnemyBaseStats goblinStats = new EnemyBaseStats(10, 8, 30, "Goblin");
-//    Debug.Log($"Goblin Initial Stats: {goblinStats}");
+//    Debug.Log($"Goblin Initial PlayerStatsData: {goblinStats}");
 
 //    // 玩家获得临时攻击增益
 //    StatModifier attackBuff = new StatModifier(StatType.AttackStat, new AddOperation(10));
 //    mediator.AddModifier(attackBuff);
 
 //    // 调用属性值时，将增益应用到当前状态
-//    var playerQuery = new Query(StatType.AttackStat, playerStats.AttackStat);
-//    mediator.PerformQuery(playerStats, playerQuery);
+//    var playerQuery = new Query(StatType.AttackStat, playerStat.AttackStat);
+//    mediator.PerformQuery(playerStat, playerQuery);
 //    Debug.Log($"Player AttackStat with Buff: {playerQuery.BaseValue}");
 
 //    // 敌人应用难度系数
 //    goblinStats.ApplyDifficultyMultiplier(1.2f);
-//    Debug.Log($"Goblin Stats with Difficulty Multiplier: {goblinStats}");
+//    Debug.Log($"Goblin PlayerStatsData with Difficulty Multiplier: {goblinStats}");
 //}
 
 
-//using Assets.Scripts.Stats.StatsOperation;
+//using Assets.Scripts.PlayerStatsData.StatsOperation;
 //using Mono.Cecil;
 //using System;
 //using System.Collections.Generic;
@@ -132,12 +132,12 @@
 //        return (baseStat.BaseValue + flatIncrease) * (1 + percentageIncrease);
 //    }
 
-//    public void AddModifier(StatModifier modifier) {
-//        listModifiers.Add(modifier);
+//    public void AddModifier(StatModifier statModifier) {
+//        listModifiers.Add(statModifier);
 //    }
 
-//    public void RemoveModifier(StatModifier modifier) {
-//        listModifiers.Remove(modifier);
+//    public void RemoveModifier(StatModifier statModifier) {
+//        listModifiers.Remove(statModifier);
 //    }
 //}
 
@@ -182,7 +182,7 @@
 
 
 
-//using Assets.Scripts.Stats.StatsOperation;
+//using Assets.Scripts.PlayerStatsData.StatsOperation;
 //using System;
 //using System.Collections.Generic;
 
@@ -278,12 +278,12 @@
 //        return (baseStat.BaseValue + flatIncrease) * (1 + percentageIncrease);
 //    }
 
-//    public void AddModifier(StatModifier modifier) {
-//        listModifiers.Add(modifier);
+//    public void AddModifier(StatModifier statModifier) {
+//        listModifiers.Add(statModifier);
 //    }
 
-//    public void RemoveModifier(StatModifier modifier) {
-//        listModifiers.Remove(modifier);
+//    public void RemoveModifier(StatModifier statModifier) {
+//        listModifiers.Remove(statModifier);
 //    }
 
 //    private void InvalidateCache(StatType statType) => modifiersCache.Remove(statType);
@@ -307,16 +307,16 @@
 
 //    private void InvalidateCache(StatType statType) => modifiersCache.Remove(statType);
 
-//    public void AddModifier(StatModifier modifier) {
-//        listModifiers.Add(modifier);
-//        InvalidateCache(modifier.Type);
-//        modifier.OnDispose += _ => InvalidateCache(modifier.Type);
-//        modifier.OnDispose += _ => listModifiers.Remove(modifier);
+//    public void AddModifier(StatModifier statModifier) {
+//        listModifiers.Add(statModifier);
+//        InvalidateCache(statModifier.Type);
+//        statModifier.OnDispose += _ => InvalidateCache(statModifier.Type);
+//        statModifier.OnDispose += _ => listModifiers.Remove(statModifier);
 //    }
 
 //    public void Update(float deltaTime) {
-//        foreach (var modifier in listModifiers) {
-//            modifier.Update(deltaTime);
+//        foreach (var statModifier in listModifiers) {
+//            statModifier.Update(deltaTime);
 //        }
 //        listModifiers.RemoveAll(mod => mod.MarkedForRemoval);
 //    }

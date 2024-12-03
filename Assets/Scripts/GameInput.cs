@@ -2,8 +2,6 @@ using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-using static Argo_Utils.Utils;
-
 public class GameInput : MonoBehaviour {
     public static GameInput Instance { get; private set; }
 
