@@ -1,4 +1,0 @@
-repository "MysticWoods_U2D@wechat_os_qy0zkhxj2fodjjvcla7rh6zi0@cloud.cn"
-  path "/"
-    br "/main"
-    co "/main"

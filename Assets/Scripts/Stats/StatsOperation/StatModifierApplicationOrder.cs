@@ -24,4 +24,4 @@ public class NormalStatModifierOrder : IStatModifierApplicationOrder {
 
         return result + multiplyValue;
     }
-}
+} 

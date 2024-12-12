@@ -21,12 +21,14 @@ public class PlayerStats : MonoBehaviour {
             return;
         }
         Instance = this;
-    }
 
-    private void Start() {
         statsMediator = new StatsMediator();
         statModifierFactory = new StatModifierFactory();
         playerStat = new PlayerStat(playerStatsData, statsMediator);
+    }
+
+    private void Start() {
+
     }
 
     private void Update() {

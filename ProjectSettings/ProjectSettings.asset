@@ -933,11 +933,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 3accecbf-8a4e-4cbd-aeb9-e6c0beaade44
+  cloudProjectId: 
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: U2D_RPG_Demo_MysicWoods
-  organizationId: wechat_os_qy0zkhxj2fodjjvcla7rh6zi0
+  projectName: 
+  organizationId: 
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

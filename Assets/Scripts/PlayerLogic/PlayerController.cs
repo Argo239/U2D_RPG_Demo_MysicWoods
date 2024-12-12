@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour {
 
     [Header("Base attributes")]
     [SerializeField] private GameInput gameInput;
+    [SerializeField] private PlayerAnimator playerAnimator;
     #endregion
 
     #region Player attribute
@@ -23,7 +24,6 @@ public class PlayerController : MonoBehaviour {
 
     private Rigidbody2D rb;
     private Camera mainCamera;
-    private PlayerAnimator playerAnimator;
     private AnimatorStateMachine playerStateMachine;
 
     private State currentState;
@@ -38,14 +38,15 @@ public class PlayerController : MonoBehaviour {
         rb = GetComponent<Rigidbody2D>();
         mainCamera = Camera.main;
         if (rb == null || mainCamera == null) return;
+
+        playerStateMachine = new AnimatorStateMachine();
+
     }
 
     private void Start() {
         gameInput.OnPlayerMoving += GameInput_OnPlayerMoving;
         gameInput.OnPlayerMoveCanceled += GameInput_OnPlayerMoveCanceled;
 
-        playerAnimator = GetComponent<PlayerAnimator>();
-        playerStateMachine = new AnimatorStateMachine();
         playerStateMachine.ChangeState(new IdleState(playerAnimator), enumDirection, currentLookDirection);
     }
 
