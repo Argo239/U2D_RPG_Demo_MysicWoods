@@ -137,11 +137,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 3937801296100075678}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53505836c9b71994abf499308e7d8ab0, type: 3}
+  m_Script: {fileID: 11500000, guid: 263326cce3922ac4781e6f3c8c3df2c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _playerAttributesData: {fileID: 11400000, guid: 89cf8d6c13c185043a6e4ececa287bc8,
+    type: 2}
   playerName: 
-  playerStatsData: {fileID: 11400000, guid: 89cf8d6c13c185043a6e4ececa287bc8, type: 2}
 --- !u!212 &5051717616273474836
 SpriteRenderer:
   m_ObjectHideFlags: 0

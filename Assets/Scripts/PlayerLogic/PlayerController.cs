@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour {
     [Header("Base attributes")]
     [SerializeField] private GameInput gameInput;
     [SerializeField] private PlayerAnimator playerAnimator;
+    [SerializeField] private PlayerStatus playerStatus;
     #endregion
 
     #region Player attribute
@@ -46,9 +47,13 @@ public class PlayerController : MonoBehaviour {
     private void Start() {
         gameInput.OnPlayerMoving += GameInput_OnPlayerMoving;
         gameInput.OnPlayerMoveCanceled += GameInput_OnPlayerMoveCanceled;
+        playerStatus.OnPlayerDeath += PlayerStatus_OnPlayerDeath;
+
 
         playerStateMachine.ChangeState(new IdleState(playerAnimator), enumDirection, currentLookDirection);
     }
+
+
 
     private void OnDestroy() {
         gameInput.OnPlayerMoving -= GameInput_OnPlayerMoving;
@@ -66,6 +71,7 @@ public class PlayerController : MonoBehaviour {
 
     private void GameInput_OnPlayerMoving(object sender, EventArgs e) => playerStateMachine.ChangeState(new MoveState(playerAnimator), enumDirection, currentLookDirection);
     private void GameInput_OnPlayerMoveCanceled(object sender, EventArgs e) => playerStateMachine.ChangeState(new IdleState(playerAnimator), enumDirection, currentLookDirection);
+    private void PlayerStatus_OnPlayerDeath(object sender, EventArgs e) => playerStateMachine.ChangeState(new DeadState(playerAnimator), enumDirection, currentLookDirection);
 
     private void Movement() {
         Vector2 inputVector = gameInput.GetMovementVectorNormalized();

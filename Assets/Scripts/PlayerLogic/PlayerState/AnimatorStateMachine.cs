@@ -10,7 +10,8 @@ namespace PlayerLogic {
 
         private readonly Dictionary<string, PlayerController.State> stateMapping = new Dictionary<string, PlayerController.State> {
             { "Idle", PlayerController.State.Idling },
-            { "Move", PlayerController.State.Moving }
+            { "Move", PlayerController.State.Moving },
+            { "Dead", PlayerController.State.Dead }
         };
 
         public void ChangeState(IPlayerState newState, MoveDirection moveDirection, Vector2 currentLookDirection) {

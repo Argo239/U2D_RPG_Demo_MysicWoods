@@ -2,10 +2,9 @@ using Assets.Scripts.Stats.PlayerStats;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using static Argo_Utils.Utils;
 
-public class PlayerStatBar : MonoBehaviour {
-    public static PlayerStatBar Instance { get; private set; }
+public class PlayerStatusBar : MonoBehaviour {
+    public static PlayerStatusBar Instance { get; private set; }
 
     [SerializeField] private Image _healthTopBar;
     [SerializeField] private Image _healthBottomBar;
@@ -16,7 +15,7 @@ public class PlayerStatBar : MonoBehaviour {
 
     private ProgressBar _healthBar;
     private ProgressBar _manaBar;
-    private PlayerStat _playerStat;
+    private PlayerAttributes _playerStat;
 
 
     private float _healthValue;
@@ -25,7 +24,7 @@ public class PlayerStatBar : MonoBehaviour {
     private float _manaMaxValue;
 
     private void Awake() {
-
+          
         if (Instance != null && Instance != this) {
             Destroy(Instance); 
             return;
@@ -40,7 +39,7 @@ public class PlayerStatBar : MonoBehaviour {
     }
 
     private void Start() {
-        _playerStat = PlayerStats.Instance.playerStat;
+        _playerStat = PlayerStatus.Instance.attributes;
         InitializeBars();
     }
 
@@ -63,11 +62,11 @@ public class PlayerStatBar : MonoBehaviour {
     }
 
     private void GetValue() {
-        _healthValue = _playerStat.HealthStat.currentHealth.CurrentValue;
-        _healthMaxValue = _playerStat.HealthStat.health.CurrentValue;
+        _healthValue = _playerStat.HealthStatus.currentHealth.CurrentValue;
+        _healthMaxValue = _playerStat.HealthStatus.health.CurrentValue;
 
-        _manaValue = _playerStat.ManaStat.currentMana.CurrentValue;
-        _manaMaxValue = _playerStat.ManaStat.mana.CurrentValue;
+        _manaValue = _playerStat.ManaStatus.currentMana.CurrentValue;
+        _manaMaxValue = _playerStat.ManaStatus.mana.CurrentValue;
     }
 
     private void UpdateUI() {

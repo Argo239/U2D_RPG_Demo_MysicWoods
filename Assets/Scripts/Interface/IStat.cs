@@ -7,6 +7,6 @@ using System.Threading.Tasks;
 
 namespace Assets.Scripts.Interface {
     public interface IStat {
-        float GetValue(StatType statType);
+        float GetValue(StatusType statType);
     }
 }

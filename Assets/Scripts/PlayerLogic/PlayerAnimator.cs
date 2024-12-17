@@ -10,10 +10,12 @@ public class PlayerAnimator : MonoBehaviour {
 
     #region Animator attribute
     private const string ISMOVING = "IsMoving";
+    private const string ISDEAD = "IsDead";
     private const string HORIZONTAL = "HorizontalMovement";
     private const string VERTICAL = "VerticalMovement";
 
     public static readonly int IsMoving = Animator.StringToHash(ISMOVING);
+    public static readonly int IsDead = Animator.StringToHash(ISDEAD);
     public static readonly int HorizontalMovement = Animator.StringToHash(HORIZONTAL);
     public static readonly int VerticalMovement = Animator.StringToHash(VERTICAL);
     #endregion

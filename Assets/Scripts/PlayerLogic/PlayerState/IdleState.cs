@@ -3,15 +3,14 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class IdleState : IPlayerState {
-    private PlayerAnimator playerAnimator;
-
+    private PlayerAnimator _playerAnimator;
 
     public IdleState(PlayerAnimator playerAnimator) {
-        this.playerAnimator = playerAnimator;
+        this._playerAnimator = playerAnimator;
     }
 
     public void Enter(MoveDirection Direction, Vector2 currentLookDirection) {
-        playerAnimator.TryToSetAnimation(PlayerAnimator.IsMoving, false, Direction, currentLookDirection);
+        _playerAnimator.TryToSetAnimation(PlayerAnimator.IsMoving, false, Direction, currentLookDirection);
     }
 
     public void Exit(MoveDirection Direction, Vector2 currentLookDirection) {
@@ -19,6 +18,6 @@ public class IdleState : IPlayerState {
     }
 
     public void Update(MoveDirection Direction, Vector2 currentLookDirection) {
-        playerAnimator.TryToSetAnimation(PlayerAnimator.IsMoving, false, Direction, currentLookDirection);
+        _playerAnimator.TryToSetAnimation(PlayerAnimator.IsMoving, false, Direction, currentLookDirection);
     }
 }
