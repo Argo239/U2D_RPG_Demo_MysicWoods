@@ -10,20 +10,20 @@
 //    {
 //        set
 //        {
-//            health = value;
+//            maxHealth = value;
 
-//            if (health <= 0)
+//            if (maxHealth <= 0)
 //            {
 //                Defeated();
 //            }
 //        }
 //        get
 //        {
-//            return health;
+//            return maxHealth;
 //        }
 //    }
 
-//    public float health = 1;
+//    public float maxHealth = 1;
 
 //    private void Start()
 //    {

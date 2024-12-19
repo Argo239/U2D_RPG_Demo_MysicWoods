@@ -1,4 +1,3 @@
-using Assets.Scripts.Stats.PlayerStats;
 using Assets.Scripts.Stats.StatsOperation;
 using System;
 using UnityEngine;
@@ -7,13 +6,12 @@ using static Argo_Utils.Utils;
 public class PlayerStatus : MonoBehaviour {
     public static PlayerStatus Instance { get; private set; }
 
-    [SerializeField] private PlayerAttributesData _playerAttributesData;
+    [SerializeField] private PlayerAttributesInitData _playerAttributesInitData;
 
     private StatusModifier _statusModifier;
     private StatusMediator _statusMediator;
     private IStatusModifierFactory _statusModifierFactory;
 
-    public string playerName;
     public PlayerAttributes attributes;
     public event EventHandler OnPlayerDeath;
 
@@ -26,23 +24,30 @@ public class PlayerStatus : MonoBehaviour {
 
         _statusMediator = new StatusMediator();
         _statusModifierFactory = new StatusModifierFactory();
-        attributes = new PlayerAttributes(_playerAttributesData, _statusMediator);
+        if (_playerAttributesInitData == null) {
+            LogMessage(PlayerController.Instance.consoleLogOn, $"Player data init error");
+            return;
+        }
+        attributes = new PlayerAttributes(_playerAttributesInitData, _statusMediator);
     }
 
     private void Start() {
-
+        GameInput.Instance.OnPlayerRevive += GameInput_OnPlayerRevive;
     }
 
     private void Update() {
         LogMessage(PlayerController.Instance.consoleLogOn,
-            $"The base value of the current health: {attributes.HealthStatus.currentHealth.BaseValue}," +
-            $"The current value of the current health: {attributes.HealthStatus.currentHealth.CurrentValue}," +
+            $"The base value of the current maxHealth: {attributes.HealthStatus.currentHealth.BaseValue}," +
+            $"The current value of the current maxHealth: {attributes.CurrentHealth}," +
             $"Cache: {_statusMediator.GetLastQueryResult(attributes.HealthStatus.currentHealth.StatusType)}");
         TestStats();
 
         _statusMediator.Update(Time.deltaTime);
+        attributes.Update();
         CheckPlayerIsDie();
     }
+
+    private void GameInput_OnPlayerRevive(object sender, EventArgs e) => attributes.HealthStatus.FullHeal();
 
     public void TestStats() {
         if (Input.GetKeyDown(KeyCode.U)) {
@@ -53,7 +58,7 @@ public class PlayerStatus : MonoBehaviour {
         }
         if (Input.GetKeyDown(KeyCode.I)) {
             _statusModifier = _statusModifierFactory.Create(
-                OperatorType.Add, attributes.HealthStatus.health.StatusType, 20f, 10f);
+                OperatorType.Add, attributes.HealthStatus.maxHealth.StatusType, 20f, 10f);
             _statusMediator.AddModifier(_statusModifier);
             LogMessage(PlayerController.Instance.consoleLogOn, $"Click I");
         }
@@ -85,7 +90,9 @@ public class PlayerStatus : MonoBehaviour {
 
     private void CheckPlayerIsDie() {
         float playerhealth = attributes.HealthStatus.currentHealth.CurrentValue;
-        if (playerhealth <= 0) OnPlayerDeath.Invoke(this, EventArgs.Empty); 
+        if (playerhealth <= 0) {
+            if(PlayerController.Instance.GetState() != PlayerController.State.Dead) OnPlayerDeath.Invoke(this, EventArgs.Empty);
+        }
 
     }
 }

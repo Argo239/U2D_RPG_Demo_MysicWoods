@@ -11,7 +11,6 @@ public class PlayerController : MonoBehaviour {
 
     [Header("Testing attributes")]
     [SerializeField] public bool consoleLogOn;
-    [SerializeField] private float speed = 5f;
     [SerializeField] private float smoothingFactor = 10f;
 
     [Header("Base attributes")]
@@ -28,7 +27,8 @@ public class PlayerController : MonoBehaviour {
     private AnimatorStateMachine playerStateMachine;
 
     private State currentState;
-    private Vector2 currentLookDirection;
+    private Vector2 mouseLookDirection;
+    private Vector2 moveDirection;
     private MoveDirection enumDirection;
     #endregion
 
@@ -47,13 +47,11 @@ public class PlayerController : MonoBehaviour {
     private void Start() {
         gameInput.OnPlayerMoving += GameInput_OnPlayerMoving;
         gameInput.OnPlayerMoveCanceled += GameInput_OnPlayerMoveCanceled;
+        gameInput.OnPlayerRevive += GameInput_OnPlayerRevive;
         playerStatus.OnPlayerDeath += PlayerStatus_OnPlayerDeath;
 
-
-        playerStateMachine.ChangeState(new IdleState(playerAnimator), enumDirection, currentLookDirection);
+        playerStateMachine.ChangeState(new IdleState(playerAnimator), enumDirection, moveDirection);
     }
-
-
 
     private void OnDestroy() {
         gameInput.OnPlayerMoving -= GameInput_OnPlayerMoving;
@@ -61,22 +59,28 @@ public class PlayerController : MonoBehaviour {
     }
 
     private void Update() {
-        Movement();
-        UpdateCurrentDirection();
-        PlayerLookDirection();
-        playerStateMachine.Update(enumDirection, currentLookDirection);
-
-        LogMessage(consoleLogOn, $"{currentState.ToString()}");
+        GetPlayerDirection();
+        playerStateMachine.Update(enumDirection, moveDirection);
     }
 
-    private void GameInput_OnPlayerMoving(object sender, EventArgs e) => playerStateMachine.ChangeState(new MoveState(playerAnimator), enumDirection, currentLookDirection);
-    private void GameInput_OnPlayerMoveCanceled(object sender, EventArgs e) => playerStateMachine.ChangeState(new IdleState(playerAnimator), enumDirection, currentLookDirection);
-    private void PlayerStatus_OnPlayerDeath(object sender, EventArgs e) => playerStateMachine.ChangeState(new DeadState(playerAnimator), enumDirection, currentLookDirection);
+    private void FixedUpdate() {
+        Movement();
+        PlayerLookDirection();
+
+        LogMessage(consoleLogOn, $"{PlayerCurrentPosition()}");
+    }
+
+    private void GameInput_OnPlayerMoving(object sender, EventArgs e) => playerStateMachine.ChangeState(new MoveState(playerAnimator), enumDirection, moveDirection);
+    private void GameInput_OnPlayerMoveCanceled(object sender, EventArgs e) => playerStateMachine.ChangeState(new IdleState(playerAnimator), enumDirection, moveDirection);
+    private void GameInput_OnPlayerRevive(object sender, EventArgs e) => playerStateMachine.ChangeState(new IdleState(playerAnimator), enumDirection, moveDirection);
+    private void PlayerStatus_OnPlayerDeath(object sender, EventArgs e) => playerStateMachine.ChangeState(new DeadState(playerAnimator), enumDirection, moveDirection);
 
     private void Movement() {
-        Vector2 inputVector = gameInput.GetMovementVectorNormalized();
-        Vector2 targetVelocity = new Vector2(inputVector.x, inputVector.y) * speed;
+        Vector2 targetVelocity = new Vector2(moveDirection.x, moveDirection.y) * playerStatus.attributes.Speed;
         rb.linearVelocity = Vector2.Lerp(rb.linearVelocity, targetVelocity, smoothingFactor * Time.deltaTime);
+
+        //Vector2 targetPosition = new Vector2(transform.position.x + moveDirection.x * playerStatus.attributes.Speed * Time.deltaTime, transform.position.y + moveDirection.y * playerStatus.attributes.Speed * Time.deltaTime);
+        //transform.position = Vector2.Lerp(transform.position, targetPosition, smoothingFactor * Time.deltaTime); // 使用 Lerp 来平滑过渡
     }
 
     private Vector2 PlayerLookDirection() {
@@ -85,8 +89,8 @@ public class PlayerController : MonoBehaviour {
         Vector2 playerPosition = PlayerCurrentPosition();
         Vector2 targetDirection = (worldMousePosition - playerPosition).normalized;
 
-        currentLookDirection = Vector2.Lerp(currentLookDirection, targetDirection, smoothingFactor * Time.deltaTime);
-        return currentLookDirection;
+        mouseLookDirection = Vector2.Lerp(mouseLookDirection, targetDirection, smoothingFactor * Time.deltaTime);
+        return mouseLookDirection;
     }
 
     /// <summary>
@@ -94,17 +98,21 @@ public class PlayerController : MonoBehaviour {
     /// </summary>
     /// <param name="moveDir"></param>
     /// <returns></returns>
-    public MoveDirection GetMoveDirection() {
-        if (currentLookDirection == Vector2.zero) return MoveDirection.Down;
-        return Mathf.Abs(currentLookDirection.x) > Mathf.Abs(currentLookDirection.y) ? currentLookDirection.x > 0 ? MoveDirection.Right : MoveDirection.Left :
-            currentLookDirection.y > 0 ? MoveDirection.Up : MoveDirection.Down;
+    public MoveDirection GetMoveDirection(Vector2 direction) {
+        if (direction == Vector2.zero) 
+            return enumDirection;
+        return Mathf.Abs(direction.x) > Mathf.Abs(direction.y) ? direction.x > 0 ? MoveDirection.Right : MoveDirection.Left :
+        direction.y > 0 ? MoveDirection.Up : MoveDirection.Down;
     }
-
-    public void UpdateCurrentDirection() { enumDirection = GetMoveDirection(); }
 
     public Vector2 PlayerCurrentPosition() { return transform.position; }
 
-    public State GetState() { return currentState; }  
+    public State GetState() { return currentState; }
+
+    public void GetPlayerDirection(){ 
+        moveDirection = gameInput.GetMovementVectorNormalized(); 
+        enumDirection = GetMoveDirection(moveDirection);
+    }
 
     public void SetCurrentState(State newState) { currentState = newState; }
 }

@@ -1,12 +1,12 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "PlayerAttributesData", menuName = "PlayerAttributesData/PlayerStatus")]
-public class PlayerAttributesData : ScriptableObject {
+[CreateAssetMenu(fileName = "PlayerAttributesInitData", menuName = "PlayerAttributesInitData/PlayerStatus")]
+public class PlayerAttributesInitData : ScriptableObject {
     public string PlayerName;
-    public float Health = 100;
     public float CurrentHealth = 100;
-    public float Mana = 100;
+    public float MaxHealth = 100;
     public float CurrentMana = 100;
+    public float MaxMana = 100;
     public float Attack = 5;
     public float DamageIncrease = 0f;
     public float Defense = 5;

@@ -25,9 +25,9 @@ AnimatorState:
   m_Motion: {fileID: 6583118170262681840}
   m_Tag: 
   m_SpeedParameter: 
-  m_MirrorParameter: 
+  m_MirrorParameter: IsMoving
   m_CycleOffsetParameter: 
-  m_TimeParameter: 
+  m_TimeParameter: HorizontalMovement
 --- !u!1101 &-4521850430252994191
 AnimatorStateTransition:
   m_ObjectHideFlags: 1

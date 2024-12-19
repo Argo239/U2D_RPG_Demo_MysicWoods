@@ -4,26 +4,26 @@ using UnityEngine;
 
 namespace Assets.Scripts.Stats.BaseStatus {
     public class ManaStatus {
-        public StatusValue mana { get; protected set; }
         public StatusValue currentMana { get; protected set; }
+        public StatusValue maxMana { get; protected set; }
         public IStatusValueFactory StatusValueFactory;
 
-        public ManaStatus(float mana, float currentMana, StatusMediator statusMediator) {
+        public ManaStatus(float currentMana, float maxMana, StatusMediator statusMediator) {
             StatusValueFactory = new StatusValueFactory(statusMediator);
-            this.mana = StatusValueFactory.Create(nameof(this.mana), mana);
             this.currentMana = StatusValueFactory.Create(nameof(this.currentMana), currentMana);
+            this.maxMana = StatusValueFactory.Create(nameof(this.maxMana), maxMana);
         }
 
         public void UseMana(float amount) {
-            currentMana.CurrentValue = Mathf.Clamp(currentMana.CurrentValue - amount, 0, mana.CurrentValue);
+            currentMana.CurrentValue = Mathf.Clamp(currentMana.CurrentValue - amount, 0, maxMana.CurrentValue);
         }
 
         public void ReplyMana(float amount) {
-            currentMana.CurrentValue = Mathf.Clamp(currentMana.CurrentValue + amount, 0, mana.CurrentValue);
+            currentMana.CurrentValue = Mathf.Clamp(currentMana.CurrentValue + amount, 0, maxMana.CurrentValue);
         }
 
         public void RestoreFullMana(float amount) {
-            currentMana.CurrentValue = mana.CurrentValue;
+            currentMana.CurrentValue = maxMana.CurrentValue;
         }
 
         public void UseAllMana() {

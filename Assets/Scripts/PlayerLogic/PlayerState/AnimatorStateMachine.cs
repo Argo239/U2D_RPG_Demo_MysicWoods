@@ -26,7 +26,6 @@ namespace PlayerLogic {
 
         public void Update(MoveDirection moveDirection, Vector2 currentLookDirection) {
             currentState?.Update(moveDirection, currentLookDirection);
-
             LogMessage(PlayerController.Instance.consoleLogOn, $"{currentState} is updating");
         }
     }

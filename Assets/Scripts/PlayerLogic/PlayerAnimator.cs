@@ -4,6 +4,7 @@ using Spine.Unity;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using static Argo_Utils.Utils;
 
 public class PlayerAnimator : MonoBehaviour {
     public static PlayerAnimator Instance { get; private set; }
@@ -33,7 +34,6 @@ public class PlayerAnimator : MonoBehaviour {
     [SerializeField] private SkeletonDataAsset sideSkeletonDataAsset;
     #endregion
 
-
     #region Attribute
     private Animator animator;
     private Skeleton skeleton;
@@ -53,6 +53,7 @@ public class PlayerAnimator : MonoBehaviour {
         Instance = this;
 
         animator = GetComponent<Animator>();
+        animator.updateMode = AnimatorUpdateMode.Fixed;
         skeletonMecanim = GetComponent<SkeletonMecanim>();
         skeletonMecanim.Initialize(true, true);
 

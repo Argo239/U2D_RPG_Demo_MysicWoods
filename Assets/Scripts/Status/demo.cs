@@ -67,11 +67,11 @@
 
 //    // 创建玩家属性
 //    PlayerStatus attributes = new PlayerStatus(20, 15, 100, 1, 0);
-//    Debug.Log($"Player Initial PlayerAttributesData: {attributes}");
+//    Debug.Log($"Player Initial PlayerAttributesInitData: {attributes}");
 
 //    // 创建敌人属性
 //    EnemyBaseStats goblinStats = new EnemyBaseStats(10, 8, 30, "Goblin");
-//    Debug.Log($"Goblin Initial PlayerAttributesData: {goblinStats}");
+//    Debug.Log($"Goblin Initial PlayerAttributesInitData: {goblinStats}");
 
 //    // 玩家获得临时攻击增益
 //    StatusModifier attackBuff = new StatusModifier(StatusType.AttackStatus, new AddOperation(10));
@@ -84,11 +84,11 @@
 
 //    // 敌人应用难度系数
 //    goblinStats.ApplyDifficultyMultiplier(1.2f);
-//    Debug.Log($"Goblin PlayerAttributesData with Difficulty Multiplier: {goblinStats}");
+//    Debug.Log($"Goblin PlayerAttributesInitData with Difficulty Multiplier: {goblinStats}");
 //}
 
 
-//using Assets.Scripts.PlayerAttributesData.StatsOperation;
+//using Assets.Scripts.PlayerAttributesInitData.StatsOperation;
 //using Mono.Cecil;
 //using System;
 //using System.Collections.Generic;
@@ -182,7 +182,7 @@
 
 
 
-//using Assets.Scripts.PlayerAttributesData.StatsOperation;
+//using Assets.Scripts.PlayerAttributesInitData.StatsOperation;
 //using System;
 //using System.Collections.Generic;
 

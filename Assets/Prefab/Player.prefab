@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 423304893701622863}
-  - component: {fileID: 4253909423056141492}
-  - component: {fileID: 1959264885284483021}
+  - component: {fileID: 7581921253019602144}
+  - component: {fileID: 6898992876871809421}
   - component: {fileID: 4159187924156034361}
   - component: {fileID: 7961121431694219214}
   - component: {fileID: 5051717616273474836}
@@ -38,8 +38,8 @@ Transform:
   - {fileID: 2711975830605608156}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &4253909423056141492
-BoxCollider2D:
+--- !u!60 &7581921253019602144
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -72,7 +72,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.11447024}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -82,9 +82,28 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.22, y: 0.2189405}
-  m_EdgeRadius: 0
---- !u!50 &1959264885284483021
+  m_Points:
+    m_Paths:
+    - - {x: 0.3262961, y: 0.52183723}
+      - {x: 0.31961364, y: 0.6111496}
+      - {x: 0.27458355, y: 0.6493634}
+      - {x: 0.110926926, y: 0.7409959}
+      - {x: -0.004194945, y: 0.7412918}
+      - {x: -0.10882211, y: 0.7422135}
+      - {x: -0.28608102, y: 0.646979}
+      - {x: -0.31534868, y: 0.5778634}
+      - {x: -0.32973045, y: 0.46157575}
+      - {x: -0.32585418, y: 0.36499888}
+      - {x: -0.30343843, y: 0.20515287}
+      - {x: -0.25139588, y: 0.07604916}
+      - {x: -0.116564944, y: 0.07629583}
+      - {x: -0.11445233, y: -0.009761341}
+      - {x: 0.11227769, y: -0.008337058}
+      - {x: 0.11467764, y: 0.0897753}
+      - {x: 0.28448224, y: 0.08667527}
+      - {x: 0.3227353, y: 0.3551895}
+  m_UseDelaunayMesh: 0
+--- !u!50 &6898992876871809421
 Rigidbody2D:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -96,7 +115,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 0.04816691
+  m_Mass: 0.4086982
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
@@ -124,10 +143,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   consoleLogOn: 1
-  speed: 5
   smoothingFactor: 10
   gameInput: {fileID: 0}
   playerAnimator: {fileID: 6987092111774357976}
+  playerStatus: {fileID: 7961121431694219214}
 --- !u!114 &7961121431694219214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,9 +159,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263326cce3922ac4781e6f3c8c3df2c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playerAttributesData: {fileID: 11400000, guid: 89cf8d6c13c185043a6e4ececa287bc8,
+  _playerAttributesInitData: {fileID: 11400000, guid: 1e95020a82408d54b83afa48e04dd107,
     type: 2}
-  playerName: 
 --- !u!212 &5051717616273474836
 SpriteRenderer:
   m_ObjectHideFlags: 0

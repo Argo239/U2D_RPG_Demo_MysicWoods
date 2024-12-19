@@ -9,6 +9,7 @@ public class GameInput : MonoBehaviour {
 
     public event EventHandler OnPlayerMoving;
     public event EventHandler OnPlayerMoveCanceled;
+    public event EventHandler OnPlayerRevive;
 
     #endregion
 
@@ -26,6 +27,7 @@ public class GameInput : MonoBehaviour {
 
         _playerInputActions.Player.Move.performed += Move_performed;
         _playerInputActions.Player.Move.canceled += Move_canceled;
+        _playerInputActions.Player.Revive.performed += Revive_performed;
 
         _playerInputActions.Player.Enable();
 
@@ -33,8 +35,21 @@ public class GameInput : MonoBehaviour {
         Screen.orientation = ScreenOrientation.LandscapeRight;
     }
 
+    private void Revive_performed(InputAction.CallbackContext obj) {
+        if(PlayerController.Instance.GetState() == PlayerController.State.Dead) {
+            OnPlayerRevive.Invoke(this, EventArgs.Empty);
+            _playerInputActions.Player.Enable();
+        }
+    }
+
     private void Start() {
         InitializeUISetUp();
+        PlayerStatus.Instance.OnPlayerDeath += Instance_OnPlayerDeath;
+    }
+
+    private void Instance_OnPlayerDeath(object sender, EventArgs e) {
+        _playerInputActions.Player.Disable();
+        _playerInputActions.Player.Revive.Enable();
     }
 
     private void OnDestroy() {
