@@ -6,7 +6,7 @@ using static Argo_Utils.Utils;
 public class PlayerStatus : MonoBehaviour {
     public static PlayerStatus Instance { get; private set; }
 
-    [SerializeField] private PlayerAttributesInitData _playerAttributesInitData;
+     [SerializeField] private PlayerAttributesInitData _playerAttributesInitData;
 
     private StatusModifier _statusModifier;
     private StatusMediator _statusMediator;
