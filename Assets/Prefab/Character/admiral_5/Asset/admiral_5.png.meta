@@ -1,0 +1,1664 @@
+fileFormatVersion: 2
+guid: fce22e22f09ad1d4fb86ee9286b07531
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4000145480621334230
+    second: admiral_5_0
+  - first:
+      213: 1055773941950409428
+    second: admiral_5_1
+  - first:
+      213: 5297170066572677816
+    second: admiral_5_2
+  - first:
+      213: 5996985531963926105
+    second: admiral_5_3
+  - first:
+      213: 402798163383612085
+    second: admiral_5_4
+  - first:
+      213: 6602166257312556043
+    second: admiral_5_5
+  - first:
+      213: 4852553714816763938
+    second: admiral_5_6
+  - first:
+      213: 1929921418204867198
+    second: admiral_5_7
+  - first:
+      213: 1686909425205766768
+    second: admiral_5_8
+  - first:
+      213: 3396531120768401365
+    second: admiral_5_9
+  - first:
+      213: -7287797254587230270
+    second: admiral_5_10
+  - first:
+      213: 6988213736662487522
+    second: admiral_5_11
+  - first:
+      213: -951052313120240965
+    second: admiral_5_12
+  - first:
+      213: 1223647733658037539
+    second: admiral_5_13
+  - first:
+      213: -307727597465480588
+    second: admiral_5_14
+  - first:
+      213: 2395181949179108736
+    second: admiral_5_15
+  - first:
+      213: -4553888985228618859
+    second: admiral_5_16
+  - first:
+      213: -4997038580718865979
+    second: admiral_5_17
+  - first:
+      213: -4997819083653992964
+    second: admiral_5_18
+  - first:
+      213: 5051355284667860339
+    second: admiral_5_19
+  - first:
+      213: -644516993814903741
+    second: admiral_5_20
+  - first:
+      213: 3042012697493903667
+    second: admiral_5_21
+  - first:
+      213: -8670269540003038509
+    second: admiral_5_22
+  - first:
+      213: 5611537098005612129
+    second: admiral_5_23
+  - first:
+      213: -3597982463096834014
+    second: admiral_5_24
+  - first:
+      213: -6461705221777846170
+    second: admiral_5_25
+  - first:
+      213: -8201867098790766867
+    second: admiral_5_26
+  - first:
+      213: 5591158342008823755
+    second: admiral_5_27
+  - first:
+      213: 1780765651645440963
+    second: admiral_5_28
+  - first:
+      213: -648073467019337246
+    second: admiral_5_29
+  - first:
+      213: -5103118613456547500
+    second: admiral_5_30
+  - first:
+      213: -5084139393772231531
+    second: admiral_5_31
+  - first:
+      213: 8300437240091706566
+    second: admiral_5_32
+  - first:
+      213: 6574913916160583375
+    second: admiral_5_33
+  - first:
+      213: 2364304263002204034
+    second: admiral_5_34
+  - first:
+      213: -4470650978667534147
+    second: admiral_5_35
+  - first:
+      213: -8697666354018334652
+    second: admiral_5_36
+  - first:
+      213: -2747728038618224669
+    second: admiral_5_37
+  - first:
+      213: -4395698517045774635
+    second: admiral_5_38
+  - first:
+      213: -5884094966459286274
+    second: admiral_5_39
+  - first:
+      213: -7539790366622021400
+    second: admiral_5_40
+  - first:
+      213: 7728933022104075153
+    second: admiral_5_41
+  - first:
+      213: 2332615076883931637
+    second: admiral_5_42
+  - first:
+      213: 5222890346908585773
+    second: admiral_5_43
+  - first:
+      213: -4173998765481444913
+    second: admiral_5_44
+  - first:
+      213: 5366682942698152542
+    second: admiral_5_45
+  - first:
+      213: 3343885990121430590
+    second: admiral_5_46
+  - first:
+      213: 7463192282743580558
+    second: admiral_5_47
+  - first:
+      213: 2592189945172959247
+    second: admiral_5_48
+  - first:
+      213: -5549856553023513870
+    second: admiral_5_49
+  - first:
+      213: -7651013820446440411
+    second: admiral_5_50
+  - first:
+      213: 7058461012984448155
+    second: admiral_5_51
+  - first:
+      213: -5799765803291741615
+    second: admiral_5_52
+  - first:
+      213: -7933010052508031124
+    second: admiral_5_53
+  - first:
+      213: 7488981327818656608
+    second: admiral_5_54
+  - first:
+      213: 1754187592296289858
+    second: admiral_5_55
+  - first:
+      213: -2479276540260223015
+    second: admiral_5_56
+  - first:
+      213: -8953805842310727135
+    second: admiral_5_57
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: admiral_5_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 111
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de9156fe1f538730800000000000000
+      internalID: 4000145480621334230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_1
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 112
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da61157eccd6ae00800000000000000
+      internalID: 1055773941950409428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 111
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b295e42c14538940800000000000000
+      internalID: 5297170066572677816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_3
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 111
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956edd36192993350800000000000000
+      internalID: 5996985531963926105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_4
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 111
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2f8a4abc6079500800000000000000
+      internalID: 402798163383612085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_5
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 109
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b046f233b3b9f9b50800000000000000
+      internalID: 6602166257312556043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_6
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 120
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228c729c4ebb75340800000000000000
+      internalID: 4852553714816763938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_7
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 108
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ae4800e4578ca10800000000000000
+      internalID: 1929921418204867198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_8
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 120
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ae5a14f2b196710800000000000000
+      internalID: 1686909425205766768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_9
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 119
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfb5f90f07e22f20800000000000000
+      internalID: 3396531120768401365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_10
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 119
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7d245620b8cda90800000000000000
+      internalID: -7287797254587230270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_11
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 119
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1d54c4e5f1bf060800000000000000
+      internalID: 6988213736662487522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_12
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 113
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba87a9c5fe2dc2f0800000000000000
+      internalID: -951052313120240965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_13
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 113
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d26ee61254bf010800000000000000
+      internalID: 1223647733658037539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_14
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 111
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4725c79616bbabbf0800000000000000
+      internalID: -307727597465480588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_15
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 111
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d9f35ea456d3120800000000000000
+      internalID: 2395181949179108736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_16
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 112
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59352e078165dc0c0800000000000000
+      internalID: -4553888985228618859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_17
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 112
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c17453e2e3f6aab0800000000000000
+      internalID: -4997038580718865979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_18
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 112
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfda223e50e24aab0800000000000000
+      internalID: -4997819083653992964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_19
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 114
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3758be04ed40a1640800000000000000
+      internalID: 5051355284667860339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_20
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 114
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344c5fb75373e07f0800000000000000
+      internalID: -644516993814903741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_21
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 113
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3391a5c5e66673a20800000000000000
+      internalID: 3042012697493903667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_22
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 113
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3daba395ac30da780800000000000000
+      internalID: -8670269540003038509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 97
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1660d8a624f20ed40800000000000000
+      internalID: 5611537098005612129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 97
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22837034306611ec0800000000000000
+      internalID: -3597982463096834014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_25
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 93
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66015ac16596356a0800000000000000
+      internalID: -6461705221777846170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_26
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 94
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6dc99345d1d2e80800000000000000
+      internalID: -8201867098790766867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_27
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 94
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcfd56a83e8c79d40800000000000000
+      internalID: 5591158342008823755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_28
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 92
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c32b8edcec86b810800000000000000
+      internalID: 1780765651645440963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_29
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 108
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1e4f98d949107f0800000000000000
+      internalID: -648073467019337246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_30
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 108
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4511d3698a41e29b0800000000000000
+      internalID: -5103118613456547500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_31
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 91
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594e2a588228179b0800000000000000
+      internalID: -5084139393772231531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_32
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 93
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c4071831b3113370800000000000000
+      internalID: 8300437240091706566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_33
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 93
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc626811f59ce3b50800000000000000
+      internalID: 6574913916160583375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_34
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 93
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28720395332bfc020800000000000000
+      internalID: 2364304263002204034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_35
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 102
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8e4c51f9e05f1c0800000000000000
+      internalID: -4470650978667534147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_36
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 102
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448ced1888eab4780800000000000000
+      internalID: -8697666354018334652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_37
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 70
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e7a7ce28eb1ed9d0800000000000000
+      internalID: -2747728038618224669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_38
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 70
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d676c7fc775ff2c0800000000000000
+      internalID: -4395698517045774635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_39
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 94
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efcb783adce775ea0800000000000000
+      internalID: -5884094966459286274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_40
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 93
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8059ceb984d5790800000000000000
+      internalID: -7539790366622021400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_41
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 74
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19bbc4b42afa24b60800000000000000
+      internalID: 7728933022104075153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_42
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 70
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1236fbd0d1f5020800000000000000
+      internalID: 2332615076883931637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_43
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 70
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f8d44391f6b7840800000000000000
+      internalID: 5222890346908585773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_44
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 70
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc93f82dc3af216c0800000000000000
+      internalID: -4173998765481444913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_45
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 74
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52eba5d3b94a7a40800000000000000
+      internalID: 5366682942698152542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_46
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 7
+        width: 18
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ed792679ed76e20800000000000000
+      internalID: 3343885990121430590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_47
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 74
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e872e57e6d5929760800000000000000
+      internalID: 7463192282743580558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_48
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 42
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00af58650f49f320800000000000000
+      internalID: 2592189945172959247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_49
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 7
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fad8a29ed2faf2b0800000000000000
+      internalID: -5549856553023513870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_50
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 7
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5248fa4977322d590800000000000000
+      internalID: -7651013820446440411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_51
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 7
+        width: 58
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94c1ebd4e0b4f160800000000000000
+      internalID: 7058461012984448155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_52
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 47
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152765afab7138fa0800000000000000
+      internalID: -5799765803291741615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_53
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 37
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67e7ac536948e190800000000000000
+      internalID: -7933010052508031124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_54
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 7
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b0a2ed6d43ee760800000000000000
+      internalID: 7488981327818656608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_55
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 27
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246d7343250285810800000000000000
+      internalID: 1754187592296289858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_56
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 17
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d774d55f17d79dd0800000000000000
+      internalID: -2479276540260223015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_57
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 7
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a70459601bdb380800000000000000
+      internalID: -8953805842310727135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      admiral_5_0: 4000145480621334230
+      admiral_5_1: 1055773941950409428
+      admiral_5_10: -7287797254587230270
+      admiral_5_11: 6988213736662487522
+      admiral_5_12: -951052313120240965
+      admiral_5_13: 1223647733658037539
+      admiral_5_14: -307727597465480588
+      admiral_5_15: 2395181949179108736
+      admiral_5_16: -4553888985228618859
+      admiral_5_17: -4997038580718865979
+      admiral_5_18: -4997819083653992964
+      admiral_5_19: 5051355284667860339
+      admiral_5_2: 5297170066572677816
+      admiral_5_20: -644516993814903741
+      admiral_5_21: 3042012697493903667
+      admiral_5_22: -8670269540003038509
+      admiral_5_23: 5611537098005612129
+      admiral_5_24: -3597982463096834014
+      admiral_5_25: -6461705221777846170
+      admiral_5_26: -8201867098790766867
+      admiral_5_27: 5591158342008823755
+      admiral_5_28: 1780765651645440963
+      admiral_5_29: -648073467019337246
+      admiral_5_3: 5996985531963926105
+      admiral_5_30: -5103118613456547500
+      admiral_5_31: -5084139393772231531
+      admiral_5_32: 8300437240091706566
+      admiral_5_33: 6574913916160583375
+      admiral_5_34: 2364304263002204034
+      admiral_5_35: -4470650978667534147
+      admiral_5_36: -8697666354018334652
+      admiral_5_37: -2747728038618224669
+      admiral_5_38: -4395698517045774635
+      admiral_5_39: -5884094966459286274
+      admiral_5_4: 402798163383612085
+      admiral_5_40: -7539790366622021400
+      admiral_5_41: 7728933022104075153
+      admiral_5_42: 2332615076883931637
+      admiral_5_43: 5222890346908585773
+      admiral_5_44: -4173998765481444913
+      admiral_5_45: 5366682942698152542
+      admiral_5_46: 3343885990121430590
+      admiral_5_47: 7463192282743580558
+      admiral_5_48: 2592189945172959247
+      admiral_5_49: -5549856553023513870
+      admiral_5_5: 6602166257312556043
+      admiral_5_50: -7651013820446440411
+      admiral_5_51: 7058461012984448155
+      admiral_5_52: -5799765803291741615
+      admiral_5_53: -7933010052508031124
+      admiral_5_54: 7488981327818656608
+      admiral_5_55: 1754187592296289858
+      admiral_5_56: -2479276540260223015
+      admiral_5_57: -8953805842310727135
+      admiral_5_6: 4852553714816763938
+      admiral_5_7: 1929921418204867198
+      admiral_5_8: 1686909425205766768
+      admiral_5_9: 3396531120768401365
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

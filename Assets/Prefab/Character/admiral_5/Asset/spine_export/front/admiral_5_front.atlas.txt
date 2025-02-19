@@ -1,0 +1,216 @@
+
+admiral_5_front.skel.png
+size: 110,141
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+[base]armL
+  rotate: true
+  xy: 88, 29
+  size: 5, 6
+  orig: 67, 68
+  offset: 26, 14
+  index: -1
+[base]armR
+  rotate: true
+  xy: 88, 29
+  size: 5, 6
+  orig: 67, 68
+  offset: 26, 14
+  index: -1
+[base]armL2
+  rotate: true
+  xy: 101, 75
+  size: 6, 7
+  orig: 67, 68
+  offset: 35, 14
+  index: -1
+[base]armR2
+  rotate: true
+  xy: 101, 75
+  size: 6, 7
+  orig: 67, 68
+  offset: 35, 14
+  index: -1
+[base]body
+  rotate: false
+  xy: 98, 53
+  size: 9, 12
+  orig: 67, 68
+  offset: 29, 10
+  index: -1
+[base]elbowL
+  rotate: false
+  xy: 101, 67
+  size: 6, 6
+  orig: 67, 68
+  offset: 22, 10
+  index: -1
+[base]elbowR
+  rotate: false
+  xy: 101, 67
+  size: 6, 6
+  orig: 67, 68
+  offset: 22, 10
+  index: -1
+[base]elbowL2
+  rotate: true
+  xy: 101, 83
+  size: 8, 7
+  orig: 67, 68
+  offset: 39, 9
+  index: -1
+[base]elbowR2
+  rotate: true
+  xy: 101, 83
+  size: 8, 7
+  orig: 67, 68
+  offset: 39, 9
+  index: -1
+[base]head
+  rotate: true
+  xy: 73, 114
+  size: 25, 32
+  orig: 67, 68
+  offset: 21, 12
+  index: -1
+[base]legL
+  rotate: false
+  xy: 64, 68
+  size: 4, 8
+  orig: 67, 68
+  offset: 29, 6
+  index: -1
+[base]legR
+  rotate: false
+  xy: 64, 68
+  size: 4, 8
+  orig: 67, 68
+  offset: 29, 6
+  index: -1
+cloak
+  rotate: false
+  xy: 30, 5
+  size: 25, 14
+  orig: 67, 68
+  offset: 21, 8
+  index: -1
+cloakL
+  rotate: false
+  xy: 73, 74
+  size: 26, 17
+  orig: 67, 68
+  offset: 41, 6
+  index: -1
+cloakR
+  rotate: false
+  xy: 2, 2
+  size: 26, 17
+  orig: 67, 68
+  offset: 0, 6
+  index: -1
+[base]attack
+  rotate: false
+  xy: 98, 41
+  size: 10, 10
+  orig: 67, 68
+  offset: 26, 19
+  index: -1
+[base]damaged
+  rotate: false
+  xy: 96, 19
+  size: 9, 9
+  orig: 67, 68
+  offset: 27, 20
+  index: -1
+[base]doyagao
+  rotate: false
+  xy: 64, 33
+  size: 10, 10
+  orig: 67, 68
+  offset: 26, 20
+  index: -1
+[base]idle
+  rotate: false
+  xy: 97, 30
+  size: 10, 9
+  orig: 67, 68
+  offset: 25, 20
+  index: -1
+[base]mad
+  rotate: false
+  xy: 76, 24
+  size: 10, 10
+  orig: 67, 68
+  offset: 26, 19
+  index: -1
+[base]smile
+  rotate: false
+  xy: 64, 21
+  size: 10, 10
+  orig: 67, 68
+  offset: 26, 20
+  index: -1
+[base]tired
+  rotate: false
+  xy: 80, 13
+  size: 9, 9
+  orig: 67, 68
+  offset: 26, 20
+  index: -1
+blood
+  rotate: false
+  xy: 79, 36
+  size: 16, 13
+  orig: 67, 68
+  offset: 25, 20
+  index: -1
+sleep_deep
+  rotate: false
+  xy: 70, 64
+  size: 8, 8
+  orig: 67, 68
+  offset: 27, 20
+  index: -1
+helm
+  rotate: false
+  xy: 73, 93
+  size: 31, 19
+  orig: 67, 68
+  offset: 18, 31
+  index: -1
+shoulderL
+  rotate: true
+  xy: 57, 3
+  size: 16, 21
+  orig: 67, 68
+  offset: 39, 13
+  index: -1
+shoulderR
+  rotate: false
+  xy: 80, 51
+  size: 16, 21
+  orig: 67, 68
+  offset: 12, 13
+  index: -1
+anchor
+  rotate: true
+  xy: 2, 21
+  size: 55, 60
+  orig: 67, 68
+  offset: 6, 4
+  index: -1
+chain_1
+  rotate: false
+  xy: 64, 45
+  size: 13, 17
+  orig: 67, 68
+  offset: 27, 51
+  index: -1
+bag
+  rotate: false
+  xy: 2, 78
+  size: 69, 61
+  orig: 72, 72
+  offset: 0, 8
+  index: -1

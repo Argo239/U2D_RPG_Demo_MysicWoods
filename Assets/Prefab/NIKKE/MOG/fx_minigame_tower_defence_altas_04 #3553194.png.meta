@@ -1,0 +1,4706 @@
+fileFormatVersion: 2
+guid: 5db24d7aa4b9c0641a609f6de3f1aa5b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2237533074197012709
+    second: fx_minigame_tower_defence_altas_04 #3553194_0
+  - first:
+      213: 1827024636883534572
+    second: fx_minigame_tower_defence_altas_04 #3553194_1
+  - first:
+      213: -4262218717184915874
+    second: fx_minigame_tower_defence_altas_04 #3553194_2
+  - first:
+      213: -2277656293931184473
+    second: fx_minigame_tower_defence_altas_04 #3553194_3
+  - first:
+      213: 3893137107520521909
+    second: fx_minigame_tower_defence_altas_04 #3553194_4
+  - first:
+      213: -732503752770544156
+    second: fx_minigame_tower_defence_altas_04 #3553194_5
+  - first:
+      213: -3966883346953558398
+    second: fx_minigame_tower_defence_altas_04 #3553194_6
+  - first:
+      213: -2769414062072938990
+    second: fx_minigame_tower_defence_altas_04 #3553194_7
+  - first:
+      213: -7540748047762261260
+    second: fx_minigame_tower_defence_altas_04 #3553194_8
+  - first:
+      213: 7493297462451290209
+    second: fx_minigame_tower_defence_altas_04 #3553194_9
+  - first:
+      213: -995613230386342373
+    second: fx_minigame_tower_defence_altas_04 #3553194_10
+  - first:
+      213: -5533379201708173063
+    second: fx_minigame_tower_defence_altas_04 #3553194_11
+  - first:
+      213: 7566717435405643406
+    second: fx_minigame_tower_defence_altas_04 #3553194_12
+  - first:
+      213: 8217037190519118491
+    second: fx_minigame_tower_defence_altas_04 #3553194_13
+  - first:
+      213: 1523606862020828828
+    second: fx_minigame_tower_defence_altas_04 #3553194_14
+  - first:
+      213: 808282024309377974
+    second: fx_minigame_tower_defence_altas_04 #3553194_15
+  - first:
+      213: 1014958091989559437
+    second: fx_minigame_tower_defence_altas_04 #3553194_16
+  - first:
+      213: -5688788258367795388
+    second: fx_minigame_tower_defence_altas_04 #3553194_17
+  - first:
+      213: 500516498918496137
+    second: fx_minigame_tower_defence_altas_04 #3553194_18
+  - first:
+      213: -8374239243556453396
+    second: fx_minigame_tower_defence_altas_04 #3553194_19
+  - first:
+      213: -1975424770623560452
+    second: fx_minigame_tower_defence_altas_04 #3553194_20
+  - first:
+      213: 5692126861828271521
+    second: fx_minigame_tower_defence_altas_04 #3553194_21
+  - first:
+      213: -4622559654698865115
+    second: fx_minigame_tower_defence_altas_04 #3553194_22
+  - first:
+      213: 6394560226449785356
+    second: fx_minigame_tower_defence_altas_04 #3553194_23
+  - first:
+      213: -2490413576454615040
+    second: fx_minigame_tower_defence_altas_04 #3553194_24
+  - first:
+      213: 8652293591254100036
+    second: fx_minigame_tower_defence_altas_04 #3553194_25
+  - first:
+      213: 8735719254546788096
+    second: fx_minigame_tower_defence_altas_04 #3553194_26
+  - first:
+      213: -4172772016776786157
+    second: fx_minigame_tower_defence_altas_04 #3553194_27
+  - first:
+      213: -2612788545046764535
+    second: fx_minigame_tower_defence_altas_04 #3553194_28
+  - first:
+      213: -2001971823815354611
+    second: fx_minigame_tower_defence_altas_04 #3553194_29
+  - first:
+      213: 8568259078820220669
+    second: fx_minigame_tower_defence_altas_04 #3553194_30
+  - first:
+      213: -7931961887010298478
+    second: fx_minigame_tower_defence_altas_04 #3553194_31
+  - first:
+      213: 5336829226413704964
+    second: fx_minigame_tower_defence_altas_04 #3553194_32
+  - first:
+      213: 4532807412503065219
+    second: fx_minigame_tower_defence_altas_04 #3553194_33
+  - first:
+      213: 467623755725996877
+    second: fx_minigame_tower_defence_altas_04 #3553194_34
+  - first:
+      213: -8922215456667041410
+    second: fx_minigame_tower_defence_altas_04 #3553194_35
+  - first:
+      213: 566675670723708807
+    second: fx_minigame_tower_defence_altas_04 #3553194_36
+  - first:
+      213: 2479075035544566886
+    second: fx_minigame_tower_defence_altas_04 #3553194_37
+  - first:
+      213: 1886187839276140216
+    second: fx_minigame_tower_defence_altas_04 #3553194_38
+  - first:
+      213: 5381043871602265873
+    second: fx_minigame_tower_defence_altas_04 #3553194_39
+  - first:
+      213: 5367928267417050798
+    second: fx_minigame_tower_defence_altas_04 #3553194_40
+  - first:
+      213: -3107358628791223587
+    second: fx_minigame_tower_defence_altas_04 #3553194_41
+  - first:
+      213: 3114214066359643171
+    second: fx_minigame_tower_defence_altas_04 #3553194_42
+  - first:
+      213: 5214422091137956538
+    second: fx_minigame_tower_defence_altas_04 #3553194_43
+  - first:
+      213: -4247809007774493036
+    second: fx_minigame_tower_defence_altas_04 #3553194_44
+  - first:
+      213: 3933309187203668454
+    second: fx_minigame_tower_defence_altas_04 #3553194_45
+  - first:
+      213: -7070784699300959044
+    second: fx_minigame_tower_defence_altas_04 #3553194_46
+  - first:
+      213: -3644994446205318109
+    second: fx_minigame_tower_defence_altas_04 #3553194_47
+  - first:
+      213: -4432053107088023858
+    second: fx_minigame_tower_defence_altas_04 #3553194_48
+  - first:
+      213: -2947748525274175309
+    second: fx_minigame_tower_defence_altas_04 #3553194_49
+  - first:
+      213: -1316741584982256151
+    second: fx_minigame_tower_defence_altas_04 #3553194_50
+  - first:
+      213: 8338920247700615951
+    second: fx_minigame_tower_defence_altas_04 #3553194_51
+  - first:
+      213: -4555218725697315411
+    second: fx_minigame_tower_defence_altas_04 #3553194_52
+  - first:
+      213: 578387609591242933
+    second: fx_minigame_tower_defence_altas_04 #3553194_53
+  - first:
+      213: 2702371732607374344
+    second: fx_minigame_tower_defence_altas_04 #3553194_54
+  - first:
+      213: -7744940012599980677
+    second: fx_minigame_tower_defence_altas_04 #3553194_55
+  - first:
+      213: 5885772689662108711
+    second: fx_minigame_tower_defence_altas_04 #3553194_56
+  - first:
+      213: 7201451928916808004
+    second: fx_minigame_tower_defence_altas_04 #3553194_57
+  - first:
+      213: -1930802720183829586
+    second: fx_minigame_tower_defence_altas_04 #3553194_58
+  - first:
+      213: -8503425250695846580
+    second: fx_minigame_tower_defence_altas_04 #3553194_59
+  - first:
+      213: -7421505010423320594
+    second: fx_minigame_tower_defence_altas_04 #3553194_60
+  - first:
+      213: 2600653456850898280
+    second: fx_minigame_tower_defence_altas_04 #3553194_61
+  - first:
+      213: 8903976932403568327
+    second: fx_minigame_tower_defence_altas_04 #3553194_62
+  - first:
+      213: 8339907997993758289
+    second: fx_minigame_tower_defence_altas_04 #3553194_63
+  - first:
+      213: -7916548645630543821
+    second: fx_minigame_tower_defence_altas_04 #3553194_64
+  - first:
+      213: -3356238531577754438
+    second: fx_minigame_tower_defence_altas_04 #3553194_65
+  - first:
+      213: 3086371119785332480
+    second: fx_minigame_tower_defence_altas_04 #3553194_66
+  - first:
+      213: -8575885337962195719
+    second: fx_minigame_tower_defence_altas_04 #3553194_67
+  - first:
+      213: 1783391216254698271
+    second: fx_minigame_tower_defence_altas_04 #3553194_68
+  - first:
+      213: -8692209053795944064
+    second: fx_minigame_tower_defence_altas_04 #3553194_69
+  - first:
+      213: 264669553806321444
+    second: fx_minigame_tower_defence_altas_04 #3553194_70
+  - first:
+      213: 7679725674810698523
+    second: fx_minigame_tower_defence_altas_04 #3553194_71
+  - first:
+      213: 7623966790792269122
+    second: fx_minigame_tower_defence_altas_04 #3553194_72
+  - first:
+      213: 8517314173140542913
+    second: fx_minigame_tower_defence_altas_04 #3553194_73
+  - first:
+      213: 4594212946192932337
+    second: fx_minigame_tower_defence_altas_04 #3553194_74
+  - first:
+      213: 6186383445219407447
+    second: fx_minigame_tower_defence_altas_04 #3553194_75
+  - first:
+      213: -1594746702137278156
+    second: fx_minigame_tower_defence_altas_04 #3553194_76
+  - first:
+      213: -2596083482226936826
+    second: fx_minigame_tower_defence_altas_04 #3553194_77
+  - first:
+      213: -3560393561345514902
+    second: fx_minigame_tower_defence_altas_04 #3553194_78
+  - first:
+      213: -7270722636843863388
+    second: fx_minigame_tower_defence_altas_04 #3553194_79
+  - first:
+      213: 909311297790597223
+    second: fx_minigame_tower_defence_altas_04 #3553194_80
+  - first:
+      213: -679179764523118346
+    second: fx_minigame_tower_defence_altas_04 #3553194_81
+  - first:
+      213: 6052409795329432028
+    second: fx_minigame_tower_defence_altas_04 #3553194_82
+  - first:
+      213: 7390456638785257523
+    second: fx_minigame_tower_defence_altas_04 #3553194_83
+  - first:
+      213: -5271179482042540584
+    second: fx_minigame_tower_defence_altas_04 #3553194_84
+  - first:
+      213: 8743200483717340155
+    second: fx_minigame_tower_defence_altas_04 #3553194_85
+  - first:
+      213: 8722943128660413696
+    second: fx_minigame_tower_defence_altas_04 #3553194_86
+  - first:
+      213: -4257974437133196322
+    second: fx_minigame_tower_defence_altas_04 #3553194_87
+  - first:
+      213: 7315420001621071002
+    second: fx_minigame_tower_defence_altas_04 #3553194_88
+  - first:
+      213: 999702501587496498
+    second: fx_minigame_tower_defence_altas_04 #3553194_89
+  - first:
+      213: -913062613314833531
+    second: fx_minigame_tower_defence_altas_04 #3553194_90
+  - first:
+      213: -7447081233868395793
+    second: fx_minigame_tower_defence_altas_04 #3553194_91
+  - first:
+      213: 1750785265291377575
+    second: fx_minigame_tower_defence_altas_04 #3553194_92
+  - first:
+      213: -7747101201765080377
+    second: fx_minigame_tower_defence_altas_04 #3553194_93
+  - first:
+      213: -7414003576122791457
+    second: fx_minigame_tower_defence_altas_04 #3553194_94
+  - first:
+      213: -7165293093364191689
+    second: fx_minigame_tower_defence_altas_04 #3553194_95
+  - first:
+      213: -5869762289441166080
+    second: fx_minigame_tower_defence_altas_04 #3553194_96
+  - first:
+      213: 2352281622691307046
+    second: fx_minigame_tower_defence_altas_04 #3553194_97
+  - first:
+      213: 7121264099144502473
+    second: fx_minigame_tower_defence_altas_04 #3553194_98
+  - first:
+      213: 362116499389819012
+    second: fx_minigame_tower_defence_altas_04 #3553194_99
+  - first:
+      213: 6822079470276947993
+    second: fx_minigame_tower_defence_altas_04 #3553194_100
+  - first:
+      213: 1833642748462314401
+    second: fx_minigame_tower_defence_altas_04 #3553194_101
+  - first:
+      213: -675730960705073731
+    second: fx_minigame_tower_defence_altas_04 #3553194_102
+  - first:
+      213: 3786898371189981399
+    second: fx_minigame_tower_defence_altas_04 #3553194_103
+  - first:
+      213: 705122560476865375
+    second: fx_minigame_tower_defence_altas_04 #3553194_104
+  - first:
+      213: -3535164572627316158
+    second: fx_minigame_tower_defence_altas_04 #3553194_105
+  - first:
+      213: -1448261760027832650
+    second: fx_minigame_tower_defence_altas_04 #3553194_106
+  - first:
+      213: 8173110879449589513
+    second: fx_minigame_tower_defence_altas_04 #3553194_107
+  - first:
+      213: 3294332886792828119
+    second: fx_minigame_tower_defence_altas_04 #3553194_108
+  - first:
+      213: 3797588880354904594
+    second: fx_minigame_tower_defence_altas_04 #3553194_109
+  - first:
+      213: 2144262685758233964
+    second: fx_minigame_tower_defence_altas_04 #3553194_110
+  - first:
+      213: 314258847667937628
+    second: fx_minigame_tower_defence_altas_04 #3553194_111
+  - first:
+      213: 890929498275779880
+    second: fx_minigame_tower_defence_altas_04 #3553194_112
+  - first:
+      213: -6576740250756284374
+    second: fx_minigame_tower_defence_altas_04 #3553194_113
+  - first:
+      213: -4115011727516404284
+    second: fx_minigame_tower_defence_altas_04 #3553194_114
+  - first:
+      213: -3790640090963469104
+    second: fx_minigame_tower_defence_altas_04 #3553194_115
+  - first:
+      213: -751372764552209476
+    second: fx_minigame_tower_defence_altas_04 #3553194_116
+  - first:
+      213: 1081245046482567659
+    second: fx_minigame_tower_defence_altas_04 #3553194_117
+  - first:
+      213: 503975619454167467
+    second: fx_minigame_tower_defence_altas_04 #3553194_118
+  - first:
+      213: 5442512544561926925
+    second: fx_minigame_tower_defence_altas_04 #3553194_119
+  - first:
+      213: -1250336903719391266
+    second: fx_minigame_tower_defence_altas_04 #3553194_120
+  - first:
+      213: -3442995143931941542
+    second: fx_minigame_tower_defence_altas_04 #3553194_121
+  - first:
+      213: 2464974005391280495
+    second: fx_minigame_tower_defence_altas_04 #3553194_122
+  - first:
+      213: 6138603429519279669
+    second: fx_minigame_tower_defence_altas_04 #3553194_123
+  - first:
+      213: -4865159967582211437
+    second: fx_minigame_tower_defence_altas_04 #3553194_124
+  - first:
+      213: -2947867788758824977
+    second: fx_minigame_tower_defence_altas_04 #3553194_125
+  - first:
+      213: 2355729321566928218
+    second: fx_minigame_tower_defence_altas_04 #3553194_126
+  - first:
+      213: -5980619415872606557
+    second: fx_minigame_tower_defence_altas_04 #3553194_127
+  - first:
+      213: -2352545804939549768
+    second: fx_minigame_tower_defence_altas_04 #3553194_128
+  - first:
+      213: -5600625879993165089
+    second: fx_minigame_tower_defence_altas_04 #3553194_129
+  - first:
+      213: 5406770819718981033
+    second: fx_minigame_tower_defence_altas_04 #3553194_130
+  - first:
+      213: 7329102683624498102
+    second: fx_minigame_tower_defence_altas_04 #3553194_131
+  - first:
+      213: 8963448243774374545
+    second: fx_minigame_tower_defence_altas_04 #3553194_132
+  - first:
+      213: 4068145955458798240
+    second: fx_minigame_tower_defence_altas_04 #3553194_133
+  - first:
+      213: -1362737016350109710
+    second: fx_minigame_tower_defence_altas_04 #3553194_134
+  - first:
+      213: 6671928107328348009
+    second: fx_minigame_tower_defence_altas_04 #3553194_135
+  - first:
+      213: -4156568785664340556
+    second: fx_minigame_tower_defence_altas_04 #3553194_136
+  - first:
+      213: 1817581405412094717
+    second: fx_minigame_tower_defence_altas_04 #3553194_137
+  - first:
+      213: -5305492472630513027
+    second: fx_minigame_tower_defence_altas_04 #3553194_138
+  - first:
+      213: -4240013714444896196
+    second: fx_minigame_tower_defence_altas_04 #3553194_139
+  - first:
+      213: -8204974287628010456
+    second: fx_minigame_tower_defence_altas_04 #3553194_140
+  - first:
+      213: 3093858577660299164
+    second: fx_minigame_tower_defence_altas_04 #3553194_141
+  - first:
+      213: 1764759697407815549
+    second: fx_minigame_tower_defence_altas_04 #3553194_142
+  - first:
+      213: 29941282862772484
+    second: fx_minigame_tower_defence_altas_04 #3553194_143
+  - first:
+      213: 8709407136569652631
+    second: fx_minigame_tower_defence_altas_04 #3553194_144
+  - first:
+      213: 5750557855675789340
+    second: fx_minigame_tower_defence_altas_04 #3553194_145
+  - first:
+      213: 4398579855404547315
+    second: fx_minigame_tower_defence_altas_04 #3553194_146
+  - first:
+      213: 2033576364287158669
+    second: fx_minigame_tower_defence_altas_04 #3553194_147
+  - first:
+      213: -4621707806669890051
+    second: fx_minigame_tower_defence_altas_04 #3553194_148
+  - first:
+      213: 8033498186861378636
+    second: fx_minigame_tower_defence_altas_04 #3553194_149
+  - first:
+      213: 7142987903280205803
+    second: fx_minigame_tower_defence_altas_04 #3553194_150
+  - first:
+      213: -5449433075807797121
+    second: fx_minigame_tower_defence_altas_04 #3553194_151
+  - first:
+      213: 3448527373520637111
+    second: fx_minigame_tower_defence_altas_04 #3553194_152
+  - first:
+      213: 3184331318158486438
+    second: fx_minigame_tower_defence_altas_04 #3553194_153
+  - first:
+      213: 1291522950827137381
+    second: fx_minigame_tower_defence_altas_04 #3553194_154
+  - first:
+      213: -2963641695385964640
+    second: fx_minigame_tower_defence_altas_04 #3553194_155
+  - first:
+      213: 2883822779352961434
+    second: fx_minigame_tower_defence_altas_04 #3553194_156
+  - first:
+      213: 7565970221202435703
+    second: fx_minigame_tower_defence_altas_04 #3553194_157
+  - first:
+      213: -8810146253639088474
+    second: fx_minigame_tower_defence_altas_04 #3553194_158
+  - first:
+      213: -2874768799301127085
+    second: fx_minigame_tower_defence_altas_04 #3553194_159
+  - first:
+      213: 8437757757435985111
+    second: fx_minigame_tower_defence_altas_04 #3553194_160
+  - first:
+      213: 869770630273775499
+    second: fx_minigame_tower_defence_altas_04 #3553194_161
+  - first:
+      213: 5190042771307915844
+    second: fx_minigame_tower_defence_altas_04 #3553194_162
+  - first:
+      213: 5835837591370208996
+    second: fx_minigame_tower_defence_altas_04 #3553194_163
+  - first:
+      213: -7855825549781216616
+    second: fx_minigame_tower_defence_altas_04 #3553194_164
+  - first:
+      213: -2099888040873674875
+    second: fx_minigame_tower_defence_altas_04 #3553194_165
+  - first:
+      213: -173559924256324359
+    second: fx_minigame_tower_defence_altas_04 #3553194_166
+  - first:
+      213: -8717736690546761726
+    second: fx_minigame_tower_defence_altas_04 #3553194_167
+  - first:
+      213: 1365329710051406832
+    second: fx_minigame_tower_defence_altas_04 #3553194_168
+  - first:
+      213: -128745872066895580
+    second: fx_minigame_tower_defence_altas_04 #3553194_169
+  - first:
+      213: 8876089287331425305
+    second: fx_minigame_tower_defence_altas_04 #3553194_170
+  - first:
+      213: -7998088064712708007
+    second: fx_minigame_tower_defence_altas_04 #3553194_171
+  - first:
+      213: -5131366142378990654
+    second: fx_minigame_tower_defence_altas_04 #3553194_172
+  - first:
+      213: -3618404172512697970
+    second: fx_minigame_tower_defence_altas_04 #3553194_173
+  - first:
+      213: -119700808596415231
+    second: fx_minigame_tower_defence_altas_04 #3553194_174
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_0
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 911
+        width: 116
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f9c43268fa2f0e0800000000000000
+      internalID: -2237533074197012709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 911
+        width: 134
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2845d2a35ea5910800000000000000
+      internalID: 1827024636883534572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_2
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 910
+        width: 119
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e560c2fa8ae89d4c0800000000000000
+      internalID: -4262218717184915874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_3
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 996
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae8ccf0ba32460e0800000000000000
+      internalID: -2277656293931184473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_4
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 995
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b607a39293370630800000000000000
+      internalID: 3893137107520521909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_5
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 899
+        width: 110
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed9873c7bf95d5f0800000000000000
+      internalID: -732503752770544156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_6
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 903
+        width: 106
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286ab670d9cc2f8c0800000000000000
+      internalID: -3966883346953558398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_7
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 899
+        width: 122
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ebb2265901199d0800000000000000
+      internalID: -2769414062072938990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_8
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 1001
+        width: 6
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4faf8686a91e95790800000000000000
+      internalID: -7540748047762261260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_9
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 985
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160ceb5475a8df760800000000000000
+      internalID: 7493297462451290209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_10
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 929
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16942dba0fde22f0800000000000000
+      internalID: -995613230386342373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_11
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 953
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f856a2eeec7533b0800000000000000
+      internalID: -5533379201708173063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_12
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 953
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8eab15da61620960800000000000000
+      internalID: 7566717435405643406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_13
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 953
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ad01ff9c7c80270800000000000000
+      internalID: 8217037190519118491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_14
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 941
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e591c5e50f42510800000000000000
+      internalID: 1523606862020828828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_15
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 948
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb4b49f738973b00800000000000000
+      internalID: 808282024309377974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_16
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 905
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8822f6d10bd51e00800000000000000
+      internalID: 1014958091989559437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_17
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 906
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f0391383d5d01b0800000000000000
+      internalID: -5688788258367795388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_18
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 905
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987524a9a1132f600800000000000000
+      internalID: 500516498918496137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_19
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 897
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce38eafc6c9b8cb80800000000000000
+      internalID: -8374239243556453396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 768
+        width: 114
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4a97a23a1e594e0800000000000000
+      internalID: -1975424770623560452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_21
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 773
+        width: 137
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1adabbff83f7efe40800000000000000
+      internalID: 5692126861828271521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_22
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 882
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e2f944c7e59dfb0800000000000000
+      internalID: -4622559654698865115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_23
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 893
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02816865aa0eb850800000000000000
+      internalID: 6394560226449785356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_24
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 773
+        width: 148
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000dc970c06407dd0800000000000000
+      internalID: -2490413576454615040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_25
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 768
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448e61fed2f131870800000000000000
+      internalID: 8652293591254100036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_26
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 882
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f2dc0d0628b3970800000000000000
+      internalID: 8735719254546788096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_27
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 779
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f445385f55716c0800000000000000
+      internalID: -4172772016776786157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_28
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 769
+        width: 116
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904274359a28dbbd0800000000000000
+      internalID: -2612788545046764535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_29
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 779
+        width: 109
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07152fab319734e0800000000000000
+      internalID: -2001971823815354611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_30
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 783
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe48905c3298e670800000000000000
+      internalID: 8568259078820220669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_31
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 881
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29560d860b20ce190800000000000000
+      internalID: -7931961887010298478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_32
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 845
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407cf4bd7e9301a40800000000000000
+      internalID: 5336829226413704964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_33
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 773
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382b0896354c7ee30800000000000000
+      internalID: 4532807412503065219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_34
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 773
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d43059804555d7600800000000000000
+      internalID: 467623755725996877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_35
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 779
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e718cd7605ced2480800000000000000
+      internalID: -8922215456667041410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_36
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 773
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 787c758258c3dd700800000000000000
+      internalID: 566675670723708807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_37
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 778
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c3c213c91776220800000000000000
+      internalID: 2479075035544566886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_38
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 767
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b647bba8d51d2a10800000000000000
+      internalID: 1886187839276140216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_39
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 780
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f45a724ee4daa40800000000000000
+      internalID: 5381043871602265873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_40
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 767
+        width: 38
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaedb279156be7a40800000000000000
+      internalID: 5367928267417050798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_41
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 747
+        width: 104
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda77256ac170e4d0800000000000000
+      internalID: -3107358628791223587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_42
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 767
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c24eb8139e73b20800000000000000
+      internalID: 3114214066359643171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_43
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 749
+        width: 35
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba3a33c3495d5840800000000000000
+      internalID: 5214422091137956538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_44
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 762
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49695e99630cc05c0800000000000000
+      internalID: -4247809007774493036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_45
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 529
+        width: 213
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e91e0fbddbe59630800000000000000
+      internalID: 3933309187203668454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_46
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 749
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc26e257c68fdd90800000000000000
+      internalID: -7070784699300959044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_47
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 743
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c09a9fcd06a6dc0800000000000000
+      internalID: -3644994446205318109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_48
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 653
+        width: 99
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece1a5e5e2f2e72c0800000000000000
+      internalID: -4432053107088023858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_49
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 695
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b8e9d7855e7717d0800000000000000
+      internalID: -2947748525274175309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_50
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 688
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5d52e318ef9bde0800000000000000
+      internalID: -1316741584982256151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_51
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 527
+        width: 212
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03f186a8cbc9b370800000000000000
+      internalID: 8338920247700615951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_52
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 659
+        width: 125
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad9a9c14bc98c0c0800000000000000
+      internalID: -4555218725697315411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_53
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 637
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b06c2c6778d60800800000000000000
+      internalID: 578387609591242933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_54
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 650
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8049e15e5c0c08520800000000000000
+      internalID: 2702371732607374344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_55
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 678
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7dc44ec712748490800000000000000
+      internalID: -7744940012599980677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_56
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 640
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724610cb3177ea150800000000000000
+      internalID: 5885772689662108711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_57
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 639
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441532adf52b0f360800000000000000
+      internalID: 7201451928916808004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_58
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 656
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eabb514e7296435e0800000000000000
+      internalID: -1930802720183829586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_59
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 619
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45ef2e99c3cdf980800000000000000
+      internalID: -8503425250695846580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_60
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 632
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eefafea8384810990800000000000000
+      internalID: -7421505010423320594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_61
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 628
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d4d774a80671420800000000000000
+      internalID: 2600653456850898280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_62
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 509
+        width: 68
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cedf2048d7419b70800000000000000
+      internalID: 8903976932403568327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_63
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 617
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e6bdf232e4db370800000000000000
+      internalID: 8339907997993758289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_64
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 515
+        width: 49
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338771253f4c22290800000000000000
+      internalID: -7916548645630543821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_65
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 603
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc44df66de3c61d0800000000000000
+      internalID: -3356238531577754438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_66
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 586
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f44df5e2ef4da20800000000000000
+      internalID: 3086371119785332480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_67
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 455
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4584cd8b55cf880800000000000000
+      internalID: -8575885337962195719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_68
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 491
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13c964ccd0efb810800000000000000
+      internalID: 1783391216254698271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_69
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 485
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089fe0b3be11f5780800000000000000
+      internalID: -8692209053795944064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_70
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 497
+        width: 56
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427ac719e8b4ca300800000000000000
+      internalID: 264669553806321444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_71
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 503
+        width: 39
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1be983ffcdd39a60800000000000000
+      internalID: 7679725674810698523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_72
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 503
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d4c881765cdc960800000000000000
+      internalID: 7623966790792269122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_73
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 503
+        width: 80
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c521722d14933670800000000000000
+      internalID: 8517314173140542913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_74
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 383
+        width: 164
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd9458555ce1cf30800000000000000
+      internalID: 4594212946192932337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_75
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 503
+        width: 32
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756f8a077f27ad550800000000000000
+      internalID: 6186383445219407447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_76
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 426
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431c160e2525ed9e0800000000000000
+      internalID: -1594746702137278156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_77
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 407
+        width: 91
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604ba9ad3dbd8fbd0800000000000000
+      internalID: -2596083482226936826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_78
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 473
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a62a9637be0f69ec0800000000000000
+      internalID: -3560393561345514902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_79
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 470
+        width: 57
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2b782a844391b90800000000000000
+      internalID: -7270722636843863388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_80
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 414
+        width: 72
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768de0fbec58e9c00800000000000000
+      internalID: 909311297790597223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_81
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 413
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f057f44a911396f0800000000000000
+      internalID: -679179764523118346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_82
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 387
+        width: 170
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd994bd44aa7ef350800000000000000
+      internalID: 6052409795329432028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_83
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 432
+        width: 62
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33009ba182d209660800000000000000
+      internalID: 7390456638785257523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_84
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 441
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ddd681603209d6b0800000000000000
+      internalID: -5271179482042540584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_85
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 447
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfbdef73486165970800000000000000
+      internalID: 8743200483717340155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_86
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 455
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d0db33f8e1e0970800000000000000
+      internalID: 8722943128660413696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_87
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 414
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed36bf32fc2a8e4c0800000000000000
+      internalID: -4257974437133196322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_88
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 388
+        width: 66
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9459639bb7958560800000000000000
+      internalID: 7315420001621071002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_89
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 426
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e2138e028afdd00800000000000000
+      internalID: 999702501587496498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_90
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 411
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583fdab04662453f0800000000000000
+      internalID: -913062613314833531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_91
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 390
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feaebc9f217a6a890800000000000000
+      internalID: -7447081233868395793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_92
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 407
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab3ea73ce90c4810800000000000000
+      internalID: 1750785265291377575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_93
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 392
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c26acdb084cc7490800000000000000
+      internalID: -7747101201765080377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_94
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 395
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9a9b1570b2c1990800000000000000
+      internalID: -7414003576122791457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_95
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 395
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ea77a15e3cf8c90800000000000000
+      internalID: -7165293093364191689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_96
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 393
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d20ed0c4a6a8ea0800000000000000
+      internalID: -5869762289441166080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_97
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 275
+        width: 89
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ed1344cabf4a020800000000000000
+      internalID: 2352281622691307046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_98
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 258
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc0045d7ffc3d260800000000000000
+      internalID: 7121264099144502473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_99
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 327
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4882071a90f760500800000000000000
+      internalID: 362116499389819012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_100
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 323
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910b75f1225ecae50800000000000000
+      internalID: 6822079470276947993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_101
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 327
+        width: 56
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a3311b5d58627910800000000000000
+      internalID: 1833642748462314401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_102
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 283
+        width: 57
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbdc07b75425f96f0800000000000000
+      internalID: -675730960705073731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_103
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 334
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0c8473104cd8430800000000000000
+      internalID: 3786898371189981399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_104
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 329
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53665c9b3919c900800000000000000
+      internalID: 705122560476865375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_105
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 323
+        width: 74
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242d0022d8290fec0800000000000000
+      internalID: -3535164572627316158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_106
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 276
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be42cb3a9db6ebe0800000000000000
+      internalID: -1448261760027832650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_107
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 298
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9072977ba09bc6170800000000000000
+      internalID: 8173110879449589513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_108
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 281
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d47c217e42d7bd20800000000000000
+      internalID: 3294332886792828119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_109
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 289
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a078857feb3b430800000000000000
+      internalID: 3797588880354904594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_110
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 304
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d9eb94d83f1cd10800000000000000
+      internalID: 2144262685758233964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_111
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 257
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5165c6c1c87c5400800000000000000
+      internalID: 314258847667937628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_112
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 255
+        width: 194
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82515a888a73d5c00800000000000000
+      internalID: 890929498275779880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_113
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 251
+        width: 254
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2088a54699bab4a0800000000000000
+      internalID: -6576740250756284374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_114
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 273
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c571d6d2aa84e6c0800000000000000
+      internalID: -4115011727516404284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_115
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 274
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc94c2cbe0f46bc0800000000000000
+      internalID: -3790640090963469104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_116
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 290
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb56fa93769295f0800000000000000
+      internalID: -751372764552209476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_117
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 281
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be18ebe14aa510f00800000000000000
+      internalID: 1081245046482567659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_118
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 282
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9e50dd72b7ef600800000000000000
+      internalID: 503975619454167467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_119
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 289
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d039838d250b78b40800000000000000
+      internalID: 5442512544561926925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_120
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 280
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf6e3ce539e5aee0800000000000000
+      internalID: -1250336903719391266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_121
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 278
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5daa8a88260830d0800000000000000
+      internalID: -3442995143931941542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_122
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 281
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f694be34cc8553220800000000000000
+      internalID: 2464974005391280495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_123
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 194
+        width: 123
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536cd71ab43b03550800000000000000
+      internalID: 6138603429519279669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_124
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 125
+        width: 128
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 392bfc449ca7b7cb0800000000000000
+      internalID: -4865159967582211437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_125
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 131
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe7c6365dd11717d0800000000000000
+      internalID: -2947867788758824977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_126
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 203
+        width: 118
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5df7f6365b31b020800000000000000
+      internalID: 2355729321566928218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_127
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 101
+        width: 128
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aeeb14f352900da0800000000000000
+      internalID: -5980619415872606557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_128
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 5
+        width: 246
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b32eb20e041a5fd0800000000000000
+      internalID: -2352545804939549768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_129
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 125
+        width: 61
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdad52f7f649642b0800000000000000
+      internalID: -5600625879993165089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_130
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 128
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a52c4b0a65b80b40800000000000000
+      internalID: 5406770819718981033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_131
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 71
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3eccb3f0436b560800000000000000
+      internalID: 7329102683624498102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_132
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 77
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19245c4ffa0946c70800000000000000
+      internalID: 8963448243774374545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_133
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 87
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a250994135f47830800000000000000
+      internalID: 4068145955458798240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_134
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 114
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff0d2a57e5961de0800000000000000
+      internalID: -1362737016350109710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_135
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 113
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f1044a343779c50800000000000000
+      internalID: 6671928107328348009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_136
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 100
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd000e36b6e056c0800000000000000
+      internalID: -4156568785664340556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_137
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 95
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df271f388a8593910800000000000000
+      internalID: 1817581405412094717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_138
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 113
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d727952b4ba1f56b0800000000000000
+      internalID: -5305492472630513027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_139
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 95
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c383ab3cdf17825c0800000000000000
+      internalID: -4240013714444896196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_140
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 117
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82cf7b27b53122e80800000000000000
+      internalID: -8204974287628010456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_141
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 90
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97ccb20cf79fea20800000000000000
+      internalID: 3093858577660299164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_142
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 89
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f2bed389fad7810800000000000000
+      internalID: 1764759697407815549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_143
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 71
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401b729207f5a6000800000000000000
+      internalID: 29941282862772484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_144
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 95
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7957c7375a70ed870800000000000000
+      internalID: 8709407136569652631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_145
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 101
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1033e7e6e51ecf40800000000000000
+      internalID: 5750557855675789340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_146
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 97
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fcb395e215ea0d30800000000000000
+      internalID: 4398579855404547315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_147
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8967f0dde6b83c10800000000000000
+      internalID: 2033576364287158669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_148
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 103
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd9ac79c356cdfb0800000000000000
+      internalID: -4621707806669890051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_149
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 96
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4cfd93a908bc7f60800000000000000
+      internalID: 8033498186861378636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_150
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 104
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befcde127adf02360800000000000000
+      internalID: 7142987903280205803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_151
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 103
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7046396d79bf54b0800000000000000
+      internalID: -5449433075807797121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_152
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 79
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc88e80061abdf20800000000000000
+      internalID: 3448527373520637111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_153
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 77
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6abecf96674013c20800000000000000
+      internalID: 3184331318158486438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_154
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 86
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569d05fe7496ce110800000000000000
+      internalID: 1291522950827137381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_155
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 89
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0afabf084970fd6d0800000000000000
+      internalID: -2963641695385964640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_156
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 89
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a915386e985650820800000000000000
+      internalID: 2883822779352961434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_157
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 86
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e64f774d9bff860800000000000000
+      internalID: 7565970221202435703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_158
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 92
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a68a9419a21cb580800000000000000
+      internalID: -8810146253639088474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_159
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 71
+        width: 44
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 354b74a1205ca18d0800000000000000
+      internalID: -2874768799301127085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_160
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 83
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dcb4c8a9ffe81570800000000000000
+      internalID: 8437757757435985111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_161
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 72
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87398da7cb021c00800000000000000
+      internalID: 869770630273775499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_162
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 71
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a64e8076cb60840800000000000000
+      internalID: 5190042771307915844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_163
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 71
+        width: 43
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e61e78ae5f0df050800000000000000
+      internalID: 5835837591370208996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_164
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 72
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8925adfc8408af290800000000000000
+      internalID: -7855825549781216616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_165
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58732a7d3f2bbd2e0800000000000000
+      internalID: -2099888040873674875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_166
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 10
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4457f1b24679df0800000000000000
+      internalID: -173559924256324359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_167
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 5
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20022922ba0640780800000000000000
+      internalID: -8717736690546761726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_168
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 0
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3b6e03320a2f210800000000000000
+      internalID: 1365329710051406832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_169
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 5
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421a72dbf4a963ef0800000000000000
+      internalID: -128745872066895580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_170
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 52
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c2a06ed243e2b70800000000000000
+      internalID: 8876089287331425305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_171
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 3
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950f184e745110190800000000000000
+      internalID: -7998088064712708007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_172
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 11
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3a80f3ea9b9c8b0800000000000000
+      internalID: -5131366142378990654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_173
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 0
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81e6938398d8cdc0800000000000000
+      internalID: -3618404172512697970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_tower_defence_altas_04 #3553194_174
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 15
+        width: 60
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d9840bfbcb65ef0800000000000000
+      internalID: -119700808596415231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fx_minigame_tower_defence_altas_04 #3553194_0: -2237533074197012709
+      fx_minigame_tower_defence_altas_04 #3553194_1: 1827024636883534572
+      fx_minigame_tower_defence_altas_04 #3553194_10: -995613230386342373
+      fx_minigame_tower_defence_altas_04 #3553194_100: 6822079470276947993
+      fx_minigame_tower_defence_altas_04 #3553194_101: 1833642748462314401
+      fx_minigame_tower_defence_altas_04 #3553194_102: -675730960705073731
+      fx_minigame_tower_defence_altas_04 #3553194_103: 3786898371189981399
+      fx_minigame_tower_defence_altas_04 #3553194_104: 705122560476865375
+      fx_minigame_tower_defence_altas_04 #3553194_105: -3535164572627316158
+      fx_minigame_tower_defence_altas_04 #3553194_106: -1448261760027832650
+      fx_minigame_tower_defence_altas_04 #3553194_107: 8173110879449589513
+      fx_minigame_tower_defence_altas_04 #3553194_108: 3294332886792828119
+      fx_minigame_tower_defence_altas_04 #3553194_109: 3797588880354904594
+      fx_minigame_tower_defence_altas_04 #3553194_11: -5533379201708173063
+      fx_minigame_tower_defence_altas_04 #3553194_110: 2144262685758233964
+      fx_minigame_tower_defence_altas_04 #3553194_111: 314258847667937628
+      fx_minigame_tower_defence_altas_04 #3553194_112: 890929498275779880
+      fx_minigame_tower_defence_altas_04 #3553194_113: -6576740250756284374
+      fx_minigame_tower_defence_altas_04 #3553194_114: -4115011727516404284
+      fx_minigame_tower_defence_altas_04 #3553194_115: -3790640090963469104
+      fx_minigame_tower_defence_altas_04 #3553194_116: -751372764552209476
+      fx_minigame_tower_defence_altas_04 #3553194_117: 1081245046482567659
+      fx_minigame_tower_defence_altas_04 #3553194_118: 503975619454167467
+      fx_minigame_tower_defence_altas_04 #3553194_119: 5442512544561926925
+      fx_minigame_tower_defence_altas_04 #3553194_12: 7566717435405643406
+      fx_minigame_tower_defence_altas_04 #3553194_120: -1250336903719391266
+      fx_minigame_tower_defence_altas_04 #3553194_121: -3442995143931941542
+      fx_minigame_tower_defence_altas_04 #3553194_122: 2464974005391280495
+      fx_minigame_tower_defence_altas_04 #3553194_123: 6138603429519279669
+      fx_minigame_tower_defence_altas_04 #3553194_124: -4865159967582211437
+      fx_minigame_tower_defence_altas_04 #3553194_125: -2947867788758824977
+      fx_minigame_tower_defence_altas_04 #3553194_126: 2355729321566928218
+      fx_minigame_tower_defence_altas_04 #3553194_127: -5980619415872606557
+      fx_minigame_tower_defence_altas_04 #3553194_128: -2352545804939549768
+      fx_minigame_tower_defence_altas_04 #3553194_129: -5600625879993165089
+      fx_minigame_tower_defence_altas_04 #3553194_13: 8217037190519118491
+      fx_minigame_tower_defence_altas_04 #3553194_130: 5406770819718981033
+      fx_minigame_tower_defence_altas_04 #3553194_131: 7329102683624498102
+      fx_minigame_tower_defence_altas_04 #3553194_132: 8963448243774374545
+      fx_minigame_tower_defence_altas_04 #3553194_133: 4068145955458798240
+      fx_minigame_tower_defence_altas_04 #3553194_134: -1362737016350109710
+      fx_minigame_tower_defence_altas_04 #3553194_135: 6671928107328348009
+      fx_minigame_tower_defence_altas_04 #3553194_136: -4156568785664340556
+      fx_minigame_tower_defence_altas_04 #3553194_137: 1817581405412094717
+      fx_minigame_tower_defence_altas_04 #3553194_138: -5305492472630513027
+      fx_minigame_tower_defence_altas_04 #3553194_139: -4240013714444896196
+      fx_minigame_tower_defence_altas_04 #3553194_14: 1523606862020828828
+      fx_minigame_tower_defence_altas_04 #3553194_140: -8204974287628010456
+      fx_minigame_tower_defence_altas_04 #3553194_141: 3093858577660299164
+      fx_minigame_tower_defence_altas_04 #3553194_142: 1764759697407815549
+      fx_minigame_tower_defence_altas_04 #3553194_143: 29941282862772484
+      fx_minigame_tower_defence_altas_04 #3553194_144: 8709407136569652631
+      fx_minigame_tower_defence_altas_04 #3553194_145: 5750557855675789340
+      fx_minigame_tower_defence_altas_04 #3553194_146: 4398579855404547315
+      fx_minigame_tower_defence_altas_04 #3553194_147: 2033576364287158669
+      fx_minigame_tower_defence_altas_04 #3553194_148: -4621707806669890051
+      fx_minigame_tower_defence_altas_04 #3553194_149: 8033498186861378636
+      fx_minigame_tower_defence_altas_04 #3553194_15: 808282024309377974
+      fx_minigame_tower_defence_altas_04 #3553194_150: 7142987903280205803
+      fx_minigame_tower_defence_altas_04 #3553194_151: -5449433075807797121
+      fx_minigame_tower_defence_altas_04 #3553194_152: 3448527373520637111
+      fx_minigame_tower_defence_altas_04 #3553194_153: 3184331318158486438
+      fx_minigame_tower_defence_altas_04 #3553194_154: 1291522950827137381
+      fx_minigame_tower_defence_altas_04 #3553194_155: -2963641695385964640
+      fx_minigame_tower_defence_altas_04 #3553194_156: 2883822779352961434
+      fx_minigame_tower_defence_altas_04 #3553194_157: 7565970221202435703
+      fx_minigame_tower_defence_altas_04 #3553194_158: -8810146253639088474
+      fx_minigame_tower_defence_altas_04 #3553194_159: -2874768799301127085
+      fx_minigame_tower_defence_altas_04 #3553194_16: 1014958091989559437
+      fx_minigame_tower_defence_altas_04 #3553194_160: 8437757757435985111
+      fx_minigame_tower_defence_altas_04 #3553194_161: 869770630273775499
+      fx_minigame_tower_defence_altas_04 #3553194_162: 5190042771307915844
+      fx_minigame_tower_defence_altas_04 #3553194_163: 5835837591370208996
+      fx_minigame_tower_defence_altas_04 #3553194_164: -7855825549781216616
+      fx_minigame_tower_defence_altas_04 #3553194_165: -2099888040873674875
+      fx_minigame_tower_defence_altas_04 #3553194_166: -173559924256324359
+      fx_minigame_tower_defence_altas_04 #3553194_167: -8717736690546761726
+      fx_minigame_tower_defence_altas_04 #3553194_168: 1365329710051406832
+      fx_minigame_tower_defence_altas_04 #3553194_169: -128745872066895580
+      fx_minigame_tower_defence_altas_04 #3553194_17: -5688788258367795388
+      fx_minigame_tower_defence_altas_04 #3553194_170: 8876089287331425305
+      fx_minigame_tower_defence_altas_04 #3553194_171: -7998088064712708007
+      fx_minigame_tower_defence_altas_04 #3553194_172: -5131366142378990654
+      fx_minigame_tower_defence_altas_04 #3553194_173: -3618404172512697970
+      fx_minigame_tower_defence_altas_04 #3553194_174: -119700808596415231
+      fx_minigame_tower_defence_altas_04 #3553194_18: 500516498918496137
+      fx_minigame_tower_defence_altas_04 #3553194_19: -8374239243556453396
+      fx_minigame_tower_defence_altas_04 #3553194_2: -4262218717184915874
+      fx_minigame_tower_defence_altas_04 #3553194_20: -1975424770623560452
+      fx_minigame_tower_defence_altas_04 #3553194_21: 5692126861828271521
+      fx_minigame_tower_defence_altas_04 #3553194_22: -4622559654698865115
+      fx_minigame_tower_defence_altas_04 #3553194_23: 6394560226449785356
+      fx_minigame_tower_defence_altas_04 #3553194_24: -2490413576454615040
+      fx_minigame_tower_defence_altas_04 #3553194_25: 8652293591254100036
+      fx_minigame_tower_defence_altas_04 #3553194_26: 8735719254546788096
+      fx_minigame_tower_defence_altas_04 #3553194_27: -4172772016776786157
+      fx_minigame_tower_defence_altas_04 #3553194_28: -2612788545046764535
+      fx_minigame_tower_defence_altas_04 #3553194_29: -2001971823815354611
+      fx_minigame_tower_defence_altas_04 #3553194_3: -2277656293931184473
+      fx_minigame_tower_defence_altas_04 #3553194_30: 8568259078820220669
+      fx_minigame_tower_defence_altas_04 #3553194_31: -7931961887010298478
+      fx_minigame_tower_defence_altas_04 #3553194_32: 5336829226413704964
+      fx_minigame_tower_defence_altas_04 #3553194_33: 4532807412503065219
+      fx_minigame_tower_defence_altas_04 #3553194_34: 467623755725996877
+      fx_minigame_tower_defence_altas_04 #3553194_35: -8922215456667041410
+      fx_minigame_tower_defence_altas_04 #3553194_36: 566675670723708807
+      fx_minigame_tower_defence_altas_04 #3553194_37: 2479075035544566886
+      fx_minigame_tower_defence_altas_04 #3553194_38: 1886187839276140216
+      fx_minigame_tower_defence_altas_04 #3553194_39: 5381043871602265873
+      fx_minigame_tower_defence_altas_04 #3553194_4: 3893137107520521909
+      fx_minigame_tower_defence_altas_04 #3553194_40: 5367928267417050798
+      fx_minigame_tower_defence_altas_04 #3553194_41: -3107358628791223587
+      fx_minigame_tower_defence_altas_04 #3553194_42: 3114214066359643171
+      fx_minigame_tower_defence_altas_04 #3553194_43: 5214422091137956538
+      fx_minigame_tower_defence_altas_04 #3553194_44: -4247809007774493036
+      fx_minigame_tower_defence_altas_04 #3553194_45: 3933309187203668454
+      fx_minigame_tower_defence_altas_04 #3553194_46: -7070784699300959044
+      fx_minigame_tower_defence_altas_04 #3553194_47: -3644994446205318109
+      fx_minigame_tower_defence_altas_04 #3553194_48: -4432053107088023858
+      fx_minigame_tower_defence_altas_04 #3553194_49: -2947748525274175309
+      fx_minigame_tower_defence_altas_04 #3553194_5: -732503752770544156
+      fx_minigame_tower_defence_altas_04 #3553194_50: -1316741584982256151
+      fx_minigame_tower_defence_altas_04 #3553194_51: 8338920247700615951
+      fx_minigame_tower_defence_altas_04 #3553194_52: -4555218725697315411
+      fx_minigame_tower_defence_altas_04 #3553194_53: 578387609591242933
+      fx_minigame_tower_defence_altas_04 #3553194_54: 2702371732607374344
+      fx_minigame_tower_defence_altas_04 #3553194_55: -7744940012599980677
+      fx_minigame_tower_defence_altas_04 #3553194_56: 5885772689662108711
+      fx_minigame_tower_defence_altas_04 #3553194_57: 7201451928916808004
+      fx_minigame_tower_defence_altas_04 #3553194_58: -1930802720183829586
+      fx_minigame_tower_defence_altas_04 #3553194_59: -8503425250695846580
+      fx_minigame_tower_defence_altas_04 #3553194_6: -3966883346953558398
+      fx_minigame_tower_defence_altas_04 #3553194_60: -7421505010423320594
+      fx_minigame_tower_defence_altas_04 #3553194_61: 2600653456850898280
+      fx_minigame_tower_defence_altas_04 #3553194_62: 8903976932403568327
+      fx_minigame_tower_defence_altas_04 #3553194_63: 8339907997993758289
+      fx_minigame_tower_defence_altas_04 #3553194_64: -7916548645630543821
+      fx_minigame_tower_defence_altas_04 #3553194_65: -3356238531577754438
+      fx_minigame_tower_defence_altas_04 #3553194_66: 3086371119785332480
+      fx_minigame_tower_defence_altas_04 #3553194_67: -8575885337962195719
+      fx_minigame_tower_defence_altas_04 #3553194_68: 1783391216254698271
+      fx_minigame_tower_defence_altas_04 #3553194_69: -8692209053795944064
+      fx_minigame_tower_defence_altas_04 #3553194_7: -2769414062072938990
+      fx_minigame_tower_defence_altas_04 #3553194_70: 264669553806321444
+      fx_minigame_tower_defence_altas_04 #3553194_71: 7679725674810698523
+      fx_minigame_tower_defence_altas_04 #3553194_72: 7623966790792269122
+      fx_minigame_tower_defence_altas_04 #3553194_73: 8517314173140542913
+      fx_minigame_tower_defence_altas_04 #3553194_74: 4594212946192932337
+      fx_minigame_tower_defence_altas_04 #3553194_75: 6186383445219407447
+      fx_minigame_tower_defence_altas_04 #3553194_76: -1594746702137278156
+      fx_minigame_tower_defence_altas_04 #3553194_77: -2596083482226936826
+      fx_minigame_tower_defence_altas_04 #3553194_78: -3560393561345514902
+      fx_minigame_tower_defence_altas_04 #3553194_79: -7270722636843863388
+      fx_minigame_tower_defence_altas_04 #3553194_8: -7540748047762261260
+      fx_minigame_tower_defence_altas_04 #3553194_80: 909311297790597223
+      fx_minigame_tower_defence_altas_04 #3553194_81: -679179764523118346
+      fx_minigame_tower_defence_altas_04 #3553194_82: 6052409795329432028
+      fx_minigame_tower_defence_altas_04 #3553194_83: 7390456638785257523
+      fx_minigame_tower_defence_altas_04 #3553194_84: -5271179482042540584
+      fx_minigame_tower_defence_altas_04 #3553194_85: 8743200483717340155
+      fx_minigame_tower_defence_altas_04 #3553194_86: 8722943128660413696
+      fx_minigame_tower_defence_altas_04 #3553194_87: -4257974437133196322
+      fx_minigame_tower_defence_altas_04 #3553194_88: 7315420001621071002
+      fx_minigame_tower_defence_altas_04 #3553194_89: 999702501587496498
+      fx_minigame_tower_defence_altas_04 #3553194_9: 7493297462451290209
+      fx_minigame_tower_defence_altas_04 #3553194_90: -913062613314833531
+      fx_minigame_tower_defence_altas_04 #3553194_91: -7447081233868395793
+      fx_minigame_tower_defence_altas_04 #3553194_92: 1750785265291377575
+      fx_minigame_tower_defence_altas_04 #3553194_93: -7747101201765080377
+      fx_minigame_tower_defence_altas_04 #3553194_94: -7414003576122791457
+      fx_minigame_tower_defence_altas_04 #3553194_95: -7165293093364191689
+      fx_minigame_tower_defence_altas_04 #3553194_96: -5869762289441166080
+      fx_minigame_tower_defence_altas_04 #3553194_97: 2352281622691307046
+      fx_minigame_tower_defence_altas_04 #3553194_98: 7121264099144502473
+      fx_minigame_tower_defence_altas_04 #3553194_99: 362116499389819012
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

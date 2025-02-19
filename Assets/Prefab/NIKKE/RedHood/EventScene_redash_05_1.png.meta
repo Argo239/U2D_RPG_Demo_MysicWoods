@@ -1,0 +1,2262 @@
+fileFormatVersion: 2
+guid: 37bd95129de449246afab3050b227304
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3291831706374800387
+    second: EventScene_redash_05_1_0
+  - first:
+      213: 3861605003675386871
+    second: EventScene_redash_05_1_1
+  - first:
+      213: 2700039440596730019
+    second: EventScene_redash_05_1_2
+  - first:
+      213: 6717278623346014346
+    second: EventScene_redash_05_1_3
+  - first:
+      213: 8285032360898828755
+    second: EventScene_redash_05_1_4
+  - first:
+      213: -5572820007049978243
+    second: EventScene_redash_05_1_5
+  - first:
+      213: 8243637160886659014
+    second: EventScene_redash_05_1_6
+  - first:
+      213: -9023220934265323333
+    second: EventScene_redash_05_1_7
+  - first:
+      213: -1469778272420096673
+    second: EventScene_redash_05_1_8
+  - first:
+      213: -8990710575989606766
+    second: EventScene_redash_05_1_9
+  - first:
+      213: 2512680763795673050
+    second: EventScene_redash_05_1_10
+  - first:
+      213: 3413452550925386254
+    second: EventScene_redash_05_1_11
+  - first:
+      213: -8521108113679683188
+    second: EventScene_redash_05_1_12
+  - first:
+      213: -4741834622464512616
+    second: EventScene_redash_05_1_13
+  - first:
+      213: 8656946515362069424
+    second: EventScene_redash_05_1_14
+  - first:
+      213: -3347847584582599237
+    second: EventScene_redash_05_1_15
+  - first:
+      213: -2092396367071411920
+    second: EventScene_redash_05_1_16
+  - first:
+      213: 4214427206131306690
+    second: EventScene_redash_05_1_17
+  - first:
+      213: 2610149157158686121
+    second: EventScene_redash_05_1_18
+  - first:
+      213: -6240401349156955217
+    second: EventScene_redash_05_1_19
+  - first:
+      213: -5035690542246396637
+    second: EventScene_redash_05_1_20
+  - first:
+      213: 9103809886445136616
+    second: EventScene_redash_05_1_21
+  - first:
+      213: 8904179891393196119
+    second: EventScene_redash_05_1_22
+  - first:
+      213: 8356373044464800983
+    second: EventScene_redash_05_1_23
+  - first:
+      213: 678227046774622494
+    second: EventScene_redash_05_1_24
+  - first:
+      213: 3714686759626454587
+    second: EventScene_redash_05_1_25
+  - first:
+      213: 6117162330044008437
+    second: EventScene_redash_05_1_26
+  - first:
+      213: 6837835125995545756
+    second: EventScene_redash_05_1_27
+  - first:
+      213: 7623922359009819893
+    second: EventScene_redash_05_1_28
+  - first:
+      213: -9121694162586563317
+    second: EventScene_redash_05_1_29
+  - first:
+      213: -394422572984681593
+    second: EventScene_redash_05_1_30
+  - first:
+      213: -7349163651228498585
+    second: EventScene_redash_05_1_31
+  - first:
+      213: 7863135279847150325
+    second: EventScene_redash_05_1_32
+  - first:
+      213: 6846234660549334715
+    second: EventScene_redash_05_1_33
+  - first:
+      213: -8704108370273712811
+    second: EventScene_redash_05_1_34
+  - first:
+      213: -6709034592357265522
+    second: EventScene_redash_05_1_35
+  - first:
+      213: -559276976200401834
+    second: EventScene_redash_05_1_36
+  - first:
+      213: 519653739654060656
+    second: EventScene_redash_05_1_37
+  - first:
+      213: 2201831742792255067
+    second: EventScene_redash_05_1_38
+  - first:
+      213: 5406110050555512558
+    second: EventScene_redash_05_1_39
+  - first:
+      213: 3331723192879818937
+    second: EventScene_redash_05_1_40
+  - first:
+      213: 1796179086633619184
+    second: EventScene_redash_05_1_41
+  - first:
+      213: 1311030234140387757
+    second: EventScene_redash_05_1_42
+  - first:
+      213: 6201809869661621127
+    second: EventScene_redash_05_1_43
+  - first:
+      213: -1135553875333956194
+    second: EventScene_redash_05_1_44
+  - first:
+      213: -5677102013745936043
+    second: EventScene_redash_05_1_45
+  - first:
+      213: 6815397877416402647
+    second: EventScene_redash_05_1_46
+  - first:
+      213: 876313466302357502
+    second: EventScene_redash_05_1_47
+  - first:
+      213: 5539822550618358363
+    second: EventScene_redash_05_1_48
+  - first:
+      213: 6539380958167002632
+    second: EventScene_redash_05_1_49
+  - first:
+      213: -6842723722589794167
+    second: EventScene_redash_05_1_50
+  - first:
+      213: -6190813701147221372
+    second: EventScene_redash_05_1_51
+  - first:
+      213: 8085383448557839608
+    second: EventScene_redash_05_1_52
+  - first:
+      213: 6552238130389755399
+    second: EventScene_redash_05_1_53
+  - first:
+      213: 5467424685933928115
+    second: EventScene_redash_05_1_54
+  - first:
+      213: 4420719675901124575
+    second: EventScene_redash_05_1_55
+  - first:
+      213: 5165516090220611049
+    second: EventScene_redash_05_1_56
+  - first:
+      213: 8582259657442381111
+    second: EventScene_redash_05_1_57
+  - first:
+      213: -8030880103595529764
+    second: EventScene_redash_05_1_58
+  - first:
+      213: -4743573071334590725
+    second: EventScene_redash_05_1_59
+  - first:
+      213: 822388606254094877
+    second: EventScene_redash_05_1_60
+  - first:
+      213: 3498103980220096944
+    second: EventScene_redash_05_1_61
+  - first:
+      213: 7075866832774040236
+    second: EventScene_redash_05_1_62
+  - first:
+      213: 707128184225050663
+    second: EventScene_redash_05_1_63
+  - first:
+      213: -638443329513106478
+    second: EventScene_redash_05_1_64
+  - first:
+      213: 5088612649778514296
+    second: EventScene_redash_05_1_65
+  - first:
+      213: -7848092510458860603
+    second: EventScene_redash_05_1_66
+  - first:
+      213: 5296968946653821071
+    second: EventScene_redash_05_1_67
+  - first:
+      213: -1251438157911453361
+    second: EventScene_redash_05_1_68
+  - first:
+      213: 415282234749972237
+    second: EventScene_redash_05_1_69
+  - first:
+      213: -6237199197164169268
+    second: EventScene_redash_05_1_70
+  - first:
+      213: -2423436683984999140
+    second: EventScene_redash_05_1_71
+  - first:
+      213: -1860703480507815390
+    second: EventScene_redash_05_1_72
+  - first:
+      213: -3968533427871226198
+    second: EventScene_redash_05_1_73
+  - first:
+      213: -5706787075640126425
+    second: EventScene_redash_05_1_74
+  - first:
+      213: 3005947528591056203
+    second: EventScene_redash_05_1_75
+  - first:
+      213: -2612555910773493720
+    second: EventScene_redash_05_1_76
+  - first:
+      213: 7120351048154950041
+    second: EventScene_redash_05_1_77
+  - first:
+      213: -4499100513218163451
+    second: EventScene_redash_05_1_78
+  - first:
+      213: -6508190008553125284
+    second: EventScene_redash_05_1_79
+  - first:
+      213: -7723944442435919404
+    second: EventScene_redash_05_1_80
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 838
+        width: 189
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30486defe7feead20800000000000000
+      internalID: 3291831706374800387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 986
+        width: 68
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f341fa8a4d279530800000000000000
+      internalID: 3861605003675386871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 821
+        width: 109
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a00058d097787520800000000000000
+      internalID: 2700039440596730019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_3
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 941
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a883dd97151983d50800000000000000
+      internalID: 6717278623346014346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_4
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 818
+        width: 109
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d99df749095af270800000000000000
+      internalID: 8285032360898828755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_5
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 959
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e989acabd59a2b0800000000000000
+      internalID: -5572820007049978243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_6
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 861
+        width: 165
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7ebd73258476270800000000000000
+      internalID: 8243637160886659014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_7
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 912
+        width: 104
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb04f3b0e5417c280800000000000000
+      internalID: -9023220934265323333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_8
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 945
+        width: 34
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5510ddc27c4a9be0800000000000000
+      internalID: -1469778272420096673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_9
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 924
+        width: 32
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 296bacfad549a3380800000000000000
+      internalID: -8990710575989606766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_10
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 974
+        width: 75
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf8ff787d5ded220800000000000000
+      internalID: 2512680763795673050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_11
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 893
+        width: 125
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e020f8382050f5f20800000000000000
+      internalID: 3413452550925386254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_12
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 914
+        width: 94
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c817c6f3151feb980800000000000000
+      internalID: -8521108113679683188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_13
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 760
+        width: 149
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89daa50c88e913eb0800000000000000
+      internalID: -4741834622464512616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_14
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 854
+        width: 79
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb36bf3df6a32870800000000000000
+      internalID: 8656946515362069424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 531
+        width: 463
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbdfdc60c5e0a81d0800000000000000
+      internalID: -3347847584582599237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 878
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0310463179056f2e0800000000000000
+      internalID: -2092396367071411920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_17
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 720
+        width: 289
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0d2390737ac7a30800000000000000
+      internalID: 4214427206131306690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 564
+        width: 326
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad8a3b44dc193420800000000000000
+      internalID: 2610149157158686121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_19
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 906
+        width: 71
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab91a73904a569a0800000000000000
+      internalID: -6240401349156955217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_20
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 699
+        width: 136
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32dfb9ec122ad1ab0800000000000000
+      internalID: -5035690542246396637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_21
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 667
+        width: 106
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea60409bda375e70800000000000000
+      internalID: 9103809886445136616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_22
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 517
+        width: 222
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750faa25f60029b70800000000000000
+      internalID: 8904179891393196119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_23
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 576
+        width: 70
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d459fd820dc7f370800000000000000
+      internalID: 8356373044464800983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_24
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 634
+        width: 61
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e194018d7eb896900800000000000000
+      internalID: 678227046774622494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_25
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 748
+        width: 44
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36b1673de73d8330800000000000000
+      internalID: 3714686759626454587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_26
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 724
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f78ca3aab684e450800000000000000
+      internalID: 6117162330044008437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_27
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 699
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9427a591ded4ee50800000000000000
+      internalID: 6837835125995545756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_28
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 690
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc30f30efc9dc960800000000000000
+      internalID: 7623922359009819893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_29
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 507
+        width: 131
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d0649ec7b396180800000000000000
+      internalID: -9121694162586563317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_30
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 632
+        width: 73
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b3ad572cab68af0800000000000000
+      internalID: -394422572984681593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_31
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 620
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7650054c896820a90800000000000000
+      internalID: -7349163651228498585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 520
+        width: 45
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2912850e77f1d60800000000000000
+      internalID: 7863135279847150325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_33
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 433
+        width: 40
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb6920f9626b20f50800000000000000
+      internalID: 6846234660549334715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_34
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 511
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555c457bd8bc43780800000000000000
+      internalID: -8704108370273712811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_35
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 378
+        width: 439
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8fccb09598b4e2a0800000000000000
+      internalID: -6709034592357265522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_36
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 474
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c3586ad8c0d38f0800000000000000
+      internalID: -559276976200401834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_37
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 308
+        width: 129
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a984ea25e263700800000000000000
+      internalID: 519653739654060656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_38
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 487
+        width: 68
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56cf44ed4a7e8e10800000000000000
+      internalID: 2201831742792255067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_39
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 497
+        width: 79
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6c70cb27c560b40800000000000000
+      internalID: 5406110050555512558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_40
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 403
+        width: 76
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b828897798ac3e20800000000000000
+      internalID: 3331723192879818937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_41
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 506
+        width: 52
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe48cbdc5f4de810800000000000000
+      internalID: 1796179086633619184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_42
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 439
+        width: 71
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da92cb34d07b13210800000000000000
+      internalID: 1311030234140387757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_43
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 495
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b41b5c731411650800000000000000
+      internalID: 6201809869661621127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_44
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 505
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9db66d44c3bd30f0800000000000000
+      internalID: -1135553875333956194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_45
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 114
+        width: 206
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559c40d0cc1e631b0800000000000000
+      internalID: -5677102013745936043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_46
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 131
+        width: 201
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de1b5e8248259e50800000000000000
+      internalID: 6815397877416402647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_47
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 479
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: effd7d6647a492c00800000000000000
+      internalID: 876313466302357502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_48
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 408
+        width: 76
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b524e40324761ec40800000000000000
+      internalID: 5539822550618358363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_49
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 382
+        width: 45
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e6f76955c80ca50800000000000000
+      internalID: 6539380958167002632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 289
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98095e25703c901a0800000000000000
+      internalID: -6842723722589794167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_51
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 433
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482af783dbfc51aa0800000000000000
+      internalID: -6190813701147221372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_52
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 391
+        width: 49
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f4ec14886d053070800000000000000
+      internalID: 8085383448557839608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_53
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 0
+        width: 282
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 706a6a54dd93eea50800000000000000
+      internalID: 6552238130389755399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_54
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 302
+        width: 62
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be1b41c8c130eb40800000000000000
+      internalID: 5467424685933928115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_55
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 252
+        width: 97
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf9aad8f1d895d30800000000000000
+      internalID: 4420719675901124575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_56
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 371
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e50a2714899fa740800000000000000
+      internalID: 5165516090220611049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_57
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 297
+        width: 77
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73dc40c00bf4a1770800000000000000
+      internalID: 8582259657442381111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_58
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 50
+        width: 145
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9af6f58159c8090800000000000000
+      internalID: -8030880103595529764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_59
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 277
+        width: 49
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf63ef49c617b2eb0800000000000000
+      internalID: -4743573071334590725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_60
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 217
+        width: 38
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a9a178416b96b00800000000000000
+      internalID: 822388606254094877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_61
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 278
+        width: 24
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b126684903cb8030800000000000000
+      internalID: 3498103980220096944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_62
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 107
+        width: 71
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa07751567823260800000000000000
+      internalID: 7075866832774040236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_63
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 111
+        width: 92
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 720b667465930d900800000000000000
+      internalID: 707128184225050663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_64
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 76
+        width: 102
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d35727ac2bc327f0800000000000000
+      internalID: -638443329513106478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_65
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 217
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8798b9d8e326e9640800000000000000
+      internalID: 5088612649778514296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_66
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 113
+        width: 56
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb22b55179f51390800000000000000
+      internalID: -7848092510458860603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_67
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 0
+        width: 115
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f887393413d928940800000000000000
+      internalID: 5296968946653821071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_68
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 0
+        width: 229
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41915330aff1aee0800000000000000
+      internalID: -1251438157911453361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_69
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 98
+        width: 76
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0f6dc30ef063c500800000000000000
+      internalID: 415282234749972237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_70
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 99
+        width: 78
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc79da350640179a0800000000000000
+      internalID: -6237199197164169268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_71
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 98
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d6c630d293e5ed0800000000000000
+      internalID: -2423436683984999140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_72
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 83
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22aaffbfa047d26e0800000000000000
+      internalID: -1860703480507815390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_73
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 0
+        width: 109
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa6e870afdfece8c0800000000000000
+      internalID: -3968533427871226198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_74
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 0
+        width: 63
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7241eabf36b6dc0b0800000000000000
+      internalID: -5706787075640126425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_75
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 36
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d122fd95547b920800000000000000
+      internalID: 3005947528591056203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_76
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 0
+        width: 57
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820bf76bd365ebbd0800000000000000
+      internalID: -2612555910773493720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_77
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 0
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9992b559d8190d260800000000000000
+      internalID: 7120351048154950041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_78
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 0
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d8ad4abebff81c0800000000000000
+      internalID: -4499100513218163451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_79
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 0
+        width: 147
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ac1794ba34ea5a0800000000000000
+      internalID: -6508190008553125284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EventScene_redash_05_1_80
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 0
+        width: 28
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d121cbe3790fc490800000000000000
+      internalID: -7723944442435919404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      EventScene_redash_05_1_0: 3291831706374800387
+      EventScene_redash_05_1_1: 3861605003675386871
+      EventScene_redash_05_1_10: 2512680763795673050
+      EventScene_redash_05_1_11: 3413452550925386254
+      EventScene_redash_05_1_12: -8521108113679683188
+      EventScene_redash_05_1_13: -4741834622464512616
+      EventScene_redash_05_1_14: 8656946515362069424
+      EventScene_redash_05_1_15: -3347847584582599237
+      EventScene_redash_05_1_16: -2092396367071411920
+      EventScene_redash_05_1_17: 4214427206131306690
+      EventScene_redash_05_1_18: 2610149157158686121
+      EventScene_redash_05_1_19: -6240401349156955217
+      EventScene_redash_05_1_2: 2700039440596730019
+      EventScene_redash_05_1_20: -5035690542246396637
+      EventScene_redash_05_1_21: 9103809886445136616
+      EventScene_redash_05_1_22: 8904179891393196119
+      EventScene_redash_05_1_23: 8356373044464800983
+      EventScene_redash_05_1_24: 678227046774622494
+      EventScene_redash_05_1_25: 3714686759626454587
+      EventScene_redash_05_1_26: 6117162330044008437
+      EventScene_redash_05_1_27: 6837835125995545756
+      EventScene_redash_05_1_28: 7623922359009819893
+      EventScene_redash_05_1_29: -9121694162586563317
+      EventScene_redash_05_1_3: 6717278623346014346
+      EventScene_redash_05_1_30: -394422572984681593
+      EventScene_redash_05_1_31: -7349163651228498585
+      EventScene_redash_05_1_32: 7863135279847150325
+      EventScene_redash_05_1_33: 6846234660549334715
+      EventScene_redash_05_1_34: -8704108370273712811
+      EventScene_redash_05_1_35: -6709034592357265522
+      EventScene_redash_05_1_36: -559276976200401834
+      EventScene_redash_05_1_37: 519653739654060656
+      EventScene_redash_05_1_38: 2201831742792255067
+      EventScene_redash_05_1_39: 5406110050555512558
+      EventScene_redash_05_1_4: 8285032360898828755
+      EventScene_redash_05_1_40: 3331723192879818937
+      EventScene_redash_05_1_41: 1796179086633619184
+      EventScene_redash_05_1_42: 1311030234140387757
+      EventScene_redash_05_1_43: 6201809869661621127
+      EventScene_redash_05_1_44: -1135553875333956194
+      EventScene_redash_05_1_45: -5677102013745936043
+      EventScene_redash_05_1_46: 6815397877416402647
+      EventScene_redash_05_1_47: 876313466302357502
+      EventScene_redash_05_1_48: 5539822550618358363
+      EventScene_redash_05_1_49: 6539380958167002632
+      EventScene_redash_05_1_5: -5572820007049978243
+      EventScene_redash_05_1_50: -6842723722589794167
+      EventScene_redash_05_1_51: -6190813701147221372
+      EventScene_redash_05_1_52: 8085383448557839608
+      EventScene_redash_05_1_53: 6552238130389755399
+      EventScene_redash_05_1_54: 5467424685933928115
+      EventScene_redash_05_1_55: 4420719675901124575
+      EventScene_redash_05_1_56: 5165516090220611049
+      EventScene_redash_05_1_57: 8582259657442381111
+      EventScene_redash_05_1_58: -8030880103595529764
+      EventScene_redash_05_1_59: -4743573071334590725
+      EventScene_redash_05_1_6: 8243637160886659014
+      EventScene_redash_05_1_60: 822388606254094877
+      EventScene_redash_05_1_61: 3498103980220096944
+      EventScene_redash_05_1_62: 7075866832774040236
+      EventScene_redash_05_1_63: 707128184225050663
+      EventScene_redash_05_1_64: -638443329513106478
+      EventScene_redash_05_1_65: 5088612649778514296
+      EventScene_redash_05_1_66: -7848092510458860603
+      EventScene_redash_05_1_67: 5296968946653821071
+      EventScene_redash_05_1_68: -1251438157911453361
+      EventScene_redash_05_1_69: 415282234749972237
+      EventScene_redash_05_1_7: -9023220934265323333
+      EventScene_redash_05_1_70: -6237199197164169268
+      EventScene_redash_05_1_71: -2423436683984999140
+      EventScene_redash_05_1_72: -1860703480507815390
+      EventScene_redash_05_1_73: -3968533427871226198
+      EventScene_redash_05_1_74: -5706787075640126425
+      EventScene_redash_05_1_75: 3005947528591056203
+      EventScene_redash_05_1_76: -2612555910773493720
+      EventScene_redash_05_1_77: 7120351048154950041
+      EventScene_redash_05_1_78: -4499100513218163451
+      EventScene_redash_05_1_79: -6508190008553125284
+      EventScene_redash_05_1_8: -1469778272420096673
+      EventScene_redash_05_1_80: -7723944442435919404
+      EventScene_redash_05_1_9: -8990710575989606766
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

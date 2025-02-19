@@ -1,0 +1,111 @@
+
+admiral_5_back.skel.png
+size: 94,141
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back/[base]armL
+  rotate: true
+  xy: 64, 53
+  size: 5, 6
+  orig: 75, 76
+  offset: 30, 18
+  index: -1
+back/[base]armR
+  rotate: true
+  xy: 64, 53
+  size: 5, 6
+  orig: 75, 76
+  offset: 30, 18
+  index: -1
+back/[base]body
+  rotate: false
+  xy: 41, 7
+  size: 9, 12
+  orig: 75, 76
+  offset: 33, 14
+  index: -1
+back/[base]elbowL
+  rotate: false
+  xy: 64, 70
+  size: 6, 6
+  orig: 75, 76
+  offset: 26, 14
+  index: -1
+back/[base]elbowR
+  rotate: false
+  xy: 64, 70
+  size: 6, 6
+  orig: 75, 76
+  offset: 26, 14
+  index: -1
+back/[base]head
+  rotate: true
+  xy: 64, 5
+  size: 33, 27
+  orig: 75, 76
+  offset: 21, 21
+  index: -1
+back/[base]legL
+  rotate: false
+  xy: 64, 60
+  size: 4, 8
+  orig: 75, 76
+  offset: 33, 10
+  index: -1
+back/[base]legR
+  rotate: false
+  xy: 64, 60
+  size: 4, 8
+  orig: 75, 76
+  offset: 33, 10
+  index: -1
+back/bag
+  rotate: false
+  xy: 2, 78
+  size: 69, 61
+  orig: 75, 76
+  offset: 6, 10
+  index: -1
+back/cloak
+  rotate: true
+  xy: 73, 74
+  size: 65, 16
+  orig: 75, 76
+  offset: 5, 10
+  index: -1
+back/helm
+  rotate: true
+  xy: 72, 40
+  size: 32, 20
+  orig: 75, 76
+  offset: 21, 34
+  index: -1
+back/shoulderL
+  rotate: false
+  xy: 17, 6
+  size: 10, 13
+  orig: 75, 76
+  offset: 16, 21
+  index: -1
+back/shoulderR
+  rotate: false
+  xy: 29, 6
+  size: 10, 13
+  orig: 75, 76
+  offset: 49, 21
+  index: -1
+item/anchor
+  rotate: true
+  xy: 2, 21
+  size: 55, 60
+  orig: 67, 68
+  offset: 6, 4
+  index: -1
+item/chain_1
+  rotate: false
+  xy: 2, 2
+  size: 13, 17
+  orig: 67, 68
+  offset: 27, 51
+  index: -1

@@ -1,0 +1,129 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8302033850027404168
+  },
+  "m_Name": "fortheking_monster_chatterbox_SkeletonData",
+  "atlasAssets": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7899554698260051797
+    }
+  ],
+  "scale": 0.01,
+  "skeletonJSON": {
+    "m_FileID": 0,
+    "m_PathID": -6942423019080983875
+  },
+  "isUpgradingBlendModeMaterials": 0,
+  "blendModeMaterials": {
+    "requiresBlendModeMaterials": 0,
+    "applyAdditiveMaterial": 0,
+    "additiveMaterials": [],
+    "multiplyMaterials": [],
+    "screenMaterials": []
+  },
+  "skeletonDataModifiers": [],
+  "fromAnimation": [],
+  "toAnimation": [],
+  "duration": [],
+  "defaultMix": 0.0,
+  "controller": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "skeletonBinaryMetadata": {
+    "strings_StartIndex": 32,
+    "bones_StartIndex": 169,
+    "slots_StartIndex": 2486,
+    "ikConstraints_StartIndex": 2832,
+    "transformConstraints_StartIndex": 3229,
+    "pathConstraints_StartIndex": 3230,
+    "defaultSkinAndSkinsAndLinkedMeshes_StartIndex": 3231,
+    "attachmentListLengths": [
+      1330,
+      1093,
+      1330,
+      1035,
+      1664,
+      288,
+      156,
+      200,
+      112,
+      134,
+      626,
+      734,
+      528,
+      753,
+      1028,
+      753,
+      1028,
+      410,
+      811
+    ],
+    "events_StartIndex": 17265,
+    "animations_StartIndex": 17266,
+    "eachAnimationStartIndexKeys": [
+      "die",
+      "idle",
+      "skill_cast",
+      "skill_jump_down",
+      "skill_jump_up",
+      "stun",
+      "timeline_jump_down",
+      "timeline_jump_end",
+      "timeline_jump_loop",
+      "timeline_jump_start",
+      "timeline_jump_up",
+      "walk"
+    ],
+    "eachAnimationStartIndexValues": [
+      17271,
+      34663,
+      52109,
+      62566,
+      89381,
+      106897,
+      116810,
+      135472,
+      149818,
+      159440,
+      166846,
+      179423
+    ],
+    "eachAnimationLengthKeys": [
+      "die",
+      "idle",
+      "skill_cast",
+      "skill_jump_down",
+      "skill_jump_up",
+      "stun",
+      "timeline_jump_down",
+      "timeline_jump_end",
+      "timeline_jump_loop",
+      "timeline_jump_start",
+      "timeline_jump_up",
+      "walk"
+    ],
+    "eachAnimationLengthValues": [
+      17387,
+      17435,
+      10441,
+      26801,
+      17511,
+      9894,
+      18644,
+      14327,
+      9602,
+      7389,
+      12572,
+      17653
+    ],
+    "totalLength": 197076
+  }
+}

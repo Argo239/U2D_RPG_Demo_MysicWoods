@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: 60dcf5ca6d3e8c7418d74ce1fc677ab0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7709842631611179200
+    second: succubus_noble_batpajama_front.skel_0
+  - first:
+      213: 6385968018316356159
+    second: succubus_noble_batpajama_front.skel_1
+  - first:
+      213: -1564827608726849032
+    second: succubus_noble_batpajama_front.skel_2
+  - first:
+      213: -7780975312923509131
+    second: succubus_noble_batpajama_front.skel_3
+  - first:
+      213: -1120108311388201210
+    second: succubus_noble_batpajama_front.skel_4
+  - first:
+      213: -974284443637421292
+    second: succubus_noble_batpajama_front.skel_5
+  - first:
+      213: 5612441813012891428
+    second: succubus_noble_batpajama_front.skel_6
+  - first:
+      213: 1498518805188153424
+    second: succubus_noble_batpajama_front.skel_7
+  - first:
+      213: 5554999277172462289
+    second: succubus_noble_batpajama_front.skel_8
+  - first:
+      213: -7982193855701832941
+    second: succubus_noble_batpajama_front.skel_9
+  - first:
+      213: 6623745306087805199
+    second: succubus_noble_batpajama_front.skel_10
+  - first:
+      213: 5133643200164617587
+    second: succubus_noble_batpajama_front.skel_11
+  - first:
+      213: 4671910667175311155
+    second: succubus_noble_batpajama_front.skel_12
+  - first:
+      213: 6194262966362074167
+    second: succubus_noble_batpajama_front.skel_13
+  - first:
+      213: -886028802201672161
+    second: succubus_noble_batpajama_front.skel_14
+  - first:
+      213: -1967043912108310646
+    second: succubus_noble_batpajama_front.skel_15
+  - first:
+      213: 7578371625965356293
+    second: succubus_noble_batpajama_front.skel_16
+  - first:
+      213: -8681032697776836000
+    second: succubus_noble_batpajama_front.skel_17
+  - first:
+      213: 1436102119629064599
+    second: succubus_noble_batpajama_front.skel_18
+  - first:
+      213: 1111611273351724391
+    second: succubus_noble_batpajama_front.skel_19
+  - first:
+      213: -4339578670853733270
+    second: succubus_noble_batpajama_front.skel_20
+  - first:
+      213: 9209209136166477757
+    second: succubus_noble_batpajama_front.skel_21
+  - first:
+      213: 2015672243324530045
+    second: succubus_noble_batpajama_front.skel_22
+  - first:
+      213: 1974167579832867635
+    second: succubus_noble_batpajama_front.skel_23
+  - first:
+      213: 808375858045300733
+    second: succubus_noble_batpajama_front.skel_24
+  - first:
+      213: 1498453494612737669
+    second: succubus_noble_batpajama_front.skel_25
+  - first:
+      213: 4762114625086740527
+    second: succubus_noble_batpajama_front.skel_26
+  - first:
+      213: -6405572608033843864
+    second: succubus_noble_batpajama_front.skel_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: succubus_noble_batpajama_front.skel_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f17ac99f2210590800000000000000
+      internalID: -7709842631611179200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_noble_batpajama_front.skel_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 50
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a60ce04148f9850800000000000000
+      internalID: 6385968018316356159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_noble_batpajama_front.skel_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 61
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9bc17a49d984ae0800000000000000
+      internalID: -1564827608726849032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_noble_batpajama_front.skel_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 31
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e3c13ad2c640490800000000000000
+      internalID: -7780975312923509131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_noble_batpajama_front.skel_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 58
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f5eb5ec639470f0800000000000000
+      internalID: -1120108311388201210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_noble_batpajama_front.skel_5
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 58
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b6dc2e575aa72f0800000000000000
+      internalID: -974284443637421292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_noble_batpajama_front.skel_6
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 58
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427ce2bc71663ed40800000000000000
+      internalID: 5612441813012891428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_noble_batpajama_front.skel_7
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 57
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0509b70f9eecbc410800000000000000
+      internalID: 1498518805188153424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_noble_batpajama_front.skel_8
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 36
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d29a633962571d40800000000000000
+      internalID: 5554999277172462289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_noble_batpajama_front.skel_9
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 31
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b269ecafc893190800000000000000
+      internalID: -7982193855701832941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_noble_batpajama_front.skel_10
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 49
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01560403454ceb50800000000000000
+      internalID: 6623745306087805199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_noble_batpajama_front.skel_11
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 31
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d59659a4d5e3740800000000000000
+      internalID: 5133643200164617587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_noble_batpajama_front.skel_12
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 49
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337b75bbff5f5d040800000000000000
+      internalID: 4671910667175311155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_noble_batpajama_front.skel_13
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 42
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c6e5b695176f550800000000000000
+      internalID: 6194262966362074167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_noble_batpajama_front.skel_14
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 49
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f162100bf7134b3f0800000000000000
+      internalID: -886028802201672161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_noble_batpajama_front.skel_15
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 42
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f7039dbf7a3b4e0800000000000000
+      internalID: -1967043912108310646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_noble_batpajama_front.skel_16
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 49
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505809587d8cb2960800000000000000
+      internalID: 7578371625965356293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_noble_batpajama_front.skel_17
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062f57561c6c68780800000000000000
+      internalID: -8681032697776836000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_noble_batpajama_front.skel_18
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7990dadd44f0ee310800000000000000
+      internalID: 1436102119629064599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_noble_batpajama_front.skel_19
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76df274409c3d6f00800000000000000
+      internalID: 1111611273351724391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_noble_batpajama_front.skel_20
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 22
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64c6e0e038b6c3c0800000000000000
+      internalID: -4339578670853733270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_noble_batpajama_front.skel_21
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 20
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf1c77baeeadcf70800000000000000
+      internalID: 9209209136166477757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_noble_batpajama_front.skel_22
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 33
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d29fec93b19fb10800000000000000
+      internalID: 2015672243324530045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_noble_batpajama_front.skel_23
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 31
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33bd70b44f6a56b10800000000000000
+      internalID: 1974167579832867635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_noble_batpajama_front.skel_24
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 16
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dffaac75f8de73b00800000000000000
+      internalID: 808375858045300733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_noble_batpajama_front.skel_25
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58eb5d2a3839bc410800000000000000
+      internalID: 1498453494612737669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_noble_batpajama_front.skel_26
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 11
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28dcff450e661240800000000000000
+      internalID: 4762114625086740527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: succubus_noble_batpajama_front.skel_27
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8659b23b6a5da17a0800000000000000
+      internalID: -6405572608033843864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      succubus_noble_batpajama_front.skel_0: -7709842631611179200
+      succubus_noble_batpajama_front.skel_1: 6385968018316356159
+      succubus_noble_batpajama_front.skel_10: 6623745306087805199
+      succubus_noble_batpajama_front.skel_11: 5133643200164617587
+      succubus_noble_batpajama_front.skel_12: 4671910667175311155
+      succubus_noble_batpajama_front.skel_13: 6194262966362074167
+      succubus_noble_batpajama_front.skel_14: -886028802201672161
+      succubus_noble_batpajama_front.skel_15: -1967043912108310646
+      succubus_noble_batpajama_front.skel_16: 7578371625965356293
+      succubus_noble_batpajama_front.skel_17: -8681032697776836000
+      succubus_noble_batpajama_front.skel_18: 1436102119629064599
+      succubus_noble_batpajama_front.skel_19: 1111611273351724391
+      succubus_noble_batpajama_front.skel_2: -1564827608726849032
+      succubus_noble_batpajama_front.skel_20: -4339578670853733270
+      succubus_noble_batpajama_front.skel_21: 9209209136166477757
+      succubus_noble_batpajama_front.skel_22: 2015672243324530045
+      succubus_noble_batpajama_front.skel_23: 1974167579832867635
+      succubus_noble_batpajama_front.skel_24: 808375858045300733
+      succubus_noble_batpajama_front.skel_25: 1498453494612737669
+      succubus_noble_batpajama_front.skel_26: 4762114625086740527
+      succubus_noble_batpajama_front.skel_27: -6405572608033843864
+      succubus_noble_batpajama_front.skel_3: -7780975312923509131
+      succubus_noble_batpajama_front.skel_4: -1120108311388201210
+      succubus_noble_batpajama_front.skel_5: -974284443637421292
+      succubus_noble_batpajama_front.skel_6: 5612441813012891428
+      succubus_noble_batpajama_front.skel_7: 1498518805188153424
+      succubus_noble_batpajama_front.skel_8: 5554999277172462289
+      succubus_noble_batpajama_front.skel_9: -7982193855701832941
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

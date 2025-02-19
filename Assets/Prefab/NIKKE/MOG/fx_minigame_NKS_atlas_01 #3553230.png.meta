@@ -1,0 +1,3042 @@
+fileFormatVersion: 2
+guid: 7a30e74e145422045b6bbdc9301ed3d5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7667739702129415309
+    second: fx_minigame_NKS_atlas_01 #3553230_0
+  - first:
+      213: 509156468091299723
+    second: fx_minigame_NKS_atlas_01 #3553230_1
+  - first:
+      213: 3806344475357062946
+    second: fx_minigame_NKS_atlas_01 #3553230_2
+  - first:
+      213: -8195785546676159825
+    second: fx_minigame_NKS_atlas_01 #3553230_3
+  - first:
+      213: 7842256017649452797
+    second: fx_minigame_NKS_atlas_01 #3553230_4
+  - first:
+      213: -6116269565822963148
+    second: fx_minigame_NKS_atlas_01 #3553230_5
+  - first:
+      213: -9092167151101693700
+    second: fx_minigame_NKS_atlas_01 #3553230_6
+  - first:
+      213: -5712798997465188756
+    second: fx_minigame_NKS_atlas_01 #3553230_7
+  - first:
+      213: -382907184011997001
+    second: fx_minigame_NKS_atlas_01 #3553230_8
+  - first:
+      213: -1656375055452448204
+    second: fx_minigame_NKS_atlas_01 #3553230_9
+  - first:
+      213: 3826432808170300318
+    second: fx_minigame_NKS_atlas_01 #3553230_10
+  - first:
+      213: -7442722779649157265
+    second: fx_minigame_NKS_atlas_01 #3553230_11
+  - first:
+      213: 6405036928008851570
+    second: fx_minigame_NKS_atlas_01 #3553230_12
+  - first:
+      213: 2375362697235398079
+    second: fx_minigame_NKS_atlas_01 #3553230_13
+  - first:
+      213: -2086686944744340410
+    second: fx_minigame_NKS_atlas_01 #3553230_14
+  - first:
+      213: -5453051538840995227
+    second: fx_minigame_NKS_atlas_01 #3553230_15
+  - first:
+      213: 8434962717258375532
+    second: fx_minigame_NKS_atlas_01 #3553230_16
+  - first:
+      213: -4418452598622342967
+    second: fx_minigame_NKS_atlas_01 #3553230_17
+  - first:
+      213: -2759098949408486375
+    second: fx_minigame_NKS_atlas_01 #3553230_18
+  - first:
+      213: -977869395364349327
+    second: fx_minigame_NKS_atlas_01 #3553230_19
+  - first:
+      213: 6741584941962180010
+    second: fx_minigame_NKS_atlas_01 #3553230_20
+  - first:
+      213: -5113221290333665120
+    second: fx_minigame_NKS_atlas_01 #3553230_21
+  - first:
+      213: -7771679851443567484
+    second: fx_minigame_NKS_atlas_01 #3553230_22
+  - first:
+      213: 341687664424173752
+    second: fx_minigame_NKS_atlas_01 #3553230_23
+  - first:
+      213: 2131057008938716189
+    second: fx_minigame_NKS_atlas_01 #3553230_24
+  - first:
+      213: 4287940266870616329
+    second: fx_minigame_NKS_atlas_01 #3553230_25
+  - first:
+      213: -3609432572825631033
+    second: fx_minigame_NKS_atlas_01 #3553230_26
+  - first:
+      213: 4878674611086179542
+    second: fx_minigame_NKS_atlas_01 #3553230_27
+  - first:
+      213: -8754254874976699829
+    second: fx_minigame_NKS_atlas_01 #3553230_28
+  - first:
+      213: 4585917776297600032
+    second: fx_minigame_NKS_atlas_01 #3553230_29
+  - first:
+      213: 4780928404941120868
+    second: fx_minigame_NKS_atlas_01 #3553230_30
+  - first:
+      213: -7933749247482564052
+    second: fx_minigame_NKS_atlas_01 #3553230_31
+  - first:
+      213: 8680082053098856725
+    second: fx_minigame_NKS_atlas_01 #3553230_32
+  - first:
+      213: 5236917073384498554
+    second: fx_minigame_NKS_atlas_01 #3553230_33
+  - first:
+      213: 5144416959931238578
+    second: fx_minigame_NKS_atlas_01 #3553230_34
+  - first:
+      213: -1942620922821768421
+    second: fx_minigame_NKS_atlas_01 #3553230_35
+  - first:
+      213: 8582797616396313846
+    second: fx_minigame_NKS_atlas_01 #3553230_36
+  - first:
+      213: -6889082082266604221
+    second: fx_minigame_NKS_atlas_01 #3553230_37
+  - first:
+      213: 4614581096381070968
+    second: fx_minigame_NKS_atlas_01 #3553230_38
+  - first:
+      213: -501732313643942432
+    second: fx_minigame_NKS_atlas_01 #3553230_39
+  - first:
+      213: 397711960038322482
+    second: fx_minigame_NKS_atlas_01 #3553230_40
+  - first:
+      213: -5651881458891867918
+    second: fx_minigame_NKS_atlas_01 #3553230_41
+  - first:
+      213: -2423132652580112127
+    second: fx_minigame_NKS_atlas_01 #3553230_42
+  - first:
+      213: 8072434249608261935
+    second: fx_minigame_NKS_atlas_01 #3553230_43
+  - first:
+      213: -6990237961199762612
+    second: fx_minigame_NKS_atlas_01 #3553230_44
+  - first:
+      213: 2542801186350691385
+    second: fx_minigame_NKS_atlas_01 #3553230_45
+  - first:
+      213: -3252218667803517026
+    second: fx_minigame_NKS_atlas_01 #3553230_46
+  - first:
+      213: 8865144894685399453
+    second: fx_minigame_NKS_atlas_01 #3553230_47
+  - first:
+      213: 4995663253894649774
+    second: fx_minigame_NKS_atlas_01 #3553230_48
+  - first:
+      213: 9153974155237678532
+    second: fx_minigame_NKS_atlas_01 #3553230_49
+  - first:
+      213: -1918489691718496657
+    second: fx_minigame_NKS_atlas_01 #3553230_50
+  - first:
+      213: -1654799744863746137
+    second: fx_minigame_NKS_atlas_01 #3553230_51
+  - first:
+      213: -7973291161669624643
+    second: fx_minigame_NKS_atlas_01 #3553230_52
+  - first:
+      213: 3079115223224297179
+    second: fx_minigame_NKS_atlas_01 #3553230_53
+  - first:
+      213: -278378333554707261
+    second: fx_minigame_NKS_atlas_01 #3553230_54
+  - first:
+      213: 9119934419846670584
+    second: fx_minigame_NKS_atlas_01 #3553230_55
+  - first:
+      213: 276570583379629847
+    second: fx_minigame_NKS_atlas_01 #3553230_56
+  - first:
+      213: 6605187840640718133
+    second: fx_minigame_NKS_atlas_01 #3553230_57
+  - first:
+      213: -6366249310994133438
+    second: fx_minigame_NKS_atlas_01 #3553230_58
+  - first:
+      213: 6219599491319559333
+    second: fx_minigame_NKS_atlas_01 #3553230_59
+  - first:
+      213: -787532328465397465
+    second: fx_minigame_NKS_atlas_01 #3553230_60
+  - first:
+      213: -621421521109806561
+    second: fx_minigame_NKS_atlas_01 #3553230_61
+  - first:
+      213: 3878987898202155076
+    second: fx_minigame_NKS_atlas_01 #3553230_62
+  - first:
+      213: -77062786915854771
+    second: fx_minigame_NKS_atlas_01 #3553230_63
+  - first:
+      213: -2099377379851767525
+    second: fx_minigame_NKS_atlas_01 #3553230_64
+  - first:
+      213: 8841246497602001697
+    second: fx_minigame_NKS_atlas_01 #3553230_65
+  - first:
+      213: -685614588555192967
+    second: fx_minigame_NKS_atlas_01 #3553230_66
+  - first:
+      213: 2382665500159723947
+    second: fx_minigame_NKS_atlas_01 #3553230_67
+  - first:
+      213: -1699736069721438188
+    second: fx_minigame_NKS_atlas_01 #3553230_68
+  - first:
+      213: 8168759307687909721
+    second: fx_minigame_NKS_atlas_01 #3553230_69
+  - first:
+      213: -1373463451020170595
+    second: fx_minigame_NKS_atlas_01 #3553230_70
+  - first:
+      213: -225716428720595740
+    second: fx_minigame_NKS_atlas_01 #3553230_71
+  - first:
+      213: -2984676987485032132
+    second: fx_minigame_NKS_atlas_01 #3553230_72
+  - first:
+      213: 1586151177991782170
+    second: fx_minigame_NKS_atlas_01 #3553230_73
+  - first:
+      213: -4789322955378807455
+    second: fx_minigame_NKS_atlas_01 #3553230_74
+  - first:
+      213: 5288420909785963559
+    second: fx_minigame_NKS_atlas_01 #3553230_75
+  - first:
+      213: 3761390367475190843
+    second: fx_minigame_NKS_atlas_01 #3553230_76
+  - first:
+      213: 4374244312671307820
+    second: fx_minigame_NKS_atlas_01 #3553230_77
+  - first:
+      213: -7751646314613799152
+    second: fx_minigame_NKS_atlas_01 #3553230_78
+  - first:
+      213: 2492723938478498545
+    second: fx_minigame_NKS_atlas_01 #3553230_79
+  - first:
+      213: -252626804732246390
+    second: fx_minigame_NKS_atlas_01 #3553230_80
+  - first:
+      213: 3521105628361444583
+    second: fx_minigame_NKS_atlas_01 #3553230_81
+  - first:
+      213: -1007385831070589827
+    second: fx_minigame_NKS_atlas_01 #3553230_82
+  - first:
+      213: -1850651199094572816
+    second: fx_minigame_NKS_atlas_01 #3553230_83
+  - first:
+      213: 5475855332546320140
+    second: fx_minigame_NKS_atlas_01 #3553230_84
+  - first:
+      213: 5096250642746754072
+    second: fx_minigame_NKS_atlas_01 #3553230_85
+  - first:
+      213: 4836607429593054929
+    second: fx_minigame_NKS_atlas_01 #3553230_86
+  - first:
+      213: 6788895552608201197
+    second: fx_minigame_NKS_atlas_01 #3553230_87
+  - first:
+      213: 4831430430563525524
+    second: fx_minigame_NKS_atlas_01 #3553230_88
+  - first:
+      213: 4929722325426151909
+    second: fx_minigame_NKS_atlas_01 #3553230_89
+  - first:
+      213: -6475167514004042754
+    second: fx_minigame_NKS_atlas_01 #3553230_90
+  - first:
+      213: -2137511239552633297
+    second: fx_minigame_NKS_atlas_01 #3553230_91
+  - first:
+      213: -933498088606300511
+    second: fx_minigame_NKS_atlas_01 #3553230_92
+  - first:
+      213: -4521981505450436925
+    second: fx_minigame_NKS_atlas_01 #3553230_93
+  - first:
+      213: -6885349872956443432
+    second: fx_minigame_NKS_atlas_01 #3553230_94
+  - first:
+      213: 7482664896820889457
+    second: fx_minigame_NKS_atlas_01 #3553230_95
+  - first:
+      213: -7042044768953297547
+    second: fx_minigame_NKS_atlas_01 #3553230_96
+  - first:
+      213: -7746314325782281184
+    second: fx_minigame_NKS_atlas_01 #3553230_97
+  - first:
+      213: 6882107370166048572
+    second: fx_minigame_NKS_atlas_01 #3553230_98
+  - first:
+      213: -1685747012987632382
+    second: fx_minigame_NKS_atlas_01 #3553230_99
+  - first:
+      213: 8188765575143565011
+    second: fx_minigame_NKS_atlas_01 #3553230_100
+  - first:
+      213: 2623419241389027650
+    second: fx_minigame_NKS_atlas_01 #3553230_101
+  - first:
+      213: 7933847753675187209
+    second: fx_minigame_NKS_atlas_01 #3553230_102
+  - first:
+      213: -4667944540298097148
+    second: fx_minigame_NKS_atlas_01 #3553230_103
+  - first:
+      213: 6307898696219248853
+    second: fx_minigame_NKS_atlas_01 #3553230_104
+  - first:
+      213: 5916306556479172817
+    second: fx_minigame_NKS_atlas_01 #3553230_105
+  - first:
+      213: 6680191069914877974
+    second: fx_minigame_NKS_atlas_01 #3553230_106
+  - first:
+      213: -4512768789032005935
+    second: fx_minigame_NKS_atlas_01 #3553230_107
+  - first:
+      213: -5999378711159785672
+    second: fx_minigame_NKS_atlas_01 #3553230_108
+  - first:
+      213: -1568379247972858128
+    second: fx_minigame_NKS_atlas_01 #3553230_109
+  - first:
+      213: -3919022094028125744
+    second: fx_minigame_NKS_atlas_01 #3553230_110
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 980
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37baa68cd57b69590800000000000000
+      internalID: -7667739702129415309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 980
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87acaf2c13e01700800000000000000
+      internalID: 509156468091299723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 979
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227ad6a222ad2d430800000000000000
+      internalID: 3806344475357062946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 979
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa361be778b24e80800000000000000
+      internalID: -8195785546676159825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_4
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 977
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df64aa94c4a45dc60800000000000000
+      internalID: 7842256017649452797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_5
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 976
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 432f69a3c35ae1ba0800000000000000
+      internalID: -6116269565822963148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_6
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 976
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0bb10062222d180800000000000000
+      internalID: -9092167151101693700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_7
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 975
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6631ea549f08b0b0800000000000000
+      internalID: -5712798997465188756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_8
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 972
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b01503e1f3afaaf0800000000000000
+      internalID: -382907184011997001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_9
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 971
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a50f4b9af5309e0800000000000000
+      internalID: -1656375055452448204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_10
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 971
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9324ef9d583a1530800000000000000
+      internalID: 3826432808170300318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_11
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 970
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f67dd4da01326b890800000000000000
+      internalID: -7442722779649157265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_12
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 980
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2701a33962343e850800000000000000
+      internalID: 6405036928008851570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_13
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 980
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbdfd65b9cbf6f020800000000000000
+      internalID: 2375362697235398079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_14
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 979
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644811d87499a03e0800000000000000
+      internalID: -2086686944744340410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_15
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 979
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a3c75548ed254b0800000000000000
+      internalID: -5453051538840995227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_16
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 913
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6169d7a6e10f0570800000000000000
+      internalID: 8434962717258375532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 873
+        width: 46
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c0b63285c08ea2c0800000000000000
+      internalID: -4418452598622342967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 869
+        width: 48
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c8a54bf16b5b9d0800000000000000
+      internalID: -2759098949408486375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_19
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 869
+        width: 49
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17af49447f8ed62f0800000000000000
+      internalID: -977869395364349327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_20
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 908
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa537c849cbee8d50800000000000000
+      internalID: 6741584941962180010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_21
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 907
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a882b3d3503a09b0800000000000000
+      internalID: -5113221290333665120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_22
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 907
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48445aae952752490800000000000000
+      internalID: -7771679851443567484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_23
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 906
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0c226de1bedb400800000000000000
+      internalID: 341687664424173752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_24
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 924
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c06ed0f09039d10800000000000000
+      internalID: 2131057008938716189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_25
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 924
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901bae844f2d18b30800000000000000
+      internalID: 4287940266870616329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_26
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 924
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c60108d238b8edc0800000000000000
+      internalID: -3609432572825631033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_27
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 924
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc3280e5b884b340800000000000000
+      internalID: 4878674611086179542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_28
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 904
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a38cfb293a28680800000000000000
+      internalID: -8754254874976699829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_29
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 904
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0242e599be374af30800000000000000
+      internalID: 4585917776297600032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_30
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 904
+        width: 45
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4652719cd05495240800000000000000
+      internalID: 4780928404941120868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_31
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 904
+        width: 49
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2277ce1819a5e190800000000000000
+      internalID: -7933749247482564052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_32
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 858
+        width: 54
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511633463a8d57870800000000000000
+      internalID: 8680082053098856725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_33
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 858
+        width: 47
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75e245f4544da840800000000000000
+      internalID: 5236917073384498554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_34
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 854
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b8423108f3a46740800000000000000
+      internalID: 5144416959931238578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_35
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 854
+        width: 42
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b87f9209c6a05e0800000000000000
+      internalID: -1942620922821768421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_36
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 860
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f42f5065f83c1770800000000000000
+      internalID: 8582797616396313846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_37
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 860
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d9df998501560a0800000000000000
+      internalID: -6889082082266604221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_38
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 860
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87eb60dde094a0040800000000000000
+      internalID: 4614581096381070968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_39
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 860
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0edfae87e1d7909f0800000000000000
+      internalID: -501732313643942432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_40
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 859
+        width: 36
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2313205abe4f48500800000000000000
+      internalID: 397711960038322482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_41
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 807
+        width: 89
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f8322212cb7091b0800000000000000
+      internalID: -5651881458891867918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_42
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 859
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109ff47d0bd4f5ed0800000000000000
+      internalID: -2423132652580112127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_43
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 859
+        width: 36
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21f8903e2c070070800000000000000
+      internalID: 8072434249608261935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_44
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 858
+        width: 40
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c43cc333c9fadfe90800000000000000
+      internalID: -6990237961199762612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_45
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 854
+        width: 37
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934ffd6e438d94320800000000000000
+      internalID: 2542801186350691385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_46
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 855
+        width: 39
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f5da54a5ccdd2d0800000000000000
+      internalID: -3252218667803517026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_47
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 858
+        width: 40
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99471aef42570b70800000000000000
+      internalID: 8865144894685399453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_48
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 808
+        width: 85
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7dcd1e249245540800000000000000
+      internalID: 4995663253894649774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_49
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 789
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd5c0e8ef2790f70800000000000000
+      internalID: 9153974155237678532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_50
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 807
+        width: 113
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ecedb3ac72065e0800000000000000
+      internalID: -1918489691718496657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_51
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 807
+        width: 123
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a74df84668f809e0800000000000000
+      internalID: -1654799744863746137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_52
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 807
+        width: 48
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc9be9ceed295190800000000000000
+      internalID: -7973291161669624643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_53
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 807
+        width: 93
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd628ce4bf63bba20800000000000000
+      internalID: 3079115223224297179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_54
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 793
+        width: 95
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c47e4b6160032cf0800000000000000
+      internalID: -278378333554707261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_55
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 794
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f8a1dd0904809e70800000000000000
+      internalID: 9119934419846670584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_56
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 799
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7175aa1fa7396d300800000000000000
+      internalID: 276570583379629847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_57
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 624
+        width: 186
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5359e1468575aab50800000000000000
+      internalID: 6605187840640718133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_58
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 767
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e8e924bf986a7a0800000000000000
+      internalID: -6366249310994133438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_59
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 794
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a47d45d8c4705650800000000000000
+      internalID: 6219599491319559333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_60
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 795
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7290fa0158f1215f0800000000000000
+      internalID: -787532328465397465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_61
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 787
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1297724b644067f0800000000000000
+      internalID: -621421521109806561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_62
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 788
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448e06011fee4d530800000000000000
+      internalID: 3878987898202155076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_63
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 789
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d469a78bdc73eeef0800000000000000
+      internalID: -77062786915854771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_64
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 789
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11f17065638dd2e0800000000000000
+      internalID: -2099377379851767525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_65
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 764
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12bdb3db8da62ba70800000000000000
+      internalID: 8841246497602001697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_66
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 790
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975975c0a253c76f0800000000000000
+      internalID: -685614588555192967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_67
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 789
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9499306ade01120800000000000000
+      internalID: 2382665500159723947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_68
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 773
+        width: 50
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418c558dc035968e0800000000000000
+      internalID: -1699736069721438188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_69
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 773
+        width: 50
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95957667f434d5170800000000000000
+      internalID: 8168759307687909721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_70
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 739
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ae5f9a44a70fce0800000000000000
+      internalID: -1373463451020170595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_71
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 770
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec932e9a181edcf0800000000000000
+      internalID: -225716428720595740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_72
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 740
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c31fba7e71c4496d0800000000000000
+      internalID: -2984676987485032132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_73
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 759
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f7444b714230610800000000000000
+      internalID: 1586151177991782170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_74
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 751
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16da502a528e88db0800000000000000
+      internalID: -4789322955378807455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_75
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 750
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c5a865cce346940800000000000000
+      internalID: 5288420909785963559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_76
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 745
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c4fea4c94233430800000000000000
+      internalID: 3761390367475190843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_77
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 641
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28cb81d60074bc30800000000000000
+      internalID: 4374244312671307820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_78
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 735
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0178af03fbe9c6490800000000000000
+      internalID: -7751646314613799152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_79
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 643
+        width: 124
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2af1c073fe79220800000000000000
+      internalID: 2492723938478498545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_80
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 644
+        width: 124
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a864133724d7e7cf0800000000000000
+      internalID: -252626804732246390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_81
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 643
+        width: 118
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eccc13d9ea7dd030800000000000000
+      internalID: 3521105628361444583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_82
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 643
+        width: 116
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c964b8ceb0502f0800000000000000
+      internalID: -1007385831070589827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_83
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 644
+        width: 117
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f831d22a8a2156e0800000000000000
+      internalID: -1850651199094572816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_84
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 639
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c071ad1a9652efb40800000000000000
+      internalID: 5475855332546320140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_85
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 596
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814c64f55f489b640800000000000000
+      internalID: 5096250642746754072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_86
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 553
+        width: 38
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1deb8eee4d41f1340800000000000000
+      internalID: 4836607429593054929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_87
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 549
+        width: 45
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9e0763980073e50800000000000000
+      internalID: 6788895552608201197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_88
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 549
+        width: 45
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49360cae060bc0340800000000000000
+      internalID: 4831430430563525524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_89
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 593
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1a6501654e96440800000000000000
+      internalID: 4929722325426151909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_90
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 592
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efbc3a2f3759326a0800000000000000
+      internalID: -6475167514004042754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_91
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 592
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f267f074ad80652e0800000000000000
+      internalID: -2137511239552633297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_92
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 591
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a68d1e2f6c8b03f0800000000000000
+      internalID: -933498088606300511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_93
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 588
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c69dbe77c1be31c0800000000000000
+      internalID: -4521981505450436925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_94
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 587
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4762c45c25270a0800000000000000
+      internalID: -6885349872956443432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_95
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 587
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1774b4c2414c7d760800000000000000
+      internalID: 7482664896820889457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_96
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 586
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575142ec791a54e90800000000000000
+      internalID: -7042044768953297547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_97
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 611
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0244a3599209f7490800000000000000
+      internalID: -7746314325782281184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_98
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 611
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3758d0b038228f50800000000000000
+      internalID: 6882107370166048572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_99
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 538
+        width: 50
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20542bde5060b98e0800000000000000
+      internalID: -1685747012987632382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_100
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 538
+        width: 37
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d6216797e654a170800000000000000
+      internalID: 8188765575143565011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_101
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 538
+        width: 39
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241faeb86e1486420800000000000000
+      internalID: 2623419241389027650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_102
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 534
+        width: 42
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90427d32f70ba1e60800000000000000
+      internalID: 7933847753675187209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_103
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 540
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ece442c21283fb0800000000000000
+      internalID: -4667944540298097148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_104
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 540
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d84c4b81782a8750800000000000000
+      internalID: 6307898696219248853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_105
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 540
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d071499771fa1250800000000000000
+      internalID: 5916306556479172817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_106
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 540
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610530a826ec4bc50800000000000000
+      internalID: 6680191069914877974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_107
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 539
+        width: 36
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de074032bc6f51c0800000000000000
+      internalID: -4512768789032005935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_108
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 539
+        width: 33
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 837b74829dcedbca0800000000000000
+      internalID: -5999378711159785672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_109
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 539
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f6cb73326ffb3ae0800000000000000
+      internalID: -1568379247972858128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_minigame_NKS_atlas_01 #3553230_110
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 539
+        width: 36
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9cb8a5b26dc99c0800000000000000
+      internalID: -3919022094028125744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fx_minigame_NKS_atlas_01 #3553230_0: -7667739702129415309
+      fx_minigame_NKS_atlas_01 #3553230_1: 509156468091299723
+      fx_minigame_NKS_atlas_01 #3553230_10: 3826432808170300318
+      fx_minigame_NKS_atlas_01 #3553230_100: 8188765575143565011
+      fx_minigame_NKS_atlas_01 #3553230_101: 2623419241389027650
+      fx_minigame_NKS_atlas_01 #3553230_102: 7933847753675187209
+      fx_minigame_NKS_atlas_01 #3553230_103: -4667944540298097148
+      fx_minigame_NKS_atlas_01 #3553230_104: 6307898696219248853
+      fx_minigame_NKS_atlas_01 #3553230_105: 5916306556479172817
+      fx_minigame_NKS_atlas_01 #3553230_106: 6680191069914877974
+      fx_minigame_NKS_atlas_01 #3553230_107: -4512768789032005935
+      fx_minigame_NKS_atlas_01 #3553230_108: -5999378711159785672
+      fx_minigame_NKS_atlas_01 #3553230_109: -1568379247972858128
+      fx_minigame_NKS_atlas_01 #3553230_11: -7442722779649157265
+      fx_minigame_NKS_atlas_01 #3553230_110: -3919022094028125744
+      fx_minigame_NKS_atlas_01 #3553230_12: 6405036928008851570
+      fx_minigame_NKS_atlas_01 #3553230_13: 2375362697235398079
+      fx_minigame_NKS_atlas_01 #3553230_14: -2086686944744340410
+      fx_minigame_NKS_atlas_01 #3553230_15: -5453051538840995227
+      fx_minigame_NKS_atlas_01 #3553230_16: 8434962717258375532
+      fx_minigame_NKS_atlas_01 #3553230_17: -4418452598622342967
+      fx_minigame_NKS_atlas_01 #3553230_18: -2759098949408486375
+      fx_minigame_NKS_atlas_01 #3553230_19: -977869395364349327
+      fx_minigame_NKS_atlas_01 #3553230_2: 3806344475357062946
+      fx_minigame_NKS_atlas_01 #3553230_20: 6741584941962180010
+      fx_minigame_NKS_atlas_01 #3553230_21: -5113221290333665120
+      fx_minigame_NKS_atlas_01 #3553230_22: -7771679851443567484
+      fx_minigame_NKS_atlas_01 #3553230_23: 341687664424173752
+      fx_minigame_NKS_atlas_01 #3553230_24: 2131057008938716189
+      fx_minigame_NKS_atlas_01 #3553230_25: 4287940266870616329
+      fx_minigame_NKS_atlas_01 #3553230_26: -3609432572825631033
+      fx_minigame_NKS_atlas_01 #3553230_27: 4878674611086179542
+      fx_minigame_NKS_atlas_01 #3553230_28: -8754254874976699829
+      fx_minigame_NKS_atlas_01 #3553230_29: 4585917776297600032
+      fx_minigame_NKS_atlas_01 #3553230_3: -8195785546676159825
+      fx_minigame_NKS_atlas_01 #3553230_30: 4780928404941120868
+      fx_minigame_NKS_atlas_01 #3553230_31: -7933749247482564052
+      fx_minigame_NKS_atlas_01 #3553230_32: 8680082053098856725
+      fx_minigame_NKS_atlas_01 #3553230_33: 5236917073384498554
+      fx_minigame_NKS_atlas_01 #3553230_34: 5144416959931238578
+      fx_minigame_NKS_atlas_01 #3553230_35: -1942620922821768421
+      fx_minigame_NKS_atlas_01 #3553230_36: 8582797616396313846
+      fx_minigame_NKS_atlas_01 #3553230_37: -6889082082266604221
+      fx_minigame_NKS_atlas_01 #3553230_38: 4614581096381070968
+      fx_minigame_NKS_atlas_01 #3553230_39: -501732313643942432
+      fx_minigame_NKS_atlas_01 #3553230_4: 7842256017649452797
+      fx_minigame_NKS_atlas_01 #3553230_40: 397711960038322482
+      fx_minigame_NKS_atlas_01 #3553230_41: -5651881458891867918
+      fx_minigame_NKS_atlas_01 #3553230_42: -2423132652580112127
+      fx_minigame_NKS_atlas_01 #3553230_43: 8072434249608261935
+      fx_minigame_NKS_atlas_01 #3553230_44: -6990237961199762612
+      fx_minigame_NKS_atlas_01 #3553230_45: 2542801186350691385
+      fx_minigame_NKS_atlas_01 #3553230_46: -3252218667803517026
+      fx_minigame_NKS_atlas_01 #3553230_47: 8865144894685399453
+      fx_minigame_NKS_atlas_01 #3553230_48: 4995663253894649774
+      fx_minigame_NKS_atlas_01 #3553230_49: 9153974155237678532
+      fx_minigame_NKS_atlas_01 #3553230_5: -6116269565822963148
+      fx_minigame_NKS_atlas_01 #3553230_50: -1918489691718496657
+      fx_minigame_NKS_atlas_01 #3553230_51: -1654799744863746137
+      fx_minigame_NKS_atlas_01 #3553230_52: -7973291161669624643
+      fx_minigame_NKS_atlas_01 #3553230_53: 3079115223224297179
+      fx_minigame_NKS_atlas_01 #3553230_54: -278378333554707261
+      fx_minigame_NKS_atlas_01 #3553230_55: 9119934419846670584
+      fx_minigame_NKS_atlas_01 #3553230_56: 276570583379629847
+      fx_minigame_NKS_atlas_01 #3553230_57: 6605187840640718133
+      fx_minigame_NKS_atlas_01 #3553230_58: -6366249310994133438
+      fx_minigame_NKS_atlas_01 #3553230_59: 6219599491319559333
+      fx_minigame_NKS_atlas_01 #3553230_6: -9092167151101693700
+      fx_minigame_NKS_atlas_01 #3553230_60: -787532328465397465
+      fx_minigame_NKS_atlas_01 #3553230_61: -621421521109806561
+      fx_minigame_NKS_atlas_01 #3553230_62: 3878987898202155076
+      fx_minigame_NKS_atlas_01 #3553230_63: -77062786915854771
+      fx_minigame_NKS_atlas_01 #3553230_64: -2099377379851767525
+      fx_minigame_NKS_atlas_01 #3553230_65: 8841246497602001697
+      fx_minigame_NKS_atlas_01 #3553230_66: -685614588555192967
+      fx_minigame_NKS_atlas_01 #3553230_67: 2382665500159723947
+      fx_minigame_NKS_atlas_01 #3553230_68: -1699736069721438188
+      fx_minigame_NKS_atlas_01 #3553230_69: 8168759307687909721
+      fx_minigame_NKS_atlas_01 #3553230_7: -5712798997465188756
+      fx_minigame_NKS_atlas_01 #3553230_70: -1373463451020170595
+      fx_minigame_NKS_atlas_01 #3553230_71: -225716428720595740
+      fx_minigame_NKS_atlas_01 #3553230_72: -2984676987485032132
+      fx_minigame_NKS_atlas_01 #3553230_73: 1586151177991782170
+      fx_minigame_NKS_atlas_01 #3553230_74: -4789322955378807455
+      fx_minigame_NKS_atlas_01 #3553230_75: 5288420909785963559
+      fx_minigame_NKS_atlas_01 #3553230_76: 3761390367475190843
+      fx_minigame_NKS_atlas_01 #3553230_77: 4374244312671307820
+      fx_minigame_NKS_atlas_01 #3553230_78: -7751646314613799152
+      fx_minigame_NKS_atlas_01 #3553230_79: 2492723938478498545
+      fx_minigame_NKS_atlas_01 #3553230_8: -382907184011997001
+      fx_minigame_NKS_atlas_01 #3553230_80: -252626804732246390
+      fx_minigame_NKS_atlas_01 #3553230_81: 3521105628361444583
+      fx_minigame_NKS_atlas_01 #3553230_82: -1007385831070589827
+      fx_minigame_NKS_atlas_01 #3553230_83: -1850651199094572816
+      fx_minigame_NKS_atlas_01 #3553230_84: 5475855332546320140
+      fx_minigame_NKS_atlas_01 #3553230_85: 5096250642746754072
+      fx_minigame_NKS_atlas_01 #3553230_86: 4836607429593054929
+      fx_minigame_NKS_atlas_01 #3553230_87: 6788895552608201197
+      fx_minigame_NKS_atlas_01 #3553230_88: 4831430430563525524
+      fx_minigame_NKS_atlas_01 #3553230_89: 4929722325426151909
+      fx_minigame_NKS_atlas_01 #3553230_9: -1656375055452448204
+      fx_minigame_NKS_atlas_01 #3553230_90: -6475167514004042754
+      fx_minigame_NKS_atlas_01 #3553230_91: -2137511239552633297
+      fx_minigame_NKS_atlas_01 #3553230_92: -933498088606300511
+      fx_minigame_NKS_atlas_01 #3553230_93: -4521981505450436925
+      fx_minigame_NKS_atlas_01 #3553230_94: -6885349872956443432
+      fx_minigame_NKS_atlas_01 #3553230_95: 7482664896820889457
+      fx_minigame_NKS_atlas_01 #3553230_96: -7042044768953297547
+      fx_minigame_NKS_atlas_01 #3553230_97: -7746314325782281184
+      fx_minigame_NKS_atlas_01 #3553230_98: 6882107370166048572
+      fx_minigame_NKS_atlas_01 #3553230_99: -1685747012987632382
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

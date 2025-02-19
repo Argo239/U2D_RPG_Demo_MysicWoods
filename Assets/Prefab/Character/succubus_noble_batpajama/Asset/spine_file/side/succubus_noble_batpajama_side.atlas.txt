@@ -1,0 +1,195 @@
+
+succubus_noble_batpajama_side.skel.png
+size: 173,78
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+item/cwp_admiral
+  rotate: false
+  xy: 2, 3
+  size: 65, 73
+  orig: 106, 106
+  offset: 31, 33
+  index: -1
+side/[base]armL
+  rotate: false
+  xy: 85, 4
+  size: 5, 6
+  orig: 64, 64
+  offset: 38, 12
+  index: -1
+side/[base]armR
+  rotate: true
+  xy: 92, 5
+  size: 5, 6
+  orig: 64, 64
+  offset: 30, 12
+  index: -1
+side/[base]body
+  rotate: false
+  xy: 139, 32
+  size: 12, 12
+  orig: 64, 64
+  offset: 31, 8
+  index: -1
+side/[base]elbowL
+  rotate: false
+  xy: 131, 39
+  size: 6, 7
+  orig: 64, 64
+  offset: 39, 7
+  index: -1
+side/[base]elbowR
+  rotate: false
+  xy: 77, 3
+  size: 6, 7
+  orig: 64, 64
+  offset: 28, 7
+  index: -1
+side/[base]head
+  rotate: false
+  xy: 69, 46
+  size: 34, 30
+  orig: 64, 64
+  offset: 19, 16
+  index: -1
+side/[base]legL
+  rotate: true
+  xy: 131, 48
+  size: 6, 8
+  orig: 64, 64
+  offset: 36, 4
+  index: -1
+side/[base]legR
+  rotate: false
+  xy: 69, 2
+  size: 6, 8
+  orig: 64, 64
+  offset: 31, 4
+  index: -1
+side/batL
+  rotate: false
+  xy: 166, 48
+  size: 5, 9
+  orig: 64, 64
+  offset: 51, 9
+  index: -1
+side/batR1
+  rotate: false
+  xy: 166, 48
+  size: 5, 9
+  orig: 64, 64
+  offset: 8, 13
+  index: -1
+side/batR2
+  rotate: false
+  xy: 166, 48
+  size: 5, 9
+  orig: 64, 64
+  offset: 16, 7
+  index: -1
+side/earL
+  rotate: true
+  xy: 141, 46
+  size: 11, 23
+  orig: 64, 64
+  offset: 36, 39
+  index: -1
+side/earR
+  rotate: true
+  xy: 105, 39
+  size: 15, 24
+  orig: 64, 64
+  offset: 17, 38
+  index: -1
+side/face/[base]attack
+  rotate: false
+  xy: 139, 20
+  size: 14, 10
+  orig: 64, 64
+  offset: 31, 19
+  index: -1
+side/face/[base]damaged
+  rotate: false
+  xy: 155, 21
+  size: 11, 9
+  orig: 64, 64
+  offset: 33, 20
+  index: -1
+side/face/[base]doyagao
+  rotate: false
+  xy: 133, 8
+  size: 14, 10
+  orig: 64, 64
+  offset: 31, 20
+  index: -1
+side/face/[base]idle
+  rotate: true
+  xy: 149, 4
+  size: 14, 9
+  orig: 64, 64
+  offset: 31, 20
+  index: -1
+side/face/[base]mad
+  rotate: false
+  xy: 153, 32
+  size: 12, 12
+  orig: 64, 64
+  offset: 33, 18
+  index: -1
+side/face/[base]smile
+  rotate: false
+  xy: 117, 6
+  size: 14, 12
+  orig: 64, 64
+  offset: 31, 19
+  index: -1
+side/face/[base]tired
+  rotate: true
+  xy: 160, 6
+  size: 13, 9
+  orig: 64, 64
+  offset: 31, 20
+  index: -1
+side/hairF
+  rotate: true
+  xy: 141, 59
+  size: 17, 28
+  orig: 64, 64
+  offset: 38, 10
+  index: -1
+side/headF
+  rotate: false
+  xy: 69, 12
+  size: 29, 32
+  orig: 64, 64
+  offset: 21, 14
+  index: -1
+side/hornL
+  rotate: true
+  xy: 124, 20
+  size: 17, 13
+  orig: 64, 64
+  offset: 40, 25
+  index: -1
+side/hornR
+  rotate: true
+  xy: 100, 2
+  size: 16, 15
+  orig: 64, 64
+  offset: 12, 25
+  index: -1
+side/wingL
+  rotate: false
+  xy: 100, 20
+  size: 22, 17
+  orig: 64, 64
+  offset: 39, 7
+  index: -1
+side/wingR
+  rotate: false
+  xy: 105, 56
+  size: 34, 20
+  orig: 64, 64
+  offset: 0, 7
+  index: -1
