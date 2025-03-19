@@ -4,7 +4,7 @@
 
 //public class Enemy : MonoBehaviour
 //{
-//    Animator animator;
+//    animator animator;
 
 //    public float HP
 //    {
@@ -27,7 +27,7 @@
 
 //    private void Start()
 //    {
-//        animator = GetComponent<Animator>();
+//        animator = GetComponent<animator>();
 //    }
 
 //    public void Defeated()

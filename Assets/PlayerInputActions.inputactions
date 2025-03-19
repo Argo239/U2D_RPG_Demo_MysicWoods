@@ -31,6 +31,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "SprintDodge",
+                    "type": "Button",
+                    "id": "1ecc1d8d-0ea0-4505-aad3-58f9f6f6c40f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -102,12 +111,34 @@
                 },
                 {
                     "name": "",
+                    "id": "3363f786-0ec4-4594-a235-b29645ba0eae",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "f6ae4002-19a2-4704-97bd-be9f8a377a73",
                     "path": "<Keyboard>/r",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Revive",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a6f7f24b-d9a4-4660-9267-6b3e8e13ea2c",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SprintDodge",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

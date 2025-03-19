@@ -9,15 +9,15 @@ public class IdleState : IPlayerState {
         this._playerAnimator = playerAnimator;
     }
 
-    public void Enter(MoveDirection Direction, Vector2 currentLookDirection) {
-        _playerAnimator.TryToSetAnimation(PlayerAnimator.IsMoving, false, Direction, currentLookDirection);
+    public void Enter(ControlDirection Direction, Vector2 currentLookDirection) {
+        _playerAnimator.TryToSetAnimation(PlayerAnimator.IsMove, false, Direction, currentLookDirection);
     }
 
-    public void Exit(MoveDirection Direction, Vector2 currentLookDirection) {
+    public void Exit(ControlDirection Direction, Vector2 currentLookDirection) {
 
     }
 
-    public void Update(MoveDirection Direction, Vector2 currentLookDirection) {
-        _playerAnimator.TryToSetAnimation(PlayerAnimator.IsMoving, false, Direction, currentLookDirection);
+    public void Update(ControlDirection Direction, Vector2 currentLookDirection) {
+        _playerAnimator.TryToSetAnimation(PlayerAnimator.IsMove, false, Direction, currentLookDirection);
     }
 }

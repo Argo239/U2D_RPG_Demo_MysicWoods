@@ -14,7 +14,7 @@
 //    Vector2 movementInput;
 //    SpriteRenderer spriteRenderer;
 //    Rigidbody2D rb;
-//    Animator animator;
+//    animator animator;
 //    List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
 
 //    bool canMove = true;
@@ -23,7 +23,7 @@
 //    void Start()
 //    {
 //        rb = GetComponent<Rigidbody2D>();
-//        animator = GetComponent<Animator>();
+//        animator = GetComponent<animator>();
 //        spriteRenderer = GetComponent<SpriteRenderer>();
 //    }
 

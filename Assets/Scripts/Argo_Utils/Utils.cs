@@ -12,7 +12,7 @@ namespace Argo_Utils
         //    return time;
         //}
 
-        public static void LogMessage(bool consoleMessage, object message){
+        public static void DebugLog(bool consoleMessage, object message){
             if (consoleMessage) Debug.Log(message); 
         }
 

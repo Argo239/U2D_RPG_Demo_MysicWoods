@@ -53,6 +53,15 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""SprintDodge"",
+                    ""type"": ""Button"",
+                    ""id"": ""1ecc1d8d-0ea0-4505-aad3-58f9f6f6c40f"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -124,12 +133,34 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""3363f786-0ec4-4594-a235-b29645ba0eae"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Attack"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""f6ae4002-19a2-4704-97bd-be9f8a377a73"",
                     ""path"": ""<Keyboard>/r"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Revive"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a6f7f24b-d9a4-4660-9267-6b3e8e13ea2c"",
+                    ""path"": ""<Keyboard>/leftShift"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SprintDodge"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -143,6 +174,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
         m_Player_Attack = m_Player.FindAction("Attack", throwIfNotFound: true);
         m_Player_Revive = m_Player.FindAction("Revive", throwIfNotFound: true);
+        m_Player_SprintDodge = m_Player.FindAction("SprintDodge", throwIfNotFound: true);
     }
 
     ~@PlayerInputActions()
@@ -212,6 +244,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Move;
     private readonly InputAction m_Player_Attack;
     private readonly InputAction m_Player_Revive;
+    private readonly InputAction m_Player_SprintDodge;
     public struct PlayerActions
     {
         private @PlayerInputActions m_Wrapper;
@@ -219,6 +252,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         public InputAction @Move => m_Wrapper.m_Player_Move;
         public InputAction @Attack => m_Wrapper.m_Player_Attack;
         public InputAction @Revive => m_Wrapper.m_Player_Revive;
+        public InputAction @SprintDodge => m_Wrapper.m_Player_SprintDodge;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -237,6 +271,9 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
             @Revive.started += instance.OnRevive;
             @Revive.performed += instance.OnRevive;
             @Revive.canceled += instance.OnRevive;
+            @SprintDodge.started += instance.OnSprintDodge;
+            @SprintDodge.performed += instance.OnSprintDodge;
+            @SprintDodge.canceled += instance.OnSprintDodge;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -250,6 +287,9 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
             @Revive.started -= instance.OnRevive;
             @Revive.performed -= instance.OnRevive;
             @Revive.canceled -= instance.OnRevive;
+            @SprintDodge.started -= instance.OnSprintDodge;
+            @SprintDodge.performed -= instance.OnSprintDodge;
+            @SprintDodge.canceled -= instance.OnSprintDodge;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -272,5 +312,6 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         void OnMove(InputAction.CallbackContext context);
         void OnAttack(InputAction.CallbackContext context);
         void OnRevive(InputAction.CallbackContext context);
+        void OnSprintDodge(InputAction.CallbackContext context);
     }
 }

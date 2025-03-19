@@ -49,6 +49,6 @@
 //        _moveSpeed = _playerAttributesComponent.PlayerAttributes.SpeedAttribute.GetSpeed(_isRunning);
 //    }
 
-//    public bool IsMoving() => _isMoving;
+//    public bool IsMove() => _isMoving;
 //    public Vector2 GetMoveDir() => _moveDir;
 //}

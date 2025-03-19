@@ -10,15 +10,15 @@ public class DeadState : IPlayerState {
         this._playerAnimator = playerAnimator;
     }
 
-    public void Enter(MoveDirection direction, Vector2 currentLookDirection) {
-        _playerAnimator.TryToSetAnimation(PlayerAnimator.IsDead, true, MoveDirection.Left, _deadDirection);
+    public void Enter(ControlDirection direction, Vector2 currentLookDirection) {
+        _playerAnimator.TryToSetAnimation(PlayerAnimator.IsDead, true, ControlDirection.Left, _deadDirection);
     }
 
-    public void Exit(MoveDirection direction, Vector2 currentLookDirection) {
+    public void Exit(ControlDirection direction, Vector2 currentLookDirection) {
         _playerAnimator.TryToSetAnimation(PlayerAnimator.IsDead, false, direction, _deadDirection);
     }
 
-    public void Update(MoveDirection direction, Vector2 currentLookDirection) {
-        _playerAnimator.TryToSetAnimation(PlayerAnimator.IsDead, true, MoveDirection.Left, _deadDirection);
+    public void Update(ControlDirection direction, Vector2 currentLookDirection) {
+        _playerAnimator.TryToSetAnimation(PlayerAnimator.IsDead, true, ControlDirection.Left, _deadDirection);
     }
 }

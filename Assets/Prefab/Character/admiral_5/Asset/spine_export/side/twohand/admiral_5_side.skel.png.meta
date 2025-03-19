@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: 624d74521ce902d498524924631d722b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -556340414111260111
+    second: admiral_5_side.skel_0
+  - first:
+      213: 3834779694069442222
+    second: admiral_5_side.skel_1
+  - first:
+      213: 4507112198057768297
+    second: admiral_5_side.skel_2
+  - first:
+      213: 2379527425568736386
+    second: admiral_5_side.skel_3
+  - first:
+      213: -865341749790898241
+    second: admiral_5_side.skel_4
+  - first:
+      213: 5072595946160730013
+    second: admiral_5_side.skel_5
+  - first:
+      213: -7867768901774654177
+    second: admiral_5_side.skel_6
+  - first:
+      213: 6398364365347557548
+    second: admiral_5_side.skel_7
+  - first:
+      213: -3751981776105725374
+    second: admiral_5_side.skel_8
+  - first:
+      213: -4093875643671532046
+    second: admiral_5_side.skel_9
+  - first:
+      213: 7783380705956712587
+    second: admiral_5_side.skel_10
+  - first:
+      213: -5370872141698472287
+    second: admiral_5_side.skel_11
+  - first:
+      213: 2088784255167087080
+    second: admiral_5_side.skel_12
+  - first:
+      213: -3584588612861791129
+    second: admiral_5_side.skel_13
+  - first:
+      213: 4272920552133348725
+    second: admiral_5_side.skel_14
+  - first:
+      213: 5940740472275602725
+    second: admiral_5_side.skel_15
+  - first:
+      213: -4719955689851487560
+    second: admiral_5_side.skel_16
+  - first:
+      213: 3227266253099889527
+    second: admiral_5_side.skel_17
+  - first:
+      213: 2785476702469397598
+    second: admiral_5_side.skel_18
+  - first:
+      213: 4439644366481345857
+    second: admiral_5_side.skel_19
+  - first:
+      213: -8837969468844289190
+    second: admiral_5_side.skel_20
+  - first:
+      213: 7275569079961480672
+    second: admiral_5_side.skel_21
+  - first:
+      213: 4834379676950122373
+    second: admiral_5_side.skel_22
+  - first:
+      213: -2723182335395651527
+    second: admiral_5_side.skel_23
+  - first:
+      213: 7339888420252096168
+    second: admiral_5_side.skel_24
+  - first:
+      213: -8500697237966358461
+    second: admiral_5_side.skel_25
+  - first:
+      213: 3357774652912903059
+    second: admiral_5_side.skel_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: admiral_5_side.skel_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13264ba475b7748f0800000000000000
+      internalID: -556340414111260111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_side.skel_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6e3e070dfd73530800000000000000
+      internalID: 3834779694069442222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_side.skel_2
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 63
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96530181aaa7c8e30800000000000000
+      internalID: 4507112198057768297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_side.skel_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 63
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28403561697c50120800000000000000
+      internalID: 2379527425568736386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_side.skel_4
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 63
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7066a6340bdf3f0800000000000000
+      internalID: -865341749790898241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_side.skel_5
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 63
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f2ff3232b756640800000000000000
+      internalID: 5072595946160730013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_side.skel_6
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 63
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f154bda7ed110d290800000000000000
+      internalID: -7867768901774654177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_side.skel_7
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 61
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca01f048d7e8bc850800000000000000
+      internalID: 6398364365347557548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_side.skel_8
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 61
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242aa7714784eebc0800000000000000
+      internalID: -3751981776105725374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_side.skel_9
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 58
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fda558dac1af27c0800000000000000
+      internalID: -4093875643671532046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_side.skel_10
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 58
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80dd22938f140c60800000000000000
+      internalID: 7783380705956712587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_side.skel_11
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 66
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a665044e34d675b0800000000000000
+      internalID: -5370872141698472287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_side.skel_12
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 60
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1c9a5963adcfc10800000000000000
+      internalID: 2088784255167087080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_side.skel_13
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764767806abf04ec0800000000000000
+      internalID: -3584588612861791129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_side.skel_14
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 37
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57dcf5f6a967c4b30800000000000000
+      internalID: 4272920552133348725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_side.skel_15
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 34
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d06c0fbffb17250800000000000000
+      internalID: 5940740472275602725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_side.skel_16
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 50
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba71d6be495f7eb0800000000000000
+      internalID: -4719955689851487560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_side.skel_17
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 38
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773ff93fe8d89cc20800000000000000
+      internalID: 3227266253099889527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_side.skel_18
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c90d48d4008a620800000000000000
+      internalID: 2785476702469397598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_side.skel_19
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d4f217709cc9d30800000000000000
+      internalID: 4439644366481345857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_side.skel_20
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53d9c9f799395580800000000000000
+      internalID: -8837969468844289190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_side.skel_21
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 33
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed6be5d78308f460800000000000000
+      internalID: 7275569079961480672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_side.skel_22
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 33
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58fcaf9d3ba271340800000000000000
+      internalID: 4834379676950122373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_side.skel_23
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 30
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 930af101810553ad0800000000000000
+      internalID: -2723182335395651527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_side.skel_24
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 22
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6112c31a58cd560800000000000000
+      internalID: 7339888420252096168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_side.skel_25
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 12
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348fed396e4770a80800000000000000
+      internalID: -8500697237966358461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: admiral_5_side.skel_26
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3932faea146399e20800000000000000
+      internalID: 3357774652912903059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      admiral_5_side.skel_0: -556340414111260111
+      admiral_5_side.skel_1: 3834779694069442222
+      admiral_5_side.skel_10: 7783380705956712587
+      admiral_5_side.skel_11: -5370872141698472287
+      admiral_5_side.skel_12: 2088784255167087080
+      admiral_5_side.skel_13: -3584588612861791129
+      admiral_5_side.skel_14: 4272920552133348725
+      admiral_5_side.skel_15: 5940740472275602725
+      admiral_5_side.skel_16: -4719955689851487560
+      admiral_5_side.skel_17: 3227266253099889527
+      admiral_5_side.skel_18: 2785476702469397598
+      admiral_5_side.skel_19: 4439644366481345857
+      admiral_5_side.skel_2: 4507112198057768297
+      admiral_5_side.skel_20: -8837969468844289190
+      admiral_5_side.skel_21: 7275569079961480672
+      admiral_5_side.skel_22: 4834379676950122373
+      admiral_5_side.skel_23: -2723182335395651527
+      admiral_5_side.skel_24: 7339888420252096168
+      admiral_5_side.skel_25: -8500697237966358461
+      admiral_5_side.skel_26: 3357774652912903059
+      admiral_5_side.skel_3: 2379527425568736386
+      admiral_5_side.skel_4: -865341749790898241
+      admiral_5_side.skel_5: 5072595946160730013
+      admiral_5_side.skel_6: -7867768901774654177
+      admiral_5_side.skel_7: 6398364365347557548
+      admiral_5_side.skel_8: -3751981776105725374
+      admiral_5_side.skel_9: -4093875643671532046
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

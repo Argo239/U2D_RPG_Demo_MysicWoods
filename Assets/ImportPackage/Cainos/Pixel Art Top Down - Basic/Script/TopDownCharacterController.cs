@@ -42,7 +42,7 @@ namespace Cainos.PixelArtTopDown_Basic
             }
 
             dir.Normalize();
-            animator.SetBool("IsMoving", dir.magnitude > 0);
+            animator.SetBool("IsMove", dir.magnitude > 0);
 
             GetComponent<Rigidbody2D>().linearVelocity = speed * dir;
         }

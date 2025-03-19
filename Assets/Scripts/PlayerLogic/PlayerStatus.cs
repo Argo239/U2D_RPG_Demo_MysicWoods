@@ -25,7 +25,7 @@ public class PlayerStatus : MonoBehaviour {
         _statusMediator = new StatusMediator();
         _statusModifierFactory = new StatusModifierFactory();
         if (_playerAttributesInitData == null) {
-            LogMessage(PlayerController.Instance.consoleLogOn, $"Player data init error");
+            DebugLog(PlayerController.Instance.consoleLogOn, $"Player data init error");
             return;
         }
         attributes = new PlayerAttributes(_playerAttributesInitData, _statusMediator);
@@ -36,7 +36,7 @@ public class PlayerStatus : MonoBehaviour {
     }
 
     private void Update() {
-        LogMessage(PlayerController.Instance.consoleLogOn,
+        DebugLog(PlayerController.Instance.consoleLogOn,
             $"The base value of the current maxHealth: {attributes.HealthStatus.currentHealth.BaseValue}," +
             $"The current value of the current maxHealth: {attributes.CurrentHealth}," +
             $"Cache: {_statusMediator.GetLastQueryResult(attributes.HealthStatus.currentHealth.StatusType)}");
@@ -54,37 +54,37 @@ public class PlayerStatus : MonoBehaviour {
             _statusModifier = _statusModifierFactory.Create(
                 OperatorType.Add, attributes.HealthStatus.currentHealth.StatusType, 20, 10f);
             _statusMediator.AddModifier(_statusModifier);
-            LogMessage(PlayerController.Instance.consoleLogOn, $"Click U");
+            DebugLog(PlayerController.Instance.consoleLogOn, $"Click U");
         }
         if (Input.GetKeyDown(KeyCode.I)) {
             _statusModifier = _statusModifierFactory.Create(
                 OperatorType.Add, attributes.HealthStatus.maxHealth.StatusType, 20f, 10f);
             _statusMediator.AddModifier(_statusModifier);
-            LogMessage(PlayerController.Instance.consoleLogOn, $"Click I");
+            DebugLog(PlayerController.Instance.consoleLogOn, $"Click I");
         }
         if (Input.GetKeyDown(KeyCode.O)) {
             _statusModifier = _statusModifierFactory.Create(
                 OperatorType.Multiply, attributes.HealthStatus.currentHealth.StatusType, 0.2f, 10f);
             _statusMediator.AddModifier(_statusModifier);
-            LogMessage(PlayerController.Instance.consoleLogOn, $"Click O");
+            DebugLog(PlayerController.Instance.consoleLogOn, $"Click O");
         }
         if (Input.GetKeyDown(KeyCode.R)) {
             if (_statusModifier != null) {
                 _statusMediator.RemoveModifier(_statusModifier);
             }
-            LogMessage(PlayerController.Instance.consoleLogOn, $"Click R");
+            DebugLog(PlayerController.Instance.consoleLogOn, $"Click R");
         }
         if (Input.GetKeyDown(KeyCode.H)) {
             attributes.HealthStatus.Heal(10);
-            LogMessage(PlayerController.Instance.consoleLogOn, $"Click H");
+            DebugLog(PlayerController.Instance.consoleLogOn, $"Click H");
         }
         if (Input.GetKeyDown(KeyCode.G)) {
             attributes.HealthStatus.TakeDamage(10);
-            LogMessage(PlayerController.Instance.consoleLogOn, $"Click G");
+            DebugLog(PlayerController.Instance.consoleLogOn, $"Click G");
         }
         if (Input.GetKeyDown(KeyCode.K)) {
             attributes.HealthStatus.Kill();
-            LogMessage(PlayerController.Instance.consoleLogOn, $"Click K");
+            DebugLog(PlayerController.Instance.consoleLogOn, $"Click K");
         }
     }
 
