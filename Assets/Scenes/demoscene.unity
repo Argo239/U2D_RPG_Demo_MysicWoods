@@ -4297,6 +4297,11 @@ PrefabInstance:
       propertyPath: gameInput
       value: 
       objectReference: {fileID: 1741455888}
+    - target: {fileID: 4159187924156034361, guid: 3deb58ef84e36d64cbbd21f4fcca15cd,
+        type: 3}
+      propertyPath: consoleLogOn
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6696508500440695960, guid: 3deb58ef84e36d64cbbd21f4fcca15cd,
         type: 3}
       propertyPath: m_EffectColor.a

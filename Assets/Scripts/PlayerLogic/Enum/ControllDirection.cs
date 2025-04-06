@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public enum ControlDirection{
+public enum ControllDirection{
     Down,
     Up,
     Left,

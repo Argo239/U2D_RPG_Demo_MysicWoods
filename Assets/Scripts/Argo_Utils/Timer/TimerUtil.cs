@@ -1,6 +1,6 @@
 ﻿using System;
 
-public abstract class Timer {
+public abstract class TimerUtil {
     protected float initialTime;
     public float Time { get; set; }
     public bool IsRunning { get; protected set; }
@@ -10,7 +10,7 @@ public abstract class Timer {
     public Action OnTimerStart = delegate { };
     public Action OnTimerStop = delegate { };
 
-    protected Timer(float value) {
+    protected TimerUtil(float value) {
         initialTime = value;
         IsRunning = true;
     }

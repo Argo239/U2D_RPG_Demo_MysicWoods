@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -21,7 +22,7 @@ public class GameInput : MonoBehaviour {
 
     private void Awake() {
         if (Instance != null && Instance != this) {
-            Destroy(gameObject); 
+            Destroy(gameObject);
             return;
         }
         Instance = this;
@@ -60,17 +61,34 @@ public class GameInput : MonoBehaviour {
         PlayerStatus.Instance.OnPlayerDeath -= PlayerStatus_OnPlayerDeath;
     }
 
-    private void Move_performed(InputAction.CallbackContext obj) => OnPlayerMoving?.Invoke(this, EventArgs.Empty);
-    private void Move_canceled(InputAction.CallbackContext obj) => OnPlayerMoveCanceled?.Invoke(this, EventArgs.Empty);
-    private void SprintDodge_performed(InputAction.CallbackContext obj) => OnPlayerSprintDogePerformed?.Invoke(this, EventArgs.Empty);
-    private void SprintDodge_canceled(InputAction.CallbackContext obj) => OnPlayerSprintFinished?.Invoke(this, EventArgs.Empty);
-    private void Attack_performed(InputAction.CallbackContext obj) => OnPlayerAttacking?.Invoke(this, EventArgs.Empty);
-    private void Revive_performed(InputAction.CallbackContext obj) {
-        if (PlayerController.Instance.GetState() == PlayerController.State.Dead) {
-            OnPlayerRevive.Invoke(this, EventArgs.Empty);
-            _playerInputActions.Player.Enable();
-        }
+    private void Move_performed(InputAction.CallbackContext obj) =>
+        OnPlayerMoving?.Invoke(this, EventArgs.Empty);
+
+    private void Move_canceled(InputAction.CallbackContext obj) =>
+        OnPlayerMoveCanceled?.Invoke(this, EventArgs.Empty);
+
+    private void SprintDodge_performed(InputAction.CallbackContext obj) =>
+        OnPlayerSprintDogePerformed?.Invoke(this, EventArgs.Empty);
+
+    private void SprintDodge_canceled(InputAction.CallbackContext obj) =>
+        OnPlayerSprintFinished?.Invoke(this, EventArgs.Empty);
+
+    private void Attack_performed(InputAction.CallbackContext obj) {
+        OnPlayerAttacking?.Invoke(this, EventArgs.Empty);
+        AttackStiff(.5f);
     }
+
+    private void Revive_performed(InputAction.CallbackContext obj) {
+        OnPlayerRevive.Invoke(this, EventArgs.Empty);
+        _playerInputActions.Player.Enable();
+    }
+
+    //private void Revive_performed(InputAction.CallbackContext obj) {
+    //    if (PlayerController.Instance.GetCurrentState() == PlayerController.State.Dead) {
+    //        OnPlayerRevive.Invoke(this, EventArgs.Empty);
+    //        _playerInputActions.Player.Enable();
+    //    }
+    //}
 
     private void PlayerStatus_OnPlayerDeath(object sender, EventArgs e) {
         _playerInputActions.Player.Disable();
@@ -88,5 +106,23 @@ public class GameInput : MonoBehaviour {
         Screen.autorotateToLandscapeRight = true;
         Screen.autorotateToPortrait = false;
         Screen.autorotateToPortraitUpsideDown = false;
+    }
+
+    public bool IsSprintDodgeKeyHeld() {
+        return _playerInputActions.Player.SprintDodge.ReadValue<float>() > 0;
+    }
+
+    public void AttackStiff(float attackStiffDuration) {
+        _playerInputActions.Player.Move.Disable();
+        StartCoroutine(AttackStiffCoroutine(attackStiffDuration));
+    }
+
+    public IEnumerator AttackStiffCoroutine(float attackStiffDuration) {
+        yield return new WaitForSeconds(attackStiffDuration);
+        AttackStiffFinish();
+    }
+
+    public void AttackStiffFinish() {
+        _playerInputActions.Player.Move.Enable();
     }
 }

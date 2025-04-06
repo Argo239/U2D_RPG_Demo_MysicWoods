@@ -49,7 +49,7 @@ public class PlayerAnimator : MonoBehaviour {
     private PlayerController playerController;
     private AnimatorStateMachine playerStateMachine;
     private Vector2 moveDirection;
-    private ControlDirection enumDirection;
+    private ControllDirection enumDirection;
     private Dictionary<string, SkeletonDataAsset> skeletonDataAssets;
     #endregion
 
@@ -123,8 +123,20 @@ public class PlayerAnimator : MonoBehaviour {
     }
 
     #region Event Handlers
-    private void GameInput_OnPlayerMoving(object sender, EventArgs e) =>
-        playerStateMachine.ChangeState(new MoveState(this), enumDirection, moveDirection);
+    private void GameInput_OnPlayerMoving(object sender, EventArgs e) {
+        // Check if the sprint/dodge key (Shift) is held
+        if (gameInput.IsSprintDodgeKeyHeld()) {
+            // If already in RunState, update it; otherwise, switch to RunState
+            if (playerStateMachine.CurrentState is RunState) {
+                playerStateMachine.Update(enumDirection, moveDirection);
+            } else {
+                playerStateMachine.ChangeState(new RunState(this), enumDirection, moveDirection);
+            }
+        } else {
+            // If Shift is not held, switch to WalkState
+            playerStateMachine.ChangeState(new WalkState(this), enumDirection, moveDirection);
+        }
+    }
 
     private void GameInput_OnPlayerMoveCanceled(object sender, EventArgs e) =>
         playerStateMachine.ChangeState(new IdleState(this), enumDirection, moveDirection);
@@ -137,19 +149,34 @@ public class PlayerAnimator : MonoBehaviour {
 
     private void PlayerStatus_OnPlayerDeath(object sender, EventArgs e) =>
         playerStateMachine.ChangeState(new DeadState(this), enumDirection, moveDirection);
+
     private void GameInput_OnPlayerSprintDogePerformed(object sender, EventArgs e) {
-        throw new NotImplementedException();
+        if (playerController.GetCurrentState() == PlayerController.State.Moving) {
+            // 如果已经在 RunState，则仅更新方向，不重复切换状态
+            if (playerStateMachine.CurrentState is RunState) {
+                playerStateMachine.Update(enumDirection, moveDirection);
+            } else {
+                playerStateMachine.ChangeState(new RunState(this), enumDirection, moveDirection);
+            }
+        } else if (playerController.GetCurrentState() == PlayerController.State.Attacking) {
+            playerStateMachine.ChangeState(new DodgeState(this), enumDirection, moveDirection);
+        } else {
+            playerStateMachine.ChangeState(new IdleState(this), enumDirection, moveDirection);
+        }
     }
 
     private void GameInput_OnPlayerSprintFinished(object sender, EventArgs e) {
-        throw new NotImplementedException();
+        var currentState = playerController.GetCurrentState();
+        if (currentState == PlayerController.State.Moving || currentState == PlayerController.State.Running) {
+            playerStateMachine.ChangeState(new WalkState(this), enumDirection, moveDirection);
+        }
     }
     #endregion
 
     /// <summary>
     /// Attempts to update the player's animation state, switching skeleton assets if necessary.
     /// </summary>
-    public void TryToSetAnimation(int animatorID, bool value, ControlDirection direction, Vector2 playerLookDir) {
+    public void TryToSetAnimation(int animatorID, bool value, ControllDirection direction, Vector2 playerLookDir) {
         string skeletonDataAssetKey = GetSkeletonDataAssetKey(direction);
         if (string.IsNullOrEmpty(skeletonDataAssetKey)) return;
 
@@ -160,18 +187,18 @@ public class PlayerAnimator : MonoBehaviour {
         SetAnimatorBool(animatorID, value);
 
         // Flip the skeleton based on direction
-        skeleton.ScaleX = direction == ControlDirection.Left ? -1f : 1f;
+        skeleton.ScaleX = direction == ControllDirection.Left ? -1f : 1f;
     }
 
     /// <summary>
     /// Retrieves the appropriate skeleton data asset key based on the player's direction.
     /// </summary>
-    private string GetSkeletonDataAssetKey(ControlDirection direction) {
+    private string GetSkeletonDataAssetKey(ControllDirection direction) {
         return direction switch {
-            ControlDirection.Up => backSkeletonDataAsset.name,
-            ControlDirection.Down => frontSkeletonDataAsset.name,
-            ControlDirection.Left => sideSkeletonDataAsset.name,
-            ControlDirection.Right => sideSkeletonDataAsset.name,
+            ControllDirection.Up => backSkeletonDataAsset.name,
+            ControllDirection.Down => frontSkeletonDataAsset.name,
+            ControllDirection.Left => sideSkeletonDataAsset.name,
+            ControllDirection.Right => sideSkeletonDataAsset.name,
             _ => null
         };
     }

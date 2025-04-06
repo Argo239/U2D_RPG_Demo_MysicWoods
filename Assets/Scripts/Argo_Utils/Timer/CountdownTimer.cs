@@ -1,4 +1,4 @@
-﻿public class CountdownTimer : Timer {
+﻿public class CountdownTimer : TimerUtil {
     public CountdownTimer(float value) : base(value) { }
 
     public override void Tick(float deltaTime) {

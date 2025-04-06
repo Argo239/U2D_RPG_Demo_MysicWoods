@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine;
 
 public class cwp_admiral : MonoBehaviour, IWeaponLogic {
-    public static cwp_admiral Instance {  get; private set; }
+    public static cwp_admiral Instance { get; private set; }
 
     [SerializeField] private SectorHitboxRangeConfig SectorHitboxConfig;
 
@@ -30,9 +30,8 @@ public class cwp_admiral : MonoBehaviour, IWeaponLogic {
     }
 
     public void StopAttack() {
-    
-    }
 
+    }
 
     void GenerateSectorHitbox() {
         PolygonCollider2D exitsPolyCol = transform.parent.GetComponent<PolygonCollider2D>();

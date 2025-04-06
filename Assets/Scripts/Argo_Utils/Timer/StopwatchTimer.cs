@@ -1,4 +1,4 @@
-﻿public class StopwatchTimer : Timer {
+﻿public class StopwatchTimer : TimerUtil {
     public StopwatchTimer() : base(0) { }
 
     public override void Tick(float deltaTime) {

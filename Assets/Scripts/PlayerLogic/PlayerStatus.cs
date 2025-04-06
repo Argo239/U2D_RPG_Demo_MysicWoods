@@ -36,10 +36,10 @@ public class PlayerStatus : MonoBehaviour {
     }
 
     private void Update() {
-        DebugLog(PlayerController.Instance.consoleLogOn,
-            $"The base value of the current maxHealth: {attributes.HealthStatus.currentHealth.BaseValue}," +
-            $"The current value of the current maxHealth: {attributes.CurrentHealth}," +
-            $"Cache: {_statusMediator.GetLastQueryResult(attributes.HealthStatus.currentHealth.StatusType)}");
+        //DebugLog(PlayerController.Instance.consoleLogOn,
+        //    $"The base value of the current maxHealth: {attributes.HealthStatus.currentHealth.BaseValue}," +
+        //    $"The current value of the current maxHealth: {attributes.CurrentHealth}," +
+        //    $"Cache: {_statusMediator.GetLastQueryResult(attributes.HealthStatus.currentHealth.StatusType)}");
         TestStats();
 
         _statusMediator.Update(Time.deltaTime);
@@ -82,16 +82,16 @@ public class PlayerStatus : MonoBehaviour {
             attributes.HealthStatus.TakeDamage(10);
             DebugLog(PlayerController.Instance.consoleLogOn, $"Click G");
         }
-        if (Input.GetKeyDown(KeyCode.K)) {
-            attributes.HealthStatus.Kill();
-            DebugLog(PlayerController.Instance.consoleLogOn, $"Click K");
-        }
+        //if (Input.GetKeyDown(KeyCode.K)) {
+        //    attributes.HealthStatus.Kill();
+        //    DebugLog(PlayerController.Instance.consoleLogOn, $"Click K");
+        //}
     }
 
     private void CheckPlayerIsDie() {
         float playerhealth = attributes.HealthStatus.currentHealth.CurrentValue;
         if (playerhealth <= 0) {
-            if(PlayerController.Instance.GetState() != PlayerController.State.Dead) OnPlayerDeath.Invoke(this, EventArgs.Empty);
+            if(PlayerController.Instance.GetCurrentState() != PlayerController.State.Dead) OnPlayerDeath.Invoke(this, EventArgs.Empty);
         }
 
     }

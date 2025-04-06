@@ -1,23 +1,22 @@
 using Interface;
 using UnityEngine;
-using UnityEngine.EventSystems;
 
-public class MoveState : IPlayerState {
+public class WalkState : IPlayerState {
     private PlayerAnimator _playerAnimator;
 
-    public MoveState(PlayerAnimator playerAnimator) {
+    public WalkState(PlayerAnimator playerAnimator) {
         this._playerAnimator = playerAnimator;
     }
 
-    public void Enter(ControlDirection Direction, Vector2 currentLookDirection) {
+    public void Enter(ControllDirection Direction, Vector2 currentLookDirection) {
         _playerAnimator.TryToSetAnimation(PlayerAnimator.IsMove, true, Direction, currentLookDirection);
     }
 
-    public void Exit(ControlDirection Direction, Vector2 currentLookDirection) {
+    public void Exit(ControllDirection Direction, Vector2 currentLookDirection) {
         _playerAnimator.TryToSetAnimation(PlayerAnimator.IsMove, false, Direction, currentLookDirection);
     }
 
-    public void Update(ControlDirection Direction, Vector2 currentLookDirection) {
+    public void Update(ControllDirection Direction, Vector2 currentLookDirection) {
         _playerAnimator.TryToSetAnimation(PlayerAnimator.IsMove, true, Direction, currentLookDirection);
     }
 }
