@@ -1,25 +1,34 @@
+using System;
+using System.Collections;
 using UnityEngine;
-using UnityEngine.EventSystems;
 using static Argo_Utils.Utils;
 
 public class PlayerMove : MonoBehaviour {
     public static PlayerMove Instance { get; private set; }
 
+    public event EventHandler OnPlayerStartMoving;
+    public event EventHandler OnPlayerStopMoving;
+    public event EventHandler OnPlayerStartRunning;
+    public event EventHandler OnPlayerStopRunning;
+    public event EventHandler OnPlayerDodgePerformed;
+
     private Rigidbody2D rb;
     private Camera mainCamera;
-    private GameInput gameInput;
-    private PlayerController playerController;
+    private GameInput _gameInput;
+    private PlayerController _playerController;
 
     private float smoothingFactor = 10f;
-    private Vector2 moveDirection;
+    private Vector2 inputVector;
     private Vector2 mouseLookDirection;
     private PlayerController.State currentState;
-    private ControllDirection enumDirection;
+    private ControllDirection cardinalDir;
 
     private float speed = 5;
     private float runSpeed = 10;
     private bool isRunning;
 
+    private float dodgeCooldown = 2f;
+    private float lastDodgeTime = -1f;
 
     private void Awake() {
         if (Instance != null && Instance != this) {
@@ -28,35 +37,67 @@ public class PlayerMove : MonoBehaviour {
         }
         Instance = this;
 
+        _playerController = PlayerController.Instance;
         rb = GetComponent<Rigidbody2D>();
-        playerController = PlayerController.Instance;
-        gameInput = GameInput.Instance;
+        _gameInput = _playerController.GameInput;
         mainCamera = Camera.main;
 
         if (rb == null) {
-            DebugLog(playerController.consoleLogOn, $"Cant found rb component");
+            DebugLog(_playerController.consoleLogOn, $"Cant found rb component");
         }
     }
 
-    private void Start() {
-        gameInput.OnPlayerSprintDogePerformed += GameInput_OnPlayerSprintDogePerformed;
-        gameInput.OnPlayerSprintFinished += GameInput_OnPlayerSprintFinished;
+    private void OnEnable() {
+        _gameInput.OnPlayerStartMoving += GameInput_OnPlayerStartMoving;
+        _gameInput.OnPlayerStopMoving += GameInput_OnPlayerStopMoving;
+        _gameInput.OnPlayerStartRunning += GameInput_OnPlayerStartRunning;
+        _gameInput.OnPlayerStopRunning += GameInput_OnPlayerStopRunning;
+        _gameInput.OnPlayerDodgePerformed += GameInput_OnPlayerDodgePerformed;
     }
 
-
-    private void GameInput_OnPlayerSprintDogePerformed(object sender, System.EventArgs e) =>
-        isRunning = true;
-
-    private void GameInput_OnPlayerSprintFinished(object sender, System.EventArgs e) =>
-        isRunning = false;
+    private void OnDisable() {
+        _gameInput.OnPlayerStartMoving -= GameInput_OnPlayerStartMoving;
+        _gameInput.OnPlayerStopMoving -= GameInput_OnPlayerStopMoving;
+        _gameInput.OnPlayerStartRunning -= GameInput_OnPlayerStartRunning;
+        _gameInput.OnPlayerStopRunning -= GameInput_OnPlayerStopRunning;
+        _gameInput.OnPlayerDodgePerformed -= GameInput_OnPlayerDodgePerformed;
+    }
 
     private void Update() {
-        GetPlayerDirection();
+        UpdateMovementInput();
     }
 
     private void FixedUpdate() {
         Movement();
         PlayerLookDirection();
+    }
+
+    private void GameInput_OnPlayerStartMoving(object sender, EventArgs e) => 
+        OnPlayerStartMoving.Invoke(sender, e); 
+
+    private void GameInput_OnPlayerStopMoving(object sender, EventArgs e) =>
+        OnPlayerStopMoving.Invoke(sender, e);
+
+    private void GameInput_OnPlayerStartRunning(object sender, System.EventArgs e) {
+        isRunning = true;
+        OnPlayerStartRunning.Invoke(this, e);       
+    }
+
+    private void GameInput_OnPlayerStopRunning(object sender, System.EventArgs e) {
+        isRunning = false;
+        OnPlayerStopMoving?.Invoke(this, e);
+    }
+
+    private void GameInput_OnPlayerDodgePerformed(object sender, System.EventArgs e) {
+        if (!canDodge) return;
+
+        _gameInput.StunMovement(.5f);
+
+        Vector2 dodgeDir = GetInputVector();
+        PlayerDodge(dodgeDir, 1f, .5f, .2f);
+        lastDodgeTime = Time.time;
+
+        OnPlayerDodgePerformed.Invoke(this, e);
     }
 
     /// <summary>
@@ -65,12 +106,7 @@ public class PlayerMove : MonoBehaviour {
     /// </summary>
     private void Movement() {
         // Calculate the target velocity based on move direction and player speed
-        Vector2 targetVelocity = moveDirection;
-        if (!isRunning) {
-            targetVelocity *= speed;
-        } else {
-            targetVelocity *= runSpeed;
-        }
+        Vector2 targetVelocity = inputVector * (isRunning ? runSpeed : speed);
         rb.linearVelocity = Vector2.Lerp(rb.linearVelocity, targetVelocity, smoothingFactor * Time.deltaTime);
     }
 
@@ -89,12 +125,33 @@ public class PlayerMove : MonoBehaviour {
         return mouseLookDirection;
     }
 
+    private void PlayerDodge(Vector2 dodgeDirection, float distance, float duration, float jumpHeight) {
+        StartCoroutine(DodgeCoroutine(dodgeDirection, distance, duration, jumpHeight));
+    }
+
+    private IEnumerator DodgeCoroutine(Vector2 dodgeDirection, float distance, float duration, float jumpHeight) {
+        Vector3 startPos = PlayerController.Instance.GetPlayerCurrentPosition();
+        float timer = 0f;
+        while (timer < duration) {
+            timer += Time.deltaTime;
+            float t = Mathf.Clamp01(timer / duration);
+            Vector2 horizontalOffset = dodgeDirection * distance * t;
+            float verticalOffset = 4f * jumpHeight * t * (1f - t);
+            rb.MovePosition(startPos + (Vector3)horizontalOffset + new Vector3(0, verticalOffset, 0));
+
+            yield return null;
+        }
+        rb.MovePosition(startPos + (Vector3)(dodgeDirection * distance));
+    }
+
     /// <summary>
     /// Retrieves the player's movement input vector and determines the enum direction.
     /// </summary>
-    public void GetPlayerDirection() {
-        moveDirection = gameInput.GetMovementVectorNormalized();
-        enumDirection = GetMoveDirection(moveDirection);
+    public void UpdateMovementInput() {
+        inputVector = _gameInput.GetMovementVectorNormalized();
+        cardinalDir = CalculateCardinalDir(inputVector);
+
+        Debug.Log($"{inputVector}, {cardinalDir}");
     }
 
     /// <summary>
@@ -103,10 +160,8 @@ public class PlayerMove : MonoBehaviour {
     /// </summary>
     /// <param name="direction">Input movement vector.</param>
     /// <returns>A ControllDirection indicating the dominant direction.</returns>
-    public ControllDirection GetMoveDirection(Vector2 direction) {
-        if (direction == Vector2.zero)
-            return enumDirection;
-
+    public ControllDirection CalculateCardinalDir(Vector2 direction) {
+        if (direction == Vector2.zero) return cardinalDir;
         // Compare absolute x and y values to determine dominant movement direction
         return Mathf.Abs(direction.x) > Mathf.Abs(direction.y)
             ? (direction.x > 0 ? ControllDirection.Right : ControllDirection.Left)
@@ -117,8 +172,8 @@ public class PlayerMove : MonoBehaviour {
     /// Returns the normalized facing direction based on the current enum direction.
     /// </summary>
     /// <returns>A normalized Vector2 representing the facing direction.</returns>
-    public Vector2 GetFacingDir() {
-        return enumDirection switch {
+    public Vector2 GetFacingVector() {
+        return cardinalDir switch {
             ControllDirection.Down => Vector2.down,
             ControllDirection.Up => Vector2.up,
             ControllDirection.Left => Vector2.left,
@@ -141,16 +196,18 @@ public class PlayerMove : MonoBehaviour {
     /// <summary>
     /// Returns the current ControllDirection enum.
     /// </summary>
-    public ControllDirection GetEnumDirection() => enumDirection;
+    public ControllDirection GetCardinalDir() => cardinalDir;
 
     /// <summary>
     /// Returns the current move direction vector.
     /// </summary>
-    public Vector2 GetMoveDirection() => moveDirection;
+    public Vector2 GetInputVector() => inputVector;
 
     /// <summary>
     /// Sets the player's current state.
     /// </summary>
     /// <param name="newState">New state to set.</param>
     public void SetCurrentState(PlayerController.State newState) => currentState = newState;
+
+    public bool canDodge => Time.time >= lastDodgeTime + dodgeCooldown;
 }

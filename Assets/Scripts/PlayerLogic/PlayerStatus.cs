@@ -36,7 +36,7 @@ public class PlayerStatus : MonoBehaviour {
     }
 
     private void Update() {
-        //DebugLog(PlayerController.Instance.consoleLogOn,
+        //DebugLog(PlayerController.Instance._consoleLogOn,
         //    $"The base value of the current maxHealth: {attributes.HealthStatus.currentHealth.BaseValue}," +
         //    $"The current value of the current maxHealth: {attributes.CurrentHealth}," +
         //    $"Cache: {_statusMediator.GetLastQueryResult(attributes.HealthStatus.currentHealth.StatusType)}");
@@ -84,7 +84,7 @@ public class PlayerStatus : MonoBehaviour {
         }
         //if (Input.GetKeyDown(KeyCode.K)) {
         //    attributes.HealthStatus.Kill();
-        //    DebugLog(PlayerController.Instance.consoleLogOn, $"Click K");
+        //    DebugLog(PlayerController.Instance._consoleLogOn, $"Click K");
         //}
     }
 

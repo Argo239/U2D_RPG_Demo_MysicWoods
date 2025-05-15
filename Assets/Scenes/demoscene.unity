@@ -3742,25 +3742,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1767091896}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &821885011 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2235289615276150880, guid: 3deb58ef84e36d64cbbd21f4fcca15cd,
-    type: 3}
-  m_PrefabInstance: {fileID: 1653784031}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &821885013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 821885011}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7078d807d1c61e042a1ce417e0852d40, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SectorHitboxConfig: {fileID: 11400000, guid: 0ee5b12205406ab4c831af6591dca019, type: 2}
 --- !u!1 &879653721
 GameObject:
   m_ObjectHideFlags: 0
@@ -4262,31 +4243,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1322190597160641280, guid: 3deb58ef84e36d64cbbd21f4fcca15cd,
+    - target: {fileID: 1039144597454047717, guid: 3deb58ef84e36d64cbbd21f4fcca15cd,
         type: 3}
-      propertyPath: weaponLogicComponent
+      propertyPath: WeaponData
       value: 
-      objectReference: {fileID: 821885013}
-    - target: {fileID: 2083879190598455072, guid: 3deb58ef84e36d64cbbd21f4fcca15cd,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3411800901166970767, guid: 3deb58ef84e36d64cbbd21f4fcca15cd,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3411800901166970767, guid: 3deb58ef84e36d64cbbd21f4fcca15cd,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3411800901166970767, guid: 3deb58ef84e36d64cbbd21f4fcca15cd,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: 6ad8cc87963c60c4d9e3ae3677148c65,
+        type: 2}
     - target: {fileID: 3937801296100075678, guid: 3deb58ef84e36d64cbbd21f4fcca15cd,
         type: 3}
       propertyPath: m_Name
@@ -4294,19 +4256,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4159187924156034361, guid: 3deb58ef84e36d64cbbd21f4fcca15cd,
         type: 3}
-      propertyPath: gameInput
+      propertyPath: GameInput
       value: 
       objectReference: {fileID: 1741455888}
     - target: {fileID: 4159187924156034361, guid: 3deb58ef84e36d64cbbd21f4fcca15cd,
         type: 3}
-      propertyPath: consoleLogOn
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6696508500440695960, guid: 3deb58ef84e36d64cbbd21f4fcca15cd,
-        type: 3}
-      propertyPath: m_EffectColor.a
-      value: 0.20392157
-      objectReference: {fileID: 0}
+      propertyPath: gameInput
+      value: 
+      objectReference: {fileID: 1741455888}
     - target: {fileID: 8501009509030912014, guid: 3deb58ef84e36d64cbbd21f4fcca15cd,
         type: 3}
       propertyPath: m_Mesh
@@ -4315,11 +4272,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2235289615276150880, guid: 3deb58ef84e36d64cbbd21f4fcca15cd,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 821885013}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3deb58ef84e36d64cbbd21f4fcca15cd, type: 3}
 --- !u!1 &1741455885
 GameObject:

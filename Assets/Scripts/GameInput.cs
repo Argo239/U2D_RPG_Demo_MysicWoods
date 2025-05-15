@@ -1,6 +1,5 @@
 using System;
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -9,11 +8,12 @@ public class GameInput : MonoBehaviour {
 
     #region Event
 
-    public event EventHandler OnPlayerMoving;
-    public event EventHandler OnPlayerMoveCanceled;
-    public event EventHandler OnPlayerSprintDogePerformed;
-    public event EventHandler OnPlayerSprintFinished;
-    public event EventHandler OnPlayerAttacking;
+    public event EventHandler OnPlayerStartMoving;
+    public event EventHandler OnPlayerStopMoving;
+    public event EventHandler OnPlayerStartRunning;
+    public event EventHandler OnPlayerStopRunning;
+    public event EventHandler OnPlayerDodgePerformed;
+    public event EventHandler OnPlayerAttackPerformed;
     public event EventHandler OnPlayerRevive;
 
     #endregion
@@ -30,65 +30,68 @@ public class GameInput : MonoBehaviour {
         DontDestroyOnLoad(gameObject);
         _playerInputActions = new PlayerInputActions();
 
+        //å±å¹•è¨­ç½®
+        Screen.orientation = ScreenOrientation.LandscapeRight;
+        //ç¦ç”¨IME Composition Mode 
+        Input.imeCompositionMode = IMECompositionMode.Off;
+    }
+
+    private void OnEnable() {
         _playerInputActions.Player.Enable();
         _playerInputActions.Player.Move.performed += Move_performed;
         _playerInputActions.Player.Move.canceled += Move_canceled;
-        _playerInputActions.Player.SprintDodge.performed += SprintDodge_performed;
-        _playerInputActions.Player.SprintDodge.canceled += SprintDodge_canceled;
+        _playerInputActions.Player.Run.performed += Run_performed;
+        _playerInputActions.Player.Run.canceled += Run_canceled;
+        _playerInputActions.Player.Dodge.performed += Dodge_performed;
         _playerInputActions.Player.Attack.performed += Attack_performed;
         _playerInputActions.Player.Revive.performed += Revive_performed;
-
-
-        //ÊÖ»úÉèÖÃ»­ÃæÄ¬ÈÏÏò×óºáÆÁ
-        Screen.orientation = ScreenOrientation.LandscapeRight;
-    }
-
-
-    private void Start() {
-        InitializeUISetUp();
         PlayerStatus.Instance.OnPlayerDeath += PlayerStatus_OnPlayerDeath;
     }
 
-
-    private void OnDestroy() {
+    private void OnDisable() {
         _playerInputActions.Player.Disable();
         _playerInputActions.Player.Move.performed -= Move_performed;
         _playerInputActions.Player.Move.canceled -= Move_canceled;
-        _playerInputActions.Player.SprintDodge.performed -= SprintDodge_performed;
-        _playerInputActions.Player.SprintDodge.canceled -= SprintDodge_canceled;
+        _playerInputActions.Player.Run.performed -= Run_performed;
+        _playerInputActions.Player.Run.canceled -= Run_canceled;
+        _playerInputActions.Player.Dodge.performed -= Dodge_performed;
         _playerInputActions.Player.Attack.performed -= Attack_performed;
         _playerInputActions.Player.Revive.performed -= Revive_performed;
         PlayerStatus.Instance.OnPlayerDeath -= PlayerStatus_OnPlayerDeath;
     }
 
+    private void Start() {
+        InitializeUISetUp();
+    }
+
+    private void Update() {
+    }
+
     private void Move_performed(InputAction.CallbackContext obj) =>
-        OnPlayerMoving?.Invoke(this, EventArgs.Empty);
+        OnPlayerStartMoving?.Invoke(this, EventArgs.Empty);
 
     private void Move_canceled(InputAction.CallbackContext obj) =>
-        OnPlayerMoveCanceled?.Invoke(this, EventArgs.Empty);
+        OnPlayerStopMoving?.Invoke(this, EventArgs.Empty);
 
-    private void SprintDodge_performed(InputAction.CallbackContext obj) =>
-        OnPlayerSprintDogePerformed?.Invoke(this, EventArgs.Empty);
+    private void Run_performed(InputAction.CallbackContext obj) =>
+        OnPlayerStartRunning?.Invoke(this, EventArgs.Empty);
 
-    private void SprintDodge_canceled(InputAction.CallbackContext obj) =>
-        OnPlayerSprintFinished?.Invoke(this, EventArgs.Empty);
+    private void Run_canceled(InputAction.CallbackContext obj) =>
+        OnPlayerStopRunning?.Invoke(this, EventArgs.Empty);
+
+    private void Dodge_performed(InputAction.CallbackContext obj) {
+        OnPlayerDodgePerformed?.Invoke(this, EventArgs.Empty);
+    }
 
     private void Attack_performed(InputAction.CallbackContext obj) {
-        OnPlayerAttacking?.Invoke(this, EventArgs.Empty);
-        AttackStiff(.5f);
+        StunMovement(.5f);
+        OnPlayerAttackPerformed?.Invoke(this, EventArgs.Empty);
     }
 
     private void Revive_performed(InputAction.CallbackContext obj) {
         OnPlayerRevive.Invoke(this, EventArgs.Empty);
         _playerInputActions.Player.Enable();
     }
-
-    //private void Revive_performed(InputAction.CallbackContext obj) {
-    //    if (PlayerController.Instance.GetCurrentState() == PlayerController.State.Dead) {
-    //        OnPlayerRevive.Invoke(this, EventArgs.Empty);
-    //        _playerInputActions.Player.Enable();
-    //    }
-    //}
 
     private void PlayerStatus_OnPlayerDeath(object sender, EventArgs e) {
         _playerInputActions.Player.Disable();
@@ -109,20 +112,16 @@ public class GameInput : MonoBehaviour {
     }
 
     public bool IsSprintDodgeKeyHeld() {
-        return _playerInputActions.Player.SprintDodge.ReadValue<float>() > 0;
+        return _playerInputActions.Player.Run.ReadValue<float>() > 0;
     }
-
-    public void AttackStiff(float attackStiffDuration) {
+    
+    public void StunMovement(float duration) {
         _playerInputActions.Player.Move.Disable();
-        StartCoroutine(AttackStiffCoroutine(attackStiffDuration));
+        StartCoroutine(StunMovementCoroutine(duration));
     }
 
-    public IEnumerator AttackStiffCoroutine(float attackStiffDuration) {
-        yield return new WaitForSeconds(attackStiffDuration);
-        AttackStiffFinish();
-    }
-
-    public void AttackStiffFinish() {
+    public IEnumerator StunMovementCoroutine(float duration) {
+        yield return new WaitForSeconds(duration);
         _playerInputActions.Player.Move.Enable();
     }
 }

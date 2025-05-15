@@ -15,6 +15,24 @@
                     "initialStateCheck": true
                 },
                 {
+                    "name": "Run",
+                    "type": "Button",
+                    "id": "1ecc1d8d-0ea0-4505-aad3-58f9f6f6c40f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Dodge",
+                    "type": "Button",
+                    "id": "eca133fc-91f8-4616-b6a9-6bff3be94c11",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "Attack",
                     "type": "Button",
                     "id": "5d08ab1e-dbaf-46e4-bb72-49a6769355cb",
@@ -27,15 +45,6 @@
                     "name": "Revive",
                     "type": "Button",
                     "id": "c1146614-1350-42c9-8f4b-3203993c3f40",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "SprintDodge",
-                    "type": "Button",
-                    "id": "1ecc1d8d-0ea0-4505-aad3-58f9f6f6c40f",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -138,7 +147,18 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "SprintDodge",
+                    "action": "Run",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fda977e5-2584-4c94-9d49-995cb721abfa",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Dodge",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

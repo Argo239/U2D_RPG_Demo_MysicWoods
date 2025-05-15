@@ -18,7 +18,7 @@ public class PlayerAnimator : MonoBehaviour {
     private const string ISATTACK = "IsAttack";
     private const string ISDEAD = "IsDead";
     private const string ISRUN = "IsRun";
-    private const string ISSPRINTDODGE = "IsSprintDodge";
+    private const string ISDODGE = "IsDodge";
 
 
     public static readonly int HorizontalMovement = Animator.StringToHash(HORIZONTAL);
@@ -28,7 +28,7 @@ public class PlayerAnimator : MonoBehaviour {
     public static readonly int IsAttack = Animator.StringToHash(ISATTACK);
     public static readonly int IsDead = Animator.StringToHash(ISDEAD);
     public static readonly int IsRun = Animator.StringToHash(ISRUN);
-    public static readonly int IsSprintDodge = Animator.StringToHash(ISSPRINTDODGE);
+    public static readonly int IsDodge = Animator.StringToHash(ISDODGE);
     #endregion
 
     #region Component Attributes (Serialized Fields)
@@ -42,15 +42,17 @@ public class PlayerAnimator : MonoBehaviour {
     #endregion
 
     #region Private Fields
-    private Animator animator;
-    private Skeleton skeleton;
-    private GameInput gameInput;
-    private SkeletonMecanim skeletonMecanim;
-    private PlayerController playerController;
-    private AnimatorStateMachine playerStateMachine;
-    private Vector2 moveDirection;
-    private ControllDirection enumDirection;
-    private Dictionary<string, SkeletonDataAsset> skeletonDataAssets;
+    private Animator _animator;
+    private Skeleton _skeleton;
+    private SkeletonMecanim _skeletonMecanim;
+    private AnimatorStateMachine _playerStateMachine;
+    private GameInput _gameInput;
+    private PlayerController _playerController;
+    private PlayerAttack _playerAttack;
+    private PlayerMove _playerMove;
+    private Vector2 _inputVector;
+    private ControllDirection _cardinalDir;
+    private Dictionary<string, SkeletonDataAsset> _skeletonDataAssets;
     #endregion
 
     /// <summary>
@@ -64,137 +66,154 @@ public class PlayerAnimator : MonoBehaviour {
         }
         Instance = this;
 
+
+
         // Initialize the state machine
-        playerStateMachine = new AnimatorStateMachine();
+        _playerStateMachine = new AnimatorStateMachine(this);
 
         // Retrieve required components
-        animator = GetComponent<Animator>();
-        animator.updateMode = AnimatorUpdateMode.Fixed;
+        _animator = GetComponent<Animator>();
+        _animator.updateMode = AnimatorUpdateMode.Fixed;
 
-        skeletonMecanim = GetComponent<SkeletonMecanim>();
-        skeletonMecanim.Initialize(true, true);
+        _skeletonMecanim = GetComponent<SkeletonMecanim>();
+        _skeletonMecanim.Initialize(true, true);
 
-        // Populate the skeleton data asset dictionary
-        skeletonDataAssets = new Dictionary<string, SkeletonDataAsset> {
+        // Populate the _skeleton data asset dictionary
+        _skeletonDataAssets = new Dictionary<string, SkeletonDataAsset> {
             { frontSkeletonDataAsset.name, frontSkeletonDataAsset },
             { backSkeletonDataAsset.name, backSkeletonDataAsset },
             { sideSkeletonDataAsset.name, sideSkeletonDataAsset }
         };
+
+        _playerController = PlayerController.Instance;
+        _gameInput = _playerController.GameInput;
+        _playerMove = _playerController.PlayerMove;
+        _playerAttack = _playerController.PlayerAttack;
+
     }
 
-    /// <summary>
-    /// Registers event listeners for player actions.
-    /// </summary>
-    private void Start() {
-        playerController = PlayerController.Instance;
-        gameInput = GameInput.Instance;
+    private void OnEnable() {
+        //PlayerMove event
+        _playerMove.OnPlayerStartMoving += PlayerMove_OnPlayerStartMoving;
+        _playerMove.OnPlayerStopMoving += PlayerMove_OnPlayerStopMoving;
+        _playerMove.OnPlayerStartRunning += PlayerMove_OnPlayerStartRunning;
+        _playerMove.OnPlayerStopRunning += PlayerMove_OnPlayerStopRunning;
+        _playerMove.OnPlayerDodgePerformed += PlayerMove_OnPlayerDodgePerformed;
 
-        // Subscribe to player input events
-        gameInput.OnPlayerMoving += GameInput_OnPlayerMoving;
-        gameInput.OnPlayerMoveCanceled += GameInput_OnPlayerMoveCanceled;
-        gameInput.OnPlayerSprintDogePerformed += GameInput_OnPlayerSprintDogePerformed;
-        gameInput.OnPlayerSprintFinished += GameInput_OnPlayerSprintFinished;
-        gameInput.OnPlayerAttacking += GameInput_OnPlayerAttacking;
-        gameInput.OnPlayerRevive += GameInput_OnPlayerRevive;
+        //PlayerAttack event
+        _playerAttack.OnPlayerAttackPerformed += PlayerAttack_OnPlayerAttacking;
+        _gameInput.OnPlayerRevive += GameInput_OnPlayerRevive;
         PlayerStatus.Instance.OnPlayerDeath += PlayerStatus_OnPlayerDeath;
     }
 
 
-    /// <summary>
-    /// Unsubscribes from event listeners to prevent memory leaks.
-    /// </summary>
-    private void OnDestroy() {
-        gameInput.OnPlayerMoving -= GameInput_OnPlayerMoving;
-        gameInput.OnPlayerMoveCanceled -= GameInput_OnPlayerMoveCanceled;
-        gameInput.OnPlayerSprintDogePerformed -= GameInput_OnPlayerSprintDogePerformed;
-        gameInput.OnPlayerSprintFinished -= GameInput_OnPlayerSprintFinished;
-        gameInput.OnPlayerAttacking -= GameInput_OnPlayerAttacking;
-        gameInput.OnPlayerRevive -= GameInput_OnPlayerRevive;
+    private void OnDisable() {
+        _playerMove.OnPlayerStartMoving -= PlayerMove_OnPlayerStartMoving;
+        _playerMove.OnPlayerStopMoving -= PlayerMove_OnPlayerStopMoving;
+        _playerMove.OnPlayerStartRunning -= PlayerMove_OnPlayerStartRunning;
+        _playerMove.OnPlayerStopRunning -= PlayerMove_OnPlayerStopRunning;
+        _playerMove.OnPlayerDodgePerformed -= PlayerMove_OnPlayerDodgePerformed;
+
+        _playerAttack.OnPlayerAttackPerformed -= PlayerAttack_OnPlayerAttacking;
+       
+        _gameInput.OnPlayerRevive -= GameInput_OnPlayerRevive;
         PlayerStatus.Instance.OnPlayerDeath -= PlayerStatus_OnPlayerDeath;
     }
 
     /// <summary>
-    /// Updates the player's movement direction and passes it to the state machine.
+    /// Updates the player's movement _cardinalDir and passes it to the state machine.
     /// </summary>
     private void Update() {
-        enumDirection = playerController.GetEnumDirection();
-        moveDirection = playerController.GetMoveDirection();
-        playerStateMachine.Update(enumDirection, moveDirection);
+        _inputVector = _playerController.GetInputVector();
+        _cardinalDir = _playerController.GetCardinalDir();
+
+        _playerStateMachine.Update(_cardinalDir, _inputVector);
     }
 
     #region Event Handlers
-    private void GameInput_OnPlayerMoving(object sender, EventArgs e) {
-        // Check if the sprint/dodge key (Shift) is held
-        if (gameInput.IsSprintDodgeKeyHeld()) {
+
+    private void PlayerMove_OnPlayerStartMoving(object sender, EventArgs e) {
+        // Check if thse sprint/dodge key (Shift) is held
+        if (_gameInput.IsSprintDodgeKeyHeld()) {
             // If already in RunState, update it; otherwise, switch to RunState
-            if (playerStateMachine.CurrentState is RunState) {
-                playerStateMachine.Update(enumDirection, moveDirection);
+            if (_playerStateMachine.CurrentState is RunState) {
+                _playerStateMachine.Update(_cardinalDir, _inputVector);
             } else {
-                playerStateMachine.ChangeState(new RunState(this), enumDirection, moveDirection);
+                _playerStateMachine.ChangeState(new RunState(this), _cardinalDir, _inputVector);
             }
         } else {
             // If Shift is not held, switch to WalkState
-            playerStateMachine.ChangeState(new WalkState(this), enumDirection, moveDirection);
+            _playerStateMachine.ChangeState(new WalkState(this), _cardinalDir, _inputVector);
         }
     }
 
-    private void GameInput_OnPlayerMoveCanceled(object sender, EventArgs e) =>
-        playerStateMachine.ChangeState(new IdleState(this), enumDirection, moveDirection);
+    private void PlayerMove_OnPlayerStopMoving(object sender, EventArgs e) =>
+        _playerStateMachine.ChangeState(new IdleState(this), _cardinalDir, _inputVector);
 
-    private void GameInput_OnPlayerAttacking(object sender, EventArgs e) =>
-        playerStateMachine.ChangeState(new AttackState(this), enumDirection, moveDirection);
+    private void PlayerMove_OnPlayerStartRunning(object sender, EventArgs e) {
+        if (_playerController.GetCurrentState() == PlayerController.State.Moving) {
+            if (_playerStateMachine.CurrentState is RunState) {
+                _playerStateMachine.Update(_cardinalDir, _inputVector);
+            } else {
+                _playerStateMachine.ChangeState(new RunState(this), _cardinalDir, _inputVector);
+            }
+        } else if (_playerController.GetCurrentState() == PlayerController.State.Attacking) {
+            _playerStateMachine.ChangeState(new DodgeState(this), _cardinalDir, _inputVector);
+        } else {
+            _playerStateMachine.ChangeState(new IdleState(this), _cardinalDir, _inputVector);
+        }
+
+    }
+
+    private void PlayerMove_OnPlayerStopRunning(object sender, EventArgs e) {
+        var currentState = _playerController.GetCurrentState();
+        if (currentState == PlayerController.State.Moving || currentState == PlayerController.State.Running) {
+            _playerStateMachine.ChangeState(new WalkState(this), _cardinalDir, _inputVector);
+        }
+    }
+
+    private void PlayerMove_OnPlayerDodgePerformed(object sender, EventArgs e) {
+        if (!_playerController.CanDodge()) return;
+        _playerStateMachine.ChangeState(new DodgeState(this), _cardinalDir, _inputVector, true);
+    }
+
+    private void PlayerAttack_OnPlayerAttacking(object sender, AttackEventArgs e) {
+        var stepData = e.StepData;
+        if (!(_playerStateMachine.CurrentState is AttackState)) {
+            _playerStateMachine.ChangeState(new AttackState(this, _playerAttack, stepData), _cardinalDir, _inputVector, true); // Force transition if not already attacking
+        }
+    }
 
     private void GameInput_OnPlayerRevive(object sender, EventArgs e) =>
-        playerStateMachine.ChangeState(new IdleState(this), enumDirection, moveDirection);
+        _playerStateMachine.ChangeState(new IdleState(this), _cardinalDir, _inputVector);
 
     private void PlayerStatus_OnPlayerDeath(object sender, EventArgs e) =>
-        playerStateMachine.ChangeState(new DeadState(this), enumDirection, moveDirection);
+        _playerStateMachine.ChangeState(new DeadState(this), _cardinalDir, _inputVector);
 
-    private void GameInput_OnPlayerSprintDogePerformed(object sender, EventArgs e) {
-        if (playerController.GetCurrentState() == PlayerController.State.Moving) {
-            // 如果已经在 RunState，则仅更新方向，不重复切换状态
-            if (playerStateMachine.CurrentState is RunState) {
-                playerStateMachine.Update(enumDirection, moveDirection);
-            } else {
-                playerStateMachine.ChangeState(new RunState(this), enumDirection, moveDirection);
-            }
-        } else if (playerController.GetCurrentState() == PlayerController.State.Attacking) {
-            playerStateMachine.ChangeState(new DodgeState(this), enumDirection, moveDirection);
-        } else {
-            playerStateMachine.ChangeState(new IdleState(this), enumDirection, moveDirection);
-        }
-    }
-
-    private void GameInput_OnPlayerSprintFinished(object sender, EventArgs e) {
-        var currentState = playerController.GetCurrentState();
-        if (currentState == PlayerController.State.Moving || currentState == PlayerController.State.Running) {
-            playerStateMachine.ChangeState(new WalkState(this), enumDirection, moveDirection);
-        }
-    }
     #endregion
 
     /// <summary>
-    /// Attempts to update the player's animation state, switching skeleton assets if necessary.
+    /// Attempts to update the player's tag state, switching _skeleton assets if necessary.
     /// </summary>
-    public void TryToSetAnimation(int animatorID, bool value, ControllDirection direction, Vector2 playerLookDir) {
-        string skeletonDataAssetKey = GetSkeletonDataAssetKey(direction);
+    public void TryToSetAnimation(int animatorID, bool value, ControllDirection cardinalDir, Vector2 InputVector) {
+        string skeletonDataAssetKey = GetSkeletonDataAssetKey(cardinalDir);
         if (string.IsNullOrEmpty(skeletonDataAssetKey)) return;
 
-        // Update skeleton asset if needed
+        // Update _skeleton asset if needed
         SetSkeletonDataAsset(skeletonDataAssetKey);
         InitializedSkeletonDataAsset();
-        SetAnimatorDirection(playerLookDir);
+        SetAnimatorDirection(InputVector);
         SetAnimatorBool(animatorID, value);
 
-        // Flip the skeleton based on direction
-        skeleton.ScaleX = direction == ControllDirection.Left ? -1f : 1f;
+        // Flip the _skeleton based on _cardinalDir
+        _skeleton.ScaleX = cardinalDir == ControllDirection.Left ? -1f : 1f;
     }
 
     /// <summary>
-    /// Retrieves the appropriate skeleton data asset key based on the player's direction.
+    /// Retrieves the appropriate _skeleton data asset key based on the player's _cardinalDir.
     /// </summary>
-    private string GetSkeletonDataAssetKey(ControllDirection direction) {
-        return direction switch {
+    private string GetSkeletonDataAssetKey(ControllDirection cardinalDir) {
+        return cardinalDir switch {
             ControllDirection.Up => backSkeletonDataAsset.name,
             ControllDirection.Down => frontSkeletonDataAsset.name,
             ControllDirection.Left => sideSkeletonDataAsset.name,
@@ -204,56 +223,68 @@ public class PlayerAnimator : MonoBehaviour {
     }
 
     /// <summary>
-    /// Returns the animator state machine instance.
+    /// Returns the _animator state machine instance.
     /// </summary>
-    public AnimatorStateMachine GetStateMachine() => playerStateMachine;
+    public AnimatorStateMachine GetStateMachine() => _playerStateMachine;
 
     /// <summary>
-    /// Retrieves a boolean value from the animator.
+    /// Retrieves a boolean value from the _animator.
     /// </summary>
-    public bool GetAnimatorBool(int animatorID) => this.animator.GetBool(animatorID);
+    public bool GetAnimatorBool(int animatorID) => this._animator.GetBool(animatorID);
 
     /// <summary>
-    /// Sets the animator's movement parameters to influence animation direction.
+    /// Sets the _animator's movement parameters to influence tag _cardinalDir.
     /// </summary>
     private void SetAnimatorDirection(Vector2 playerLookDir) {
-        animator.SetFloat(HorizontalMovement, playerLookDir.x);
-        animator.SetFloat(VerticalMovement, playerLookDir.y);
+        _animator.SetFloat(HorizontalMovement, playerLookDir.x);
+        _animator.SetFloat(VerticalMovement, playerLookDir.y);
     }
 
     /// <summary>
-    /// Changes the skeleton data asset if it is different from the current one.
+    /// Changes the _skeleton data asset if it is different from the current one.
     /// </summary>
     private void SetSkeletonDataAsset(string skeletonDataAssetKey) {
-        if (!skeletonDataAssets.TryGetValue(skeletonDataAssetKey, out var asset)) return;
-        if (skeletonMecanim.skeletonDataAsset != asset) {
-            skeletonMecanim.skeletonDataAsset = asset;
-            skeletonMecanim.Initialize(true);
+        if (!_skeletonDataAssets.TryGetValue(skeletonDataAssetKey, out var asset)) return;
+        if (_skeletonMecanim.skeletonDataAsset != asset) {
+            _skeletonMecanim.skeletonDataAsset = asset;
+            _skeletonMecanim.Initialize(true);
         }
     }
 
     /// <summary>
-    /// Sets a boolean parameter in the animator.
+    /// Sets a boolean parameter in the _animator.
     /// </summary>
-    public void SetAnimatorBool(int animatorID, bool value) => this.animator.SetBool(animatorID, value);
+    public void SetAnimatorBool(int animatorID, bool value) => this._animator.SetBool(animatorID, value);
 
     /// <summary>
-    /// Sets an integer parameter in the animator.
+    /// Sets an integer parameter in the _animator.
     /// </summary>
-    public void SetAnimatorInt(int animatorID, int value) => this.animator.SetInteger(animatorID, value);
+    public void SetAnimatorInt(int animatorID, int value) => this._animator.SetInteger(animatorID, value);
 
     /// <summary>
-    /// Initializes the skeleton data asset reference.
+    /// Initializes the _skeleton data asset reference.
     /// </summary>
-    private void InitializedSkeletonDataAsset() => skeleton = skeletonMecanim.skeleton;
+    private void InitializedSkeletonDataAsset() => _skeleton = _skeletonMecanim.skeleton;
 
     /// <summary>
-    /// Determines if the attack animation has completed (70% or more progress).
+    /// This method checks if a specified tag has finished playing
     /// </summary>
-    public bool IsAttackAnimationFinished() {
-        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-        bool isInAttackEndState = stateInfo.IsName("rotation_attack");
-        bool isAnimationFinished = stateInfo.normalizedTime >= 0.7f;
-        return isInAttackEndState && isAnimationFinished;
+    /// <param name="tag"></param>
+    /// <param name="FinishTime"></param>
+    /// <returns></returns>
+    public bool CheckAnimationFinishedByTag(string tag, float FinishTime = 1f) {
+        var stateInfo = _animator.GetCurrentAnimatorStateInfo(0);
+        return stateInfo.IsTag(tag) && stateInfo.normalizedTime >= 1f;
+    }
+    
+    /// <summary>
+    /// This method checks if a specified tag has finished playing
+    /// </summary>
+    /// <param name="animationName"></param>
+    /// <param name="FinishTime"></param>
+    /// <returns></returns>
+    public bool CheckAnimationFinishedByName(string animationName, float FinishTime = 1f) {
+        var stateInfo = _animator.GetCurrentAnimatorStateInfo(0);
+        return stateInfo.IsName(animationName) && stateInfo.normalizedTime >= 1f;
     }
 }

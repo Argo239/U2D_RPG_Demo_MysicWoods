@@ -11,10 +11,10 @@
 //    public ContactFilter2D movementFilter;
 //    public SwordAttack swordAttack;
 
-//    Vector2 movementInput;
+//    Vector2 _inputVector;
 //    SpriteRenderer spriteRenderer;
 //    Rigidbody2D rb;
-//    animator animator;
+//    _animator _animator;
 //    List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
 
 //    bool canMove = true;
@@ -23,7 +23,7 @@
 //    void Start()
 //    {
 //        rb = GetComponent<Rigidbody2D>();
-//        animator = GetComponent<animator>();
+//        _animator = GetComponent<_animator>();
 //        spriteRenderer = GetComponent<SpriteRenderer>();
 //    }
 
@@ -32,34 +32,34 @@
 //        if (canMove)
 //        {
 //            // If movement input is not 0, try to move
-//            if (movementInput != Vector2.zero)
+//            if (_inputVector != Vector2.zero)
 //            {
 
-//                bool success = TryMove(movementInput);
+//                bool success = TryMove(_inputVector);
 
 //                if (!success)
 //                {
-//                    success = TryMove(new Vector2(movementInput.x, 0));
+//                    success = TryMove(new Vector2(_inputVector.x, 0));
 //                }
 
 //                if (!success)
 //                {
-//                    success = TryMove(new Vector2(0, movementInput.y));
+//                    success = TryMove(new Vector2(0, _inputVector.y));
 //                }
 
-//                animator.SetBool("isMoving", success);
+//                _animator.SetBool("isMoving", success);
 //            }
 //            else
 //            {
-//                animator.SetBool("isMoving", false);
+//                _animator.SetBool("isMoving", false);
 //            }
 
 //            // Set direction of sprite to movement direction
-//            if (movementInput.x < 0)
+//            if (_inputVector.x < 0)
 //            {
 //                spriteRenderer.flipX = true;
 //            }
-//            else if (movementInput.x > 0)
+//            else if (_inputVector.x > 0)
 //            {
 //                spriteRenderer.flipX = false;
 //            }
@@ -75,7 +75,7 @@
 //                direction, // X and Y values between -1 and 1 that represent the direction from the body to look for collisions
 //                movementFilter, // The settings that determine where a collision can occur on such as layers to collide with
 //                castCollisions, // List of collisions to store the found collisions into after the Cast is finished
-//                moveSpeed * Time.fixedDeltaTime + collisionOffset); // The amount to cast equal to the movement plus an offset
+//                moveSpeed * Time.fixedDeltaTime + collisionOffset); // The amount to cast equal to the movement plus an Offset
 
 //            if (count == 0)
 //            {
@@ -97,12 +97,12 @@
 
 //    void OnMove(InputValue movementValue)
 //    {
-//        movementInput = movementValue.Get<Vector2>();
+//        _inputVector = movementValue.Get<Vector2>();
 //    }
 
 //    void OnFire()
 //    {
-//        animator.SetTrigger("swordAttack");
+//        _animator.SetTrigger("swordAttack");
 //    }
 
 //    public void SwordAttack()

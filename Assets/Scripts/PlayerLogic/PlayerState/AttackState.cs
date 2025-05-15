@@ -1,28 +1,35 @@
-using Interface;
 using UnityEngine;
-using UnityEngine.EventSystems;
 
-public class AttackState : IPlayerState {
-    private PlayerAnimator _playerAnimator;
-    private int count = 0;
+/// <summary>
+/// 
+/// </summary>
+public class AttackState : ICompletableState {
+    private readonly PlayerAnimator _playerAnimator;
+    private readonly PlayerAttack _playerAttack;
+    private readonly ComboStepData _stepData;
 
-    public AttackState(PlayerAnimator playerAnimator) {
-        this._playerAnimator = playerAnimator;
+    private Vector2 fixedAttackDirection = Vector2.zero;
+
+    public AttackState(PlayerAnimator playerAnimator, PlayerAttack playerAttack, ComboStepData stepData) {
+        _playerAnimator = playerAnimator;
+        _playerAttack = playerAttack;
+        _stepData = stepData;
     }
 
-    public void Enter(ControllDirection Direction, Vector2 currentLookDirection) {
-        _playerAnimator.SetAnimatorInt(PlayerAnimator.AttackCount, count);
-        _playerAnimator.TryToSetAnimation(PlayerAnimator.IsAttack, true, Direction, currentLookDirection);
+    public void Enter(ControllDirection cardinalDir, Vector2 inputVector) {
+        _playerAnimator.SetAnimatorInt(PlayerAnimator.AttackCount, _stepData.ComboSegment);
+        _playerAnimator.TryToSetAnimation(PlayerAnimator.IsAttack, true, cardinalDir, fixedAttackDirection);
+    }
+
+    public void Exit(ControllDirection cardinalDir, Vector2 inputVector) {
+        _playerAnimator.TryToSetAnimation(PlayerAnimator.IsAttack, false, cardinalDir, fixedAttackDirection);
+    }
+
+    public void Update(ControllDirection cardinalDir, Vector2 inputVector) {
 
     }
 
-    public void Exit(ControllDirection Direction, Vector2 currentLookDirection) {
-        _playerAnimator.TryToSetAnimation(PlayerAnimator.IsAttack, false, Direction, currentLookDirection);
-    }
-
-    public void Update(ControllDirection Direction, Vector2 currentLookDirection) {
-        if (_playerAnimator.IsAttackAnimationFinished()) {
-            Exit(Direction, currentLookDirection);
-        }
+    public bool IsComplete(ControllDirection cardinalDir, Vector2 inputVector) {
+        return _playerAnimator.CheckAnimationFinishedByName(_stepData.AnimationName);
     }
 }

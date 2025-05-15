@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d65b4a61c7c66144b61263949d9fde4, type: 3}
+  m_Name: CLD-cwp_admiral
+  m_EditorClassIdentifier: 
+  comboSteps:
+  - {fileID: 11400000, guid: 50d37da8952739a4d9e59a7d897e7ecc, type: 2}
+  - {fileID: 11400000, guid: f0ec4151861aa0240b71c558e9844802, type: 2}
+  - {fileID: 11400000, guid: 06090c63c6658c4498eade4620f4ee83, type: 2}

@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      acient_twohand_sword_0: -5696649929939851939
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

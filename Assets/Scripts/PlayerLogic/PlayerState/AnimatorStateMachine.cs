@@ -5,36 +5,51 @@ using static Argo_Utils.Utils;
 
 namespace PlayerLogic {
     public class AnimatorStateMachine {
-        private IPlayerState currentState;
 
+        private PlayerAnimator playerAnimator;
+        private IPlayerState currentState;
         public IPlayerState CurrentState => currentState;
 
         private readonly Dictionary<string, PlayerController.State> stateMapping = new Dictionary<string, PlayerController.State> {
             { "Idle", PlayerController.State.Idling },
             { "Walk", PlayerController.State.Moving },
             { "Run", PlayerController.State.Running },
-            { "Attack", PlayerController.State.Attacking },
+            { "AttackStep", PlayerController.State.Attacking },
             { "Dodge", PlayerController.State.Dodge },
             { "Dead", PlayerController.State.Dead }
         };
 
-        public void ChangeState(IPlayerState newState, ControllDirection moveDirection, Vector2 currentLookDirection) {
-            if (currentState == null || currentState.GetType() != newState.GetType()) {
-                currentState?.Exit(moveDirection, currentLookDirection);
+        public AnimatorStateMachine(PlayerAnimator playerAnimator) {
+            this.playerAnimator = playerAnimator;
+            currentState = new IdleState(this.playerAnimator);
+        }
+
+        public void Start() {
+            PlayerController.Instance.SetCurrentState(PlayerController.State.Idling);
+        }
+
+        public void Update(ControllDirection cardinalDir, Vector2 inputVector) {
+            currentState?.Update(cardinalDir, inputVector);
+            if (currentState is ICompletableState completable && completable.IsComplete(cardinalDir, inputVector)) {
+                ChangeState(new IdleState(playerAnimator), cardinalDir, inputVector, forceTransition: true);
+                return;
+            }
+
+            DebugLog(PlayerController.Instance.consoleLogOn, $"{currentState} is updating");
+        }
+
+        public void ChangeState(IPlayerState newState, ControllDirection cardinalDir, Vector2 inputVector, bool forceTransition = false) {
+            if (currentState == null || currentState.GetType() != newState.GetType() || forceTransition) {
+                currentState?.Exit(cardinalDir, inputVector);
                 currentState = newState;
-                currentState.Enter(moveDirection, currentLookDirection);
+                currentState.Enter(cardinalDir, inputVector);
 
                 var stateName = newState.GetType().Name.Replace("State", "");
                 if (stateMapping.TryGetValue(stateName, out var mappedState))
                     PlayerController.Instance.SetCurrentState(mappedState);
             } else {
-                currentState.Update(moveDirection, currentLookDirection);
+                currentState.Update(cardinalDir, inputVector);
             }
-        }
-
-        public void Update(ControllDirection moveDirection, Vector2 currentLookDirection) {
-            currentState?.Update(moveDirection, currentLookDirection);
-            DebugLog(PlayerController.Instance.consoleLogOn, $"{currentState} is updating");
         }
     }
 }

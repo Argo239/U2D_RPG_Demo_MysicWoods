@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c74bd5c08f0edc747a40019614bd4305, type: 3}
+  m_Name: CSD-two-hand_attack_3
+  m_EditorClassIdentifier: 
+  AnimationName: TwoHand_Attack_3
+  ComboSegment: 2
+  DamageMultiplier: 1
+  StiffDuration: 0.5
+  WindowStart: 0.2
+  WindowEnd: 0.7
+  ColliderSize: {x: 1, y: 1}
+  ColliderOffset: {x: 1, y: 1}
+  ColliderDuration: 0.2
+  HitboxConfig: {fileID: 11400000, guid: fcb91b81e1ae8ef4993e232dced3ae9a, type: 2}
